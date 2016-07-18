@@ -84,8 +84,6 @@ Options to mimic the screenshot:
 * **Ruby developers:** Try removing Ruby Slim package if syntax appears muddled.
 * **SCSS/SASS developers:** This theme is best used with the [SCSS - TextMate SCSS Official Bundle](https://packagecontrol.io/packages/SCSS) because the Sass package has fewer syntax definitions to work with.
 * **Javascript developers:** This theme is best used with the [newly updated (see build 3114 notes)](https://www.sublimetext.com/3) default Javascript syntax definitions or the ones from the [Babel](https://packagecontrol.io/packages/Babel) package.
-* **iTerm color preset** included!
-
 
 
 ## Issues / Requests / Contributions
