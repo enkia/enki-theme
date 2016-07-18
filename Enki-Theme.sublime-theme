@@ -5184,39 +5184,32 @@
     {
       "class": "dropdown_button_control",
       "layer0.texture": "Enki Theme/assets/slate/overflow_menu.png",
-      "layer0.opacity": 0.5,
     },
     {
       "class": "icon_highlight",
       "layer1.texture": "Enki Theme/assets/slate/find_highlight.png",
-      "layer1.opacity": 0.8,
     },
     {
       "class": "icon_in_selection",
       "layer1.texture": "Enki Theme/assets/slate/find_inselection.png",
-      "layer1.opacity": 0.8,
     },
     {
       "class": "icon_regex",
       "layer1.texture": "Enki Theme/assets/slate/find_regex.png",
-      "layer1.opacity": 0.8,
     },
 
     {
       "class": "icon_whole_word",
       "layer1.texture": "Enki Theme/assets/slate/find_word.png",
-      "layer1.opacity": 0.8,
     },
 
     {
       "class": "icon_case",
       "layer1.texture": "Enki Theme/assets/slate/find_case.png",
-      "layer1.opacity": 0.8,
     },
     {
       "class": "icon_preserve_case",
       "layer1.texture": "Enki Theme/assets/slate/replace_preserve_case.png",
-      "layer1.opacity": 0.8,
     },
     {
       "class": "icon_folder",
