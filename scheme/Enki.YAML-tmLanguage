@@ -25,6 +25,7 @@ semanticClass: 'theme.dark.enki'
 # #ca9b55 - 202, 155, 85
 # #DBC08A - 219, 192, 138
 # #1ABC9C - 26, 188, 156
+# #50B4DC - 80, 180, 220
 # #6189bb - 97, 137, 187
 # #7BA1D0 - 123, 161, 208
 # #83AADA - 131, 170, 218
@@ -466,7 +467,7 @@ settings:
 - name: 'SCSS/CSS - (!important)'
   scope: keyword.other.important.scss, keyword.other.important.css
   settings:
-    foreground: '#6d3b66'
+    foreground: '#50B4DC'
 
 - name: 'SCSS/CSS - property'
   scope: support.type.property-name
