@@ -1,0 +1,15 @@
+Enki Theme for Sublime Text 3
+
+For more information on the Enki Theme: https://github.com/enkia/enki-theme
+
+**********************************************************************************************
+
+To install, open preferences and change the color scheme and theme lines:
+
+"color_scheme": "Packages/Enki Theme/Enki.tmTheme",
+"theme": "Enki-Theme.sublime-theme",
+
+
+
+
+

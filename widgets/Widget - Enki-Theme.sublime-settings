@@ -1,0 +1,8 @@
+{
+  "color_scheme": "Packages/Enki Theme/widgets/console-textline-panel.stTheme",
+  "syntax": "Packages/Enki Theme/widgets/console-textline-panel.sublime-syntax",
+  "draw_shadows": false,
+  "font_options": ["subpixel_antialias"],
+  "line_padding_top": 2
+}
+
