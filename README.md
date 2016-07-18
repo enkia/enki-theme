@@ -75,7 +75,6 @@ Options to mimic the screenshot:
   "enki_theme_tabs_autowidth": true,
   "enki_theme_tree_headings": false,
 
-  "bold_folder_labels": false,
   "always_show_minimap_viewport": true,
   "indent_guide_options": ["draw_normal", "draw_active"],
   "font_options": ["gray_antialias", "subpixel_antialias"], // for retina Mac & Windows
