@@ -42,8 +42,8 @@ Because this is essentially Material Theme, it comes packed the [same options](h
 There are, however, *five more color options* that coordinate well with this color scheme and *one additional option:*
 
 ```json
-  "enki_theme_color_expanded_folder": true, // Set Expanded Folder in Sidebar to the accent color.
-                                            // If no accent color is specified, it simply gets brighter.
+  "enki_theme_color_expanded_folder": true, // Set expanded folder in sidebar to accent color
+                                            // If no accent color is specified, it simply gets brighter
 
   "enki_theme_accent_samon": true,
   "enki_theme_accent_bluegray": true,
