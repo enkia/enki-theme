@@ -507,7 +507,7 @@ settings:
   scope: variable.other.property.twig, support.function.twig, meta.function-call.twig,
     keyword.control.twig, keyword.operator.other.twig, keyword.operator.comparison.twig,
     support.function.functions.twig, support.function.functions.twig, keyword.operator.assignment.twig,
-    support.function.filters.twig
+    support.function.filters.twig, support.function.built-in.smarty, keyword.operator.smarty
   settings:
     foreground: '#F99157'
 

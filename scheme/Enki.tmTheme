@@ -47,7 +47,7 @@
 				<key>lineHighlight</key>
 				<string>#00000030</string>
 				<key>popupCss</key>
-				<string><![CDATA[ html { color: #A966A9; background-color: #20222c; padding: 10px; } a { color: #6189bb; line-height: 1.2; text-decoration: none; } .error, .deleted { color: #EB606B; } .success, .inserted { color: #9DBA72; } .warning, .modified { color: #ffa300; } ]]></string>
+				<string>&lt;![CDATA[ html { color: #A966A9; background-color: #20222c; padding: 10px; } a { color: #6189bb; line-height: 1.2; text-decoration: none; } .error, .deleted { color: #EB606B; } .success, .inserted { color: #9DBA72; } .warning, .modified { color: #ffa300; } ]]&gt;</string>
 				<key>selection</key>
 				<string>#8d4d8540</string>
 				<key>selectionBorder</key>
@@ -845,7 +845,7 @@
 			<key>name</key>
 			<string>Smarty / Twig variabe, function</string>
 			<key>scope</key>
-			<string>variable.other.property.twig, support.function.twig, meta.function-call.twig, keyword.control.twig, keyword.operator.other.twig, keyword.operator.comparison.twig, support.function.functions.twig, support.function.functions.twig, keyword.operator.assignment.twig, support.function.filters.twig</string>
+			<string>variable.other.property.twig, support.function.twig, meta.function-call.twig, keyword.control.twig, keyword.operator.other.twig, keyword.operator.comparison.twig, support.function.functions.twig, support.function.functions.twig, keyword.operator.assignment.twig, support.function.filters.twig, support.function.built-in.smarty, keyword.operator.smarty</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>

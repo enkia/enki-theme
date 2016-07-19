@@ -845,7 +845,7 @@
 			<key>name</key>
 			<string>Smarty / Twig variabe, function</string>
 			<key>scope</key>
-			<string>variable.other.property.twig, support.function.twig, meta.function-call.twig, keyword.control.twig, keyword.operator.other.twig, keyword.operator.comparison.twig, support.function.functions.twig, support.function.functions.twig, keyword.operator.assignment.twig, support.function.filters.twig</string>
+			<string>variable.other.property.twig, support.function.twig, meta.function-call.twig, keyword.control.twig, keyword.operator.other.twig, keyword.operator.comparison.twig, support.function.functions.twig, support.function.functions.twig, keyword.operator.assignment.twig, support.function.filters.twig, support.function.built-in.smarty, keyword.operator.smarty</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
