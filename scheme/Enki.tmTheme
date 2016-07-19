@@ -77,7 +77,7 @@
 			<key>name</key>
 			<string>Variable</string>
 			<key>scope</key>
-			<string>variable.other.object, variable, entity.name.class, entity.name.type.class, support.type, support.class</string>
+			<string>variable.other.object, variable, entity.name.class, entity.name.type.class, support.type, support.class, variable.other.global.php punctuation.definition.variable.php</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -816,7 +816,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#6A6D81</string>
+				<string>#FAC863</string>
 			</dict>
 		</dict>
 		<dict>
