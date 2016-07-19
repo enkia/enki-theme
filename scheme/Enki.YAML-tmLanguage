@@ -4,7 +4,7 @@ name: Enki
 author: Kristi Russell (http://github.com/enkia)
 uuid: 67600156-44ad-4f03-a588-829e8c708575
 colorSpaceName: 'sRGB'
-semanticClass: 'theme.dark.enki'
+semanticClass: 'enki.theme.dark'
 
 
 # Color reference
@@ -12,12 +12,15 @@ semanticClass: 'theme.dark.enki'
 
 # #3F414D - 63, 65, 77
 # #425C7C - 66, 92, 124
+# ------------------------
 # #6D3B66 - 109, 59, 102
 # #8d4d85 - 141, 77, 133
 # #A966A9 - 169, 102, 169
 # #D57CD5 - 213, 124, 213
+# ------------------------
 # #D93232 - 217, 50, 50
-# #d23944 - 210, 57, 68
+# #C33C4A - 195, 60, 74
+# #FF435B - 255, 67, 91
 # #EB606B - 235, 96, 107
 # #D24D57 - 210, 77, 87
 # #F99157 - 249, 145, 87
@@ -95,14 +98,14 @@ settings:
     fontStyle: italic
     foreground: '#3F414D'
 
-- name: 'Variable'
-  scope: variable.other.object, variable, entity.name.class, entity.name.type.class, support.type, support.class,
-    variable.other.global.php punctuation.definition.variable.php
+- name: 'Variable - other'
+  scope: variable.other.object, variable, entity.name.class, entity.name.type.class, support.type,
+    support.class, variable.other.global.php punctuation.definition.variable.php
   settings:
     foreground: '#EB606B'
 
 - name: 'Variable'
-  scope: variable.other.readwrite, meta.property.object.js variable.other.object.js,
+  scope: variable.other.readwrite, meta.property.object.js variable.other.object.js, variable.less,
     variable.other.normal, punctuation.definition.variable, variable.other.bracket.shell,embedding.php,
     variable.other.php, meta.property.object, source.python, source.ruby,
     keyword.other.name.sublime-settings, constant.other.php, meta.object-literal.key, variable.other.dollar
@@ -161,7 +164,7 @@ settings:
 - name: 'Storage Type'
   scope: storage.type
   settings:
-    fontStyle: bold
+    fontStyle: 'bold'
     foreground: '#6D3B66'
 
 - name: 'Storage Type - Function'
@@ -174,7 +177,7 @@ settings:
 - name: 'Language methods (this)'
   scope: variable.language, variable.language punctuation.definition.variable
   settings:
-    fontStyle: italic
+    fontStyle: 'italic'
     foreground: '#EC5F67'
 
 
@@ -247,16 +250,22 @@ settings:
 # --------------------------------------------------------------------------------------
 
 - name: 'Function, Special Method, Block Level'
-  scope: entity.name.function, meta.function-call, variable.function, support.function,
-    keyword.other.special-method, meta.block-level
+  scope: meta.function-call, variable.function, support.function, keyword.other.special-method,
+    meta.block-level
   settings:
     fontStyle: 'regular'
     foreground: '#83AADA'
 
 - name: 'Function Constructor'
-  scope: meta.class-method.js, entity.name.function, variable.function.constructor, punctuation.definition.arguments.shell
+  scope: meta.class-method, entity.name.function, variable.function.constructor,
+    punctuation.definition.arguments.shell, entity.name.function.shell
   settings:
     foreground: '#EB606B'
+
+- name: 'Function (Object Literal)'
+  scope: entity.name.function
+  settings:
+    foreground: '#FF435B'
 
 - name: 'Number, Constant, Function Argument, Tag Attribute, Embedded'
   scope: constant.numeric, constant.language, support.constant, constant.character,
@@ -414,15 +423,15 @@ settings:
 - name: 'CSS: Class Selector'
   scope: entity.other.attribute-name
   settings:
-    foreground: '#D24D57'
+    foreground: '#FF435B'
 
-- name: 'SCSS: Reference Variable'
-  scope: entity.name.tag.reference.scss
+- name: 'CSS: Reference'
+  scope: entity.name.tag.reference
   settings:
-    fontStyle: bold
-    foreground: '#DC471D'
+    fontStyle: 'bold'
+    foreground: '#FF435B'
 
-- name: 'SCSS - Reference Variable'
+- name: 'SCSS - {curly}'
   scope: meta.property-list.scss
   settings:
     foreground: '#AFBAD4'
@@ -430,7 +439,7 @@ settings:
 - name: 'CSS - Pseudo Class'
   scope: entity.other.attribute-name.pseudo-class
   settings:
-    foreground: '#d23944'
+    foreground: '#C33C4A'
 
 - name: 'CSS -  RGB values'
   scope: constant.other.color.rgb-value
@@ -440,12 +449,12 @@ settings:
 - name: 'SCSS/CSS -  Tag Name'
   scope: entity.name.tag.css, entity.name.tag.scss, keyword.control.html.elements
   settings:
-    foreground: '#ED6772' #FF7681
+    foreground: '#EB606B'
 
 - name: 'SCSS/CSS - Key Value (Separator and Terminator)'
   scope: punctuation.separator.key-value, punctuation.terminator.rule
   settings:
-    foreground: '#4ECDC4' #AFBAD4
+    foreground: '#50B4DC'
 
 - name: 'SCSS/CSS - Value Unit'
   scope: keyword.other.unit, constant.other.unit
@@ -516,7 +525,6 @@ settings:
   scope: string.quoted.single.twig, string.quoted.double.twig
   settings:
     foreground: '#DBC08A'
-
 
 
 #  SublimeLinter

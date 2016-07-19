@@ -22,7 +22,7 @@
 	<key>name</key>
 	<string>Enki</string>
 	<key>semanticClass</key>
-	<string>theme.dark.enki-alt</string>
+	<string>enki.theme.alt</string>
 	<key>settings</key>
 	<array>
 		<dict>
@@ -346,7 +346,7 @@
 			<key>name</key>
 			<string>Function, Special Method, Block Level</string>
 			<key>scope</key>
-			<string>entity.name.function, meta.function-call, variable.function, support.function, keyword.other.special-method, meta.block-level</string>
+			<string>meta.function-call, variable.function, support.function, keyword.other.special-method, meta.block-level</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -359,11 +359,22 @@
 			<key>name</key>
 			<string>Function Constructor</string>
 			<key>scope</key>
-			<string>meta.class-method.js, entity.name.function, variable.function.constructor, punctuation.definition.arguments.shell</string>
+			<string>meta.class-method, entity.name.function, variable.function.constructor, punctuation.definition.arguments.shell, entity.name.function.shell</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#EB606B</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Function Object literal</string>
+			<key>scope</key>
+			<string>entity.name.function</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FF435B</string>
 			</dict>
 		</dict>
 		<dict>
@@ -671,25 +682,25 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#D24D57</string>
+				<string>#FF435B</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>SCSS: Reference Variable</string>
+			<string>CSS: Reference</string>
 			<key>scope</key>
-			<string>entity.name.tag.reference.scss</string>
+			<string>entity.name.tag.reference</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#DC471D</string>
+				<string>#FF435B</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>SCSS - Reference Variable</string>
+			<string>SCSS - {curly}</string>
 			<key>scope</key>
 			<string>meta.property-list.scss</string>
 			<key>settings</key>
@@ -706,7 +717,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#d23944</string>
+				<string>#C33C4A</string>
 			</dict>
 		</dict>
 		<dict>
@@ -728,7 +739,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ED6772</string>
+				<string>#EB606B</string>
 			</dict>
 		</dict>
 		<dict>
@@ -739,7 +750,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#4ECDC4</string>
+				<string>#50B4DC</string>
 			</dict>
 		</dict>
 		<dict>
@@ -761,7 +772,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#455682</string>
+				<string>#50B4DC</string>
 			</dict>
 		</dict>
 		<dict>

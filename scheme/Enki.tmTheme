@@ -22,7 +22,7 @@
 	<key>name</key>
 	<string>Enki</string>
 	<key>semanticClass</key>
-	<string>theme.dark.enki</string>
+	<string>enki.theme.dark</string>
 	<key>settings</key>
 	<array>
 		<dict>
@@ -75,7 +75,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Variable</string>
+			<string>Variable - other</string>
 			<key>scope</key>
 			<string>variable.other.object, variable, entity.name.class, entity.name.type.class, support.type, support.class, variable.other.global.php punctuation.definition.variable.php</string>
 			<key>settings</key>
@@ -88,7 +88,7 @@
 			<key>name</key>
 			<string>Variable</string>
 			<key>scope</key>
-			<string>variable.other.readwrite, meta.property.object.js variable.other.object.js, variable.other.normal, punctuation.definition.variable, variable.other.bracket.shell,embedding.php, variable.other.php, meta.property.object, source.python, source.ruby, keyword.other.name.sublime-settings, constant.other.php, meta.object-literal.key, variable.other.dollar</string>
+			<string>variable.other.readwrite, meta.property.object.js variable.other.object.js, variable.less, variable.other.normal, punctuation.definition.variable, variable.other.bracket.shell,embedding.php, variable.other.php, meta.property.object, source.python, source.ruby, keyword.other.name.sublime-settings, constant.other.php, meta.object-literal.key, variable.other.dollar</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -346,7 +346,7 @@
 			<key>name</key>
 			<string>Function, Special Method, Block Level</string>
 			<key>scope</key>
-			<string>entity.name.function, meta.function-call, variable.function, support.function, keyword.other.special-method, meta.block-level</string>
+			<string>meta.function-call, variable.function, support.function, keyword.other.special-method, meta.block-level</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -359,11 +359,22 @@
 			<key>name</key>
 			<string>Function Constructor</string>
 			<key>scope</key>
-			<string>meta.class-method.js, entity.name.function, variable.function.constructor, punctuation.definition.arguments.shell</string>
+			<string>meta.class-method, entity.name.function, variable.function.constructor, punctuation.definition.arguments.shell, entity.name.function.shell</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#EB606B</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Function (Object Literal)</string>
+			<key>scope</key>
+			<string>entity.name.function</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FF435B</string>
 			</dict>
 		</dict>
 		<dict>
@@ -671,25 +682,25 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#D24D57</string>
+				<string>#FF435B</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>SCSS: Reference Variable</string>
+			<string>CSS: Reference</string>
 			<key>scope</key>
-			<string>entity.name.tag.reference.scss</string>
+			<string>entity.name.tag.reference</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#DC471D</string>
+				<string>#FF435B</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>SCSS - Reference Variable</string>
+			<string>SCSS - {curly}</string>
 			<key>scope</key>
 			<string>meta.property-list.scss</string>
 			<key>settings</key>
@@ -706,7 +717,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#d23944</string>
+				<string>#C33C4A</string>
 			</dict>
 		</dict>
 		<dict>
@@ -728,7 +739,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ED6772</string>
+				<string>#EB606B</string>
 			</dict>
 		</dict>
 		<dict>
@@ -739,7 +750,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#4ECDC4</string>
+				<string>#50B4DC</string>
 			</dict>
 		</dict>
 		<dict>
