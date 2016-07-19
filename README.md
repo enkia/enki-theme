@@ -2,7 +2,7 @@
 A dark color scheme and UI theme with clear, disparate colors to help differentiate between all syntactic aspects of code, including syntax highlighting for the console.
 
 The UI theme itself is a **modified version** of
-[equinusocio's](https://github.com/equinusocio) amazing work,
+[@equinusocio's](https://github.com/equinusocio) amazing work,
 [Material Theme](https://github.com/equinusocio/material-theme) and
 [Material Theme Appbar.](https://github.com/equinusocio/material-theme-appbar)
 Specifically, the overall UI colors have been changed in Material App Bar and Material Theme to better align with this color scheme.
