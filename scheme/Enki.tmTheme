@@ -47,7 +47,7 @@
 				<key>lineHighlight</key>
 				<string>#00000030</string>
 				<key>popupCss</key>
-				<string>&lt;![CDATA[ html { color: #A966A9; background-color: #20222c; padding: 10px; } a { color: #6189bb; line-height: 1.2; text-decoration: none; } .error, .deleted { color: #EB606B; } .success, .inserted { color: #9DBA72; } .warning, .modified { color: #ffa300; } ]]&gt;</string>
+				<string><![CDATA[ html { color: #A966A9; background-color: #20222c; padding: 10px; } a { color: #6189bb; line-height: 1.2; text-decoration: none; } .error, .deleted { color: #EB606B; } .success, .inserted { color: #9DBA72; } .warning, .modified { color: #ffa300; } ]]></string>
 				<key>selection</key>
 				<string>#8d4d8540</string>
 				<key>selectionBorder</key>
@@ -88,11 +88,22 @@
 			<key>name</key>
 			<string>Variable</string>
 			<key>scope</key>
-			<string>variable.other.readwrite, meta.property.object.js variable.other.object.js, variable.scss, variable.less, variable.other.normal, punctuation.definition.variable, variable.other.bracket.shell,embedding.php, variable.other.php, meta.property.object, source.python, source.ruby, keyword.other.name.sublime-settings, constant.other.php, meta.object-literal.key, variable.other.dollar</string>
+			<string>variable.other.readwrite, meta.property.object.js variable.other.object.js, variable.other.normal, punctuation.definition.variable, variable.other.bracket.shell,embedding.php, variable.other.php, meta.property.object, source.python, source.ruby, keyword.other.name.sublime-settings, constant.other.php, meta.object-literal.key, variable.other.dollar</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string>regular</string>
+				<key>foreground</key>
+				<string>#A966A9</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Variable scss/less</string>
+			<key>scope</key>
+			<string>variable.scss, variable.less</string>
+			<key>settings</key>
+			<dict>
 				<key>foreground</key>
 				<string>#A966A9</string>
 			</dict>
@@ -440,7 +451,7 @@
 			<key>name</key>
 			<string>Attributes</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name.html, entity.other.attribute-name.id.html</string>
+			<string>entity.other.attribute-name.html</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -449,9 +460,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>ID, Class</string>
+			<string>ID</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name.id.html, entity.other.attribute-name.class.html</string>
+			<string>entity.other.attribute-name.id.html</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -750,7 +761,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#6d3b66</string>
+				<string>#50B4DC</string>
 			</dict>
 		</dict>
 		<dict>

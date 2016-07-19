@@ -38,7 +38,7 @@ semanticClass: 'theme.dark.enki'
 
 gutterSettings:
     background: '#221922'
-    divider: '#8d4d85' #425C7C
+    divider: '#8d4d85'
     foreground: '#453344'
     selectionBackground: '#8d4d85'
     selectionForeground: '#a7adba'
@@ -49,8 +49,8 @@ gutterSettings:
 
 settings:
 - settings:
-    activeGuide: '#6D3B66' #8d4d85 #425C7C #6D3B66
-    background: '#1a1b20' #1d1e23 #1D1E25 #1a1b20
+    activeGuide: '#6D3B66'
+    background: '#1a1b20'
     caret: '#FAC863'
     findHighlight: '#ffa300'
     foreground: '#AFBAD4ff'
@@ -98,7 +98,6 @@ settings:
 - name: 'Variable'
   scope: variable.other.object, variable, entity.name.class, entity.name.type.class, support.type, support.class
   settings:
-    #fontStyle: 'bold'
     foreground: '#EB606B'
 
 - name: 'Variable'
@@ -108,22 +107,12 @@ settings:
     keyword.other.name.sublime-settings, constant.other.php, meta.object-literal.key, variable.other.dollar
   settings:
     fontStyle: 'regular'
-    foreground: '#A966A9' #D24D57 #9A5490 #A966A9 #7751AB #5F6CB9
+    foreground: '#A966A9'
 
 - name: 'Variable scss/less'
   scope: variable.scss, variable.less
   settings:
     foreground: '#A966A9'
-
-#- name: 'JS Properties'
-#  scope: meta.object-literal.key.js, meta.property.object.js
-#  settings:
-#    foreground: '#D57CD5'
-
-#- name: 'Variable Punctuation Dollar'
-#  scope: meta.property.object.dollar punctuation.dollar, punctuation.definition.variable.php
-#  settings:
-#    foreground: '#814679'
 
 - name: 'Variable (Shell)'
   scope: variable.other.bracket.shell
@@ -193,13 +182,12 @@ settings:
 - name: 'Operator'
   scope: keyword.operator
   settings:
-    #fontStyle: 'bold'
-    foreground: '#50B4DC' #4ECDC4
+    foreground: '#50B4DC'
 
 - name: 'Logical Operator'
   scope: keyword.operator.logical, keyword.control.flow.return
   settings:
-    foreground: '#FAC863' #DC471D
+    foreground: '#FAC863'
 
 
 #  Punctuation, Parenthesis, Braces
@@ -241,7 +229,7 @@ settings:
     punctuation.section.array.begin, punctuation.section.array.end, punctuation.section.array,
     punctuation.definition.brackets
   settings:
-    foreground: '#6D3B66' #50B4DC #EF6A74
+    foreground: '#6D3B66'
 
 - name: 'JSON Punctuation [square]'
   scope: punctuation.definition.array.begin.json, punctuation.definition.array.end.json
@@ -262,7 +250,7 @@ settings:
     keyword.other.special-method, meta.block-level
   settings:
     fontStyle: 'regular'
-    foreground: '#83AADA' #ca9b55
+    foreground: '#83AADA'
 
 - name: 'Function Constructor'
   scope: meta.class-method.js, entity.name.function, variable.function.constructor, punctuation.definition.arguments.shell
@@ -316,7 +304,7 @@ settings:
 - name: 'Attributes'
   scope: entity.other.attribute-name.html
   settings:
-    foreground: '#8d4d85' #D24D57
+    foreground: '#8d4d85'
 
 - name: 'ID'
   scope: entity.other.attribute-name.id.html
@@ -336,7 +324,6 @@ settings:
 - name: 'Form Element Tag Name'
   scope: entity.name.tag.inline.form, entity.name.tag.block.form
   settings:
-    #fontStyle: 'italic'
     foreground: '#EB8060'
 
 - name: 'HTML Text'
@@ -561,7 +548,7 @@ settings:
 - name: 'BH - Unmatched'
   scope: brackethighlighter.unmatched
   settings:
-    foreground: '#D93232' #be2340
+    foreground: '#D93232'
 
 - name: 'BH - Brackets'
   scope: brackethighlighter.curly, brackethighlighter.square, brackethighlighter.round,
@@ -605,7 +592,7 @@ settings:
 - name: 'Regular Expressions'
   scope: string.regexp
   settings:
-    foreground: '#1ABC9C' #5FB3B3
+    foreground: '#1ABC9C'
 
 - name: 'Escape Characters'
   scope: constant.character.escape
