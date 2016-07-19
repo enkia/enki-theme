@@ -41,6 +41,10 @@ For those who prefer something less purple:
 Because this is essentially Material Theme, it comes packed the [same options](https://github.com/equinusocio/material-theme#theme-options) as the original with the exception of contrast mode.
 There are, however, *five more color options* that coordinate well with this color scheme and *one additional option:*
 
+<a href="https://raw.githubusercontent.com/enkia/enki-theme/master/screenshots/screenshots_accents.gif" target="_blank">
+    <img src="screenshots/screenshot_accents.gif" alt="Preview Accents" width="305">
+</a>
+
 ```json
   "enki_theme_color_expanded_folder": true, // Set expanded folder in sidebar to accent color
                                             // If no accent color is specified, it simply gets brighter
