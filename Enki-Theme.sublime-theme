@@ -4799,98 +4799,98 @@
   {
     "class": "tab_close_button",
     "settings": ["enki_theme_accent_cyan"],
-    "layer1.texture": "Enki Theme/assets/slate-cyan/close_icon--hover.png",
-    "layer3.texture": "Enki Theme/assets/slate-cyan/dirty_icon--hover.png"
+    "layer1.texture": "Enki Theme/assets/accent-cyan/close_icon--hover.png",
+    "layer3.texture": "Enki Theme/assets/accent-cyan/dirty_icon--hover.png"
   },
 
   {
     "class": "tab_control",
     "settings": ["enki_theme_accent_cyan"],
-    "layer1.texture": "Enki Theme/assets/slate-cyan/tab_current.png",
+    "layer1.texture": "Enki Theme/assets/accent-cyan/tab_current.png",
   },
 
   // Slate Orange
   {
     "class": "tab_close_button",
     "settings": ["enki_theme_accent_orange"],
-    "layer1.texture": "Enki Theme/assets/slate-orange/close_icon--hover.png",
-    "layer3.texture": "Enki Theme/assets/slate-orange/dirty_icon--hover.png"
+    "layer1.texture": "Enki Theme/assets/accent-orange/close_icon--hover.png",
+    "layer3.texture": "Enki Theme/assets/accent-orange/dirty_icon--hover.png"
   },
 
   {
     "class": "tab_control",
     "settings": ["enki_theme_accent_orange"],
-    "layer1.texture": "Enki Theme/assets/slate-orange/tab_current.png",
+    "layer1.texture": "Enki Theme/assets/accent-orange/tab_current.png",
   },
 
   // Slate Purple
   {
     "class": "tab_close_button",
     "settings": ["enki_theme_accent_purple"],
-    "layer1.texture": "Enki Theme/assets/slate-purple/close_icon--hover.png",
-    "layer3.texture": "Enki Theme/assets/slate-purple/dirty_icon--hover.png"
+    "layer1.texture": "Enki Theme/assets/accent-purple/close_icon--hover.png",
+    "layer3.texture": "Enki Theme/assets/accent-purple/dirty_icon--hover.png"
   },
 
   {
     "class": "tab_control",
     "settings": ["enki_theme_accent_purple"],
-    "layer1.texture": "Enki Theme/assets/slate-purple/tab_current.png",
+    "layer1.texture": "Enki Theme/assets/accent-purple/tab_current.png",
   },
 
   // Slate Lime
   {
     "class": "tab_close_button",
     "settings": ["enki_theme_accent_lime"],
-    "layer1.texture": "Enki Theme/assets/slate-lime/close_icon--hover.png",
-    "layer3.texture": "Enki Theme/assets/slate-lime/dirty_icon--hover.png"
+    "layer1.texture": "Enki Theme/assets/accent-lime/close_icon--hover.png",
+    "layer3.texture": "Enki Theme/assets/accent-lime/dirty_icon--hover.png"
   },
 
   {
     "class": "tab_control",
     "settings": ["enki_theme_accent_lime"],
-    "layer1.texture": "Enki Theme/assets/slate-lime/tab_current.png",
+    "layer1.texture": "Enki Theme/assets/accent-lime/tab_current.png",
   },
 
   // Slate Red
   {
     "class": "tab_close_button",
     "settings": ["enki_theme_accent_red"],
-    "layer1.texture": "Enki Theme/assets/slate-red/close_icon--hover.png",
-    "layer3.texture": "Enki Theme/assets/slate-red/dirty_icon--hover.png"
+    "layer1.texture": "Enki Theme/assets/accent-red/close_icon--hover.png",
+    "layer3.texture": "Enki Theme/assets/accent-red/dirty_icon--hover.png"
   },
 
   {
     "class": "tab_control",
     "settings": ["enki_theme_accent_red"],
-    "layer1.texture": "Enki Theme/assets/slate-red/tab_current.png",
+    "layer1.texture": "Enki Theme/assets/accent-red/tab_current.png",
   },
 
   // Slate Yellow
   {
     "class": "tab_close_button",
     "settings": ["enki_theme_accent_yellow"],
-    "layer1.texture": "Enki Theme/assets/slate-yellow/close_icon--hover.png",
-    "layer3.texture": "Enki Theme/assets/slate-yellow/dirty_icon--hover.png"
+    "layer1.texture": "Enki Theme/assets/accent-yellow/close_icon--hover.png",
+    "layer3.texture": "Enki Theme/assets/accent-yellow/dirty_icon--hover.png"
   },
 
   {
     "class": "tab_control",
     "settings": ["enki_theme_accent_yellow"],
-    "layer1.texture": "Enki Theme/assets/slate-yellow/tab_current.png",
+    "layer1.texture": "Enki Theme/assets/accent-yellow/tab_current.png",
   },
 
   // Slate Indigo
   {
     "class": "tab_close_button",
     "settings": ["enki_theme_accent_indigo"],
-    "layer1.texture": "Enki Theme/assets/slate-indigo/close_icon--hover.png",
-    "layer3.texture": "Enki Theme/assets/slate-indigo/dirty_icon--hover.png"
+    "layer1.texture": "Enki Theme/assets/accent-indigo/close_icon--hover.png",
+    "layer3.texture": "Enki Theme/assets/accent-indigo/dirty_icon--hover.png"
   },
 
   {
     "class": "tab_control",
     "settings": ["enki_theme_accent_indigo"],
-    "layer1.texture": "Enki Theme/assets/slate-indigo/tab_current.png",
+    "layer1.texture": "Enki Theme/assets/accent-indigo/tab_current.png",
   },
 
 
@@ -4898,14 +4898,14 @@
   {
     "class": "tab_close_button",
     "settings": ["enki_theme_accent_fuschia"],
-    "layer1.texture": "Enki Theme/assets/slate-fuschia/close_icon--hover.png",
-    "layer3.texture": "Enki Theme/assets/slate-fuschia/dirty_icon--hover.png"
+    "layer1.texture": "Enki Theme/assets/accent-fuschia/close_icon--hover.png",
+    "layer3.texture": "Enki Theme/assets/accent-fuschia/dirty_icon--hover.png"
   },
 
   {
     "class": "tab_control",
     "settings": ["enki_theme_accent_fuschia"],
-    "layer1.texture": "Enki Theme/assets/slate-fuschia/tab_current.png",
+    "layer1.texture": "Enki Theme/assets/accent-fuschia/tab_current.png",
   },
 
 
@@ -4913,14 +4913,14 @@
   {
     "class": "tab_close_button",
     "settings": ["enki_theme_accent_samon"],
-    "layer1.texture": "Enki Theme/assets/slate-samon/close_icon--hover.png",
-    "layer3.texture": "Enki Theme/assets/slate-samon/dirty_icon--hover.png"
+    "layer1.texture": "Enki Theme/assets/accent-samon/close_icon--hover.png",
+    "layer3.texture": "Enki Theme/assets/accent-samon/dirty_icon--hover.png"
   },
 
   {
     "class": "tab_control",
     "settings": ["enki_theme_accent_samon"],
-    "layer1.texture": "Enki Theme/assets/slate-samon/tab_current.png",
+    "layer1.texture": "Enki Theme/assets/accent-samon/tab_current.png",
   },
 
 
@@ -4928,14 +4928,14 @@
   {
     "class": "tab_close_button",
     "settings": ["enki_theme_accent_blue"],
-    "layer1.texture": "Enki Theme/assets/slate-blue/close_icon--hover.png",
-    "layer3.texture": "Enki Theme/assets/slate-blue/dirty_icon--hover.png"
+    "layer1.texture": "Enki Theme/assets/accent-blue/close_icon--hover.png",
+    "layer3.texture": "Enki Theme/assets/accent-blue/dirty_icon--hover.png"
   },
 
   {
     "class": "tab_control",
     "settings": ["enki_theme_accent_blue"],
-    "layer1.texture": "Enki Theme/assets/slate-blue/tab_current.png",
+    "layer1.texture": "Enki Theme/assets/accent-blue/tab_current.png",
   },
 
 
@@ -4943,14 +4943,14 @@
   {
     "class": "tab_close_button",
     "settings": ["enki_theme_accent_pink"],
-    "layer1.texture": "Enki Theme/assets/slate-pink/close_icon--hover.png",
-    "layer3.texture": "Enki Theme/assets/slate-pink/dirty_icon--hover.png"
+    "layer1.texture": "Enki Theme/assets/accent-pink/close_icon--hover.png",
+    "layer3.texture": "Enki Theme/assets/accent-pink/dirty_icon--hover.png"
   },
 
   {
     "class": "tab_control",
     "settings": ["enki_theme_accent_pink"],
-    "layer1.texture": "Enki Theme/assets/slate-pink/tab_current.png",
+    "layer1.texture": "Enki Theme/assets/accent-pink/tab_current.png",
   },
 
 
@@ -4958,14 +4958,14 @@
   {
     "class": "tab_close_button",
     "settings": ["enki_theme_accent_white"],
-    "layer1.texture": "Enki Theme/assets/slate-white/close_icon--hover.png",
-    "layer3.texture": "Enki Theme/assets/slate-white/dirty_icon--hover.png"
+    "layer1.texture": "Enki Theme/assets/accent-white/close_icon--hover.png",
+    "layer3.texture": "Enki Theme/assets/accent-white/dirty_icon--hover.png"
   },
 
   {
     "class": "tab_control",
     "settings": ["enki_theme_accent_white"],
-    "layer1.texture": "Enki Theme/assets/slate-white/tab_current.png",
+    "layer1.texture": "Enki Theme/assets/accent-white/tab_current.png",
   },
 
 
@@ -4973,28 +4973,28 @@
   {
     "class": "tab_close_button",
     "settings": ["enki_theme_accent_bluegray"],
-    "layer1.texture": "Enki Theme/assets/slate-bluegray/close_icon--hover.png",
-    "layer3.texture": "Enki Theme/assets/slate-bluegray/dirty_icon--hover.png"
+    "layer1.texture": "Enki Theme/assets/accent-bluegray/close_icon--hover.png",
+    "layer3.texture": "Enki Theme/assets/accent-bluegray/dirty_icon--hover.png"
   },
 
   {
     "class": "tab_control",
     "settings": ["enki_theme_accent_bluegray"],
-    "layer1.texture": "Enki Theme/assets/slate-bluegray/tab_current.png",
+    "layer1.texture": "Enki Theme/assets/accent-bluegray/tab_current.png",
   },
 
 // Slate green
   {
     "class": "tab_close_button",
     "settings": ["enki_theme_accent_green"],
-    "layer1.texture": "Enki Theme/assets/slate-green/close_icon--hover.png",
-    "layer3.texture": "Enki Theme/assets/slate-green/dirty_icon--hover.png"
+    "layer1.texture": "Enki Theme/assets/accent-green/close_icon--hover.png",
+    "layer3.texture": "Enki Theme/assets/accent-green/dirty_icon--hover.png"
   },
 
   {
     "class": "tab_control",
     "settings": ["enki_theme_accent_green"],
-    "layer1.texture": "Enki Theme/assets/slate-green/tab_current.png",
+    "layer1.texture": "Enki Theme/assets/accent-green/tab_current.png",
   },
 
 
