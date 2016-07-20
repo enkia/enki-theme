@@ -842,7 +842,7 @@
         { "class": "tree_row", "attributes": ["hover"] }
       ],
       // Default Close icon
-      "layer0.texture": "Enki Theme/assets/default/close_icon.png",
+      "layer0.texture": "Enki Theme/assets/slate/close_icon.png",
       "layer0.opacity": { "target": 1.0, "speed": 7.0, "interpolation": "smoothstep" },
       "layer0.inner_margin": [0,0],
     },
@@ -4434,19 +4434,24 @@
 
 
 
-
-
-
-// App Bar - Modified for Enki Theme
-// =====================================================================
-
-
+// ==========================================================================
+// Modifications for Enki Theme
+// ==========================================================================
 
 
 
 
 
 
+
+
+
+
+
+
+
+// From App Bar
+// =========================================================================
 
 /* @TABS
  * Tabs settings and behavioring
@@ -4457,7 +4462,6 @@
     "layer0.inner_margin": [2, 6],
     "tint_index": 1
   },
-
   {
     "class": "tabset_control",
     "settings": ["!enable_tab_scrolling"],
@@ -4529,132 +4533,7 @@
     "font.italic": true
   },
 
-  // Tab Close Buttons
-  {
-    "class": "tab_close_button",
-    "settings": ["show_tab_close_buttons"],
-    "content_margin": [8,8],
 
-     // Close Icon
-    "layer0.texture": "Enki Theme/assets/commons/close_icon--hover.png",
-    "layer0.opacity": 1.0,
-    "layer0.inner_margin": 0,
-
-    // Close Icon Hover
-    "layer1.texture": "Enki Theme/assets/commons/close_icon--hover.png",
-    "layer1.opacity": { "target": 0.0, "speed": 5.0, "interpolation": "smoothstep" },
-
-     // Dirty Icon
-    "layer2.texture": "Enki Theme/assets/commons/dirty_icon.png",
-    "layer2.inner_margin": 0,
-
-    // Dirty Icon Hover
-    "layer3.texture": "Enki Theme/assets/commons/dirty_icon--hover.png",
-    "layer3.opacity": { "target": 0.0, "speed": 5.0, "interpolation": "smoothstep" }
-  },
-
-    // Selected Tab
-  {
-    "class": "tab_close_button",
-    "parents": [{"class": "tab_control", "attributes": ["selected"]}],
-    "layer0.opacity": 0, // Close Icon
-    "layer1.opacity": 1, // Close Icon Hover
-  },
-    // Default hover
-  {
-    "class": "tab_close_button",
-    "settings": ["show_tab_close_buttons"],
-    "attributes": ["hover"],
-    "layer0.opacity": 0, // Close Icon
-    "layer1.opacity": 1, // Close Icon Hover
-  },
-    // Dirty tab
-  {
-    "class": "tab_close_button",
-    "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
-    "layer0.opacity": 0, // Close Icon
-    "layer1.opacity": 0, // Close Icon Hover
-    "layer2.opacity": 0, // Dirty Icon
-    "layer3.opacity": 1, // Dirty Icon Hover
-    "content_margin": [8,8],
-  },
-    // Dirty tab on hover
-  {
-    "class": "tab_close_button",
-    "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
-    "attributes": ["hover"],
-    "layer0.opacity": 0, // Close Icon
-    "layer1.opacity": 1, // Close Icon Hover
-    "layer2.opacity": 0, // Dirty Icon
-    "layer3.opacity": 0  // Dirty Icon Hover
-  },
-    // Selected dirty tab
-  {
-    "class": "tab_close_button",
-    "parents": [{"class": "tab_control", "attributes": ["selected", "dirty"]}],
-    "layer0.opacity": 0, // Close Icon
-    "layer1.opacity": 0, // Close Icon Hover
-    "layer2.opacity": 0, // Dirty Icon
-    "layer3.opacity": 1  // Dirty Icon Hover
-  },
-
-  // Selected dirty tab on hover
-
-  {
-    "class": "tab_close_button",
-    "parents": [{"class": "tab_control", "attributes": ["selected", "dirty"]}],
-    "attributes": ["hover"],
-    "layer0.opacity": 0, // Close Icon
-    "layer1.opacity": 1, // Close Icon Hover
-    "layer2.opacity": 0, // Dirty Icon
-    "layer3.opacity": 0  // Dirty Icon Hover
-  },
-
-  // Overflow dropdown menu
-
-  {
-    "class": "show_tabs_dropdown_button",
-    "layer0.texture": "Enki Theme/assets/commons/overflow_menu--hover.png",
-    "layer0.opacity": 0.8,
-    "layer1.texture": "Enki Theme/assets/commons/overflow_menu--hover.png",
-    "layer1.opacity": { "target": 0.0, "speed": 8.0, "interpolation": "smoothstep" },
-  },
-
-  {
-    "class": "show_tabs_dropdown_button",
-    "attributes": ["hover"],
-    "layer1.opacity": { "target": 1.0, "speed": 8.0, "interpolation": "smoothstep" }
-  },
-
-  // tab set scroll left | scroll right
-
-  {
-    "class": "scroll_tabs_left_button",
-    "layer0.texture": "Enki Theme/assets/commons/arrow_left--hover.png",
-    "layer0.opacity": 0.6,
-    "layer1.texture": "Enki Theme/assets/commons/arrow_left--hover.png",
-    "layer1.opacity": { "target": 0.0, "speed": 8.0, "interpolation": "smoothstep" },
-  },
-
-  {
-    "class": "scroll_tabs_left_button",
-    "attributes": ["hover"],
-    "layer1.opacity": { "target": 1.0, "speed": 8.0, "interpolation": "smoothstep" }
-  },
-
-  {
-    "class": "scroll_tabs_right_button",
-    "layer0.texture": "Enki Theme/assets/commons/arrow_right--hover.png",
-    "layer0.opacity": 0.6,
-    "layer1.texture": "Enki Theme/assets/commons/arrow_right--hover.png",
-    "layer1.opacity": { "target": 0.0, "speed": 8.0, "interpolation": "smoothstep" },
-  },
-
-  {
-    "class": "scroll_tabs_right_button",
-    "attributes": ["hover"],
-    "layer1.opacity": { "target": 1.0, "speed": 8.0, "interpolation": "smoothstep" }
-  },
 
 
 /* @SIDEBAR
@@ -4722,11 +4601,9 @@
   },
 
 
-
-
-
- // SLATE ACCENT
-  // ##################################################################
+/* @ Slate
+ *
+========================================================================= */
   {
     "class": "show_tabs_dropdown_button",
     "layer0.texture": "Enki Theme/assets/slate/overflow_menu.png",
@@ -4744,14 +4621,6 @@
     "layer0.opacity": 1.0,
     "layer0.texture": "Enki Theme/assets/slate/arrow_left.png",
   },
-
-  {
-    "class": "tab_close_button",
-    "layer0.texture": "Enki Theme/assets/slate/close_icon.png",
-    "layer1.texture": "Enki Theme/assets/slate/close_icon--hover.png",
-    "layer3.texture": "Enki Theme/assets/slate/dirty_icon--hover.png"
-  },
-
   {
     "class": "tabset_control",
     "layer0.tint": [43, 45, 58],
@@ -4760,7 +4629,6 @@
   {
     "class": "tab_control",
     "layer0.tint": [43, 45, 58],
-    "layer1.texture": "Enki Theme/assets/slate/tab_current.png",
     "layer3.texture": {
             "keyframes":
             [
@@ -4795,229 +4663,14 @@
     "layer1.texture": "Enki Theme/assets/slate/sidebar_heading--small.png",
   },
 
-// Slate Cyan
-  {
-    "class": "tab_close_button",
-    "settings": ["enki_theme_accent_cyan"],
-    "layer1.texture": "Enki Theme/assets/accent-cyan/close_icon--hover.png",
-    "layer3.texture": "Enki Theme/assets/accent-cyan/dirty_icon--hover.png"
-  },
-
-  {
-    "class": "tab_control",
-    "settings": ["enki_theme_accent_cyan"],
-    "layer1.texture": "Enki Theme/assets/accent-cyan/tab_current.png",
-  },
-
-  // Slate Orange
-  {
-    "class": "tab_close_button",
-    "settings": ["enki_theme_accent_orange"],
-    "layer1.texture": "Enki Theme/assets/accent-orange/close_icon--hover.png",
-    "layer3.texture": "Enki Theme/assets/accent-orange/dirty_icon--hover.png"
-  },
-
-  {
-    "class": "tab_control",
-    "settings": ["enki_theme_accent_orange"],
-    "layer1.texture": "Enki Theme/assets/accent-orange/tab_current.png",
-  },
-
-  // Slate Purple
-  {
-    "class": "tab_close_button",
-    "settings": ["enki_theme_accent_purple"],
-    "layer1.texture": "Enki Theme/assets/accent-purple/close_icon--hover.png",
-    "layer3.texture": "Enki Theme/assets/accent-purple/dirty_icon--hover.png"
-  },
-
-  {
-    "class": "tab_control",
-    "settings": ["enki_theme_accent_purple"],
-    "layer1.texture": "Enki Theme/assets/accent-purple/tab_current.png",
-  },
-
-  // Slate Lime
-  {
-    "class": "tab_close_button",
-    "settings": ["enki_theme_accent_lime"],
-    "layer1.texture": "Enki Theme/assets/accent-lime/close_icon--hover.png",
-    "layer3.texture": "Enki Theme/assets/accent-lime/dirty_icon--hover.png"
-  },
-
-  {
-    "class": "tab_control",
-    "settings": ["enki_theme_accent_lime"],
-    "layer1.texture": "Enki Theme/assets/accent-lime/tab_current.png",
-  },
-
-  // Slate Red
-  {
-    "class": "tab_close_button",
-    "settings": ["enki_theme_accent_red"],
-    "layer1.texture": "Enki Theme/assets/accent-red/close_icon--hover.png",
-    "layer3.texture": "Enki Theme/assets/accent-red/dirty_icon--hover.png"
-  },
-
-  {
-    "class": "tab_control",
-    "settings": ["enki_theme_accent_red"],
-    "layer1.texture": "Enki Theme/assets/accent-red/tab_current.png",
-  },
-
-  // Slate Yellow
-  {
-    "class": "tab_close_button",
-    "settings": ["enki_theme_accent_yellow"],
-    "layer1.texture": "Enki Theme/assets/accent-yellow/close_icon--hover.png",
-    "layer3.texture": "Enki Theme/assets/accent-yellow/dirty_icon--hover.png"
-  },
-
-  {
-    "class": "tab_control",
-    "settings": ["enki_theme_accent_yellow"],
-    "layer1.texture": "Enki Theme/assets/accent-yellow/tab_current.png",
-  },
-
-  // Slate Indigo
-  {
-    "class": "tab_close_button",
-    "settings": ["enki_theme_accent_indigo"],
-    "layer1.texture": "Enki Theme/assets/accent-indigo/close_icon--hover.png",
-    "layer3.texture": "Enki Theme/assets/accent-indigo/dirty_icon--hover.png"
-  },
-
-  {
-    "class": "tab_control",
-    "settings": ["enki_theme_accent_indigo"],
-    "layer1.texture": "Enki Theme/assets/accent-indigo/tab_current.png",
-  },
-
-
-  // Slate Fucshia
-  {
-    "class": "tab_close_button",
-    "settings": ["enki_theme_accent_fuschia"],
-    "layer1.texture": "Enki Theme/assets/accent-fuschia/close_icon--hover.png",
-    "layer3.texture": "Enki Theme/assets/accent-fuschia/dirty_icon--hover.png"
-  },
-
-  {
-    "class": "tab_control",
-    "settings": ["enki_theme_accent_fuschia"],
-    "layer1.texture": "Enki Theme/assets/accent-fuschia/tab_current.png",
-  },
-
-
-// Slate Samon
-  {
-    "class": "tab_close_button",
-    "settings": ["enki_theme_accent_samon"],
-    "layer1.texture": "Enki Theme/assets/accent-samon/close_icon--hover.png",
-    "layer3.texture": "Enki Theme/assets/accent-samon/dirty_icon--hover.png"
-  },
-
-  {
-    "class": "tab_control",
-    "settings": ["enki_theme_accent_samon"],
-    "layer1.texture": "Enki Theme/assets/accent-samon/tab_current.png",
-  },
-
-
-// Slate Blue
-  {
-    "class": "tab_close_button",
-    "settings": ["enki_theme_accent_blue"],
-    "layer1.texture": "Enki Theme/assets/accent-blue/close_icon--hover.png",
-    "layer3.texture": "Enki Theme/assets/accent-blue/dirty_icon--hover.png"
-  },
-
-  {
-    "class": "tab_control",
-    "settings": ["enki_theme_accent_blue"],
-    "layer1.texture": "Enki Theme/assets/accent-blue/tab_current.png",
-  },
-
-
-// Slate pink
-  {
-    "class": "tab_close_button",
-    "settings": ["enki_theme_accent_pink"],
-    "layer1.texture": "Enki Theme/assets/accent-pink/close_icon--hover.png",
-    "layer3.texture": "Enki Theme/assets/accent-pink/dirty_icon--hover.png"
-  },
-
-  {
-    "class": "tab_control",
-    "settings": ["enki_theme_accent_pink"],
-    "layer1.texture": "Enki Theme/assets/accent-pink/tab_current.png",
-  },
-
-
-// Slate white
-  {
-    "class": "tab_close_button",
-    "settings": ["enki_theme_accent_white"],
-    "layer1.texture": "Enki Theme/assets/accent-white/close_icon--hover.png",
-    "layer3.texture": "Enki Theme/assets/accent-white/dirty_icon--hover.png"
-  },
-
-  {
-    "class": "tab_control",
-    "settings": ["enki_theme_accent_white"],
-    "layer1.texture": "Enki Theme/assets/accent-white/tab_current.png",
-  },
-
-
-// Slate bluegray
-  {
-    "class": "tab_close_button",
-    "settings": ["enki_theme_accent_bluegray"],
-    "layer1.texture": "Enki Theme/assets/accent-bluegray/close_icon--hover.png",
-    "layer3.texture": "Enki Theme/assets/accent-bluegray/dirty_icon--hover.png"
-  },
-
-  {
-    "class": "tab_control",
-    "settings": ["enki_theme_accent_bluegray"],
-    "layer1.texture": "Enki Theme/assets/accent-bluegray/tab_current.png",
-  },
-
-// Slate green
-  {
-    "class": "tab_close_button",
-    "settings": ["enki_theme_accent_green"],
-    "layer1.texture": "Enki Theme/assets/accent-green/close_icon--hover.png",
-    "layer3.texture": "Enki Theme/assets/accent-green/dirty_icon--hover.png"
-  },
-
-  {
-    "class": "tab_control",
-    "settings": ["enki_theme_accent_green"],
-    "layer1.texture": "Enki Theme/assets/accent-green/tab_current.png",
-  },
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Material Theme > Enki UI Modificaitons
-// =====================================================================
+  //  From Default Material Theme
+  // =====================================================================
 
     {
       "class": "sheet_container_control",
@@ -5114,11 +4767,6 @@
       "class": "status_button",
       "layer0.tint": [32, 34, 44], //slate
     },
-
-
-
-
-
 
 
     // Panel
@@ -5220,7 +4868,7 @@
 
 
 
-// fuschia Accent Color
+  // fuschia Accent Color
   // ===========================================================================
 
     {
@@ -5255,20 +4903,20 @@
 
       // Tabs
 
-    /*{
+    {
       "class": "tab_control",
       "settings": ["enki_theme_accent_fuschia"],
       "layer1.texture": "Enki Theme/assets/accent-fuschia/tab_current.png",
-    },*/
+    },
 
       // Tabs close button
 
-    /*{
+    {
       "class": "tab_close_button",
       "settings": ["enki_theme_accent_fuschia"],
       "layer1.texture": "Enki Theme/assets/accent-fuschia/close_icon--hover.png",
       "layer3.texture": "Enki Theme/assets/accent-fuschia/dirty_icon--hover.png"
-    },*/
+    },
 
       // Opened files
 
@@ -5553,9 +5201,9 @@
       "layer1.texture": "Enki Theme/assets/accent-samon/tree_highlight.png",
     },
 
-      // Tabs
+      // Tabs --------------------------- enki tab
 
-    /*{
+    {
       "class": "tab_control",
       "settings": ["enki_theme_accent_samon"],
       "layer1.texture": "Enki Theme/assets/accent-samon/tab_current.png",
@@ -5568,7 +5216,7 @@
       "settings": ["enki_theme_accent_samon"],
       "layer1.texture": "Enki Theme/assets/accent-samon/close_icon--hover.png",
       "layer3.texture": "Enki Theme/assets/accent-samon/dirty_icon--hover.png"
-    },*/
+    },
 
       // Opened files
 
@@ -5854,7 +5502,7 @@
 
       // Tabs
 
-    /*{
+    {
       "class": "tab_control",
       "settings": ["enki_theme_accent_white"],
       "layer1.texture": "Enki Theme/assets/accent-white/tab_current.png",
@@ -5867,7 +5515,7 @@
       "settings": ["enki_theme_accent_white"],
       "layer1.texture": "Enki Theme/assets/accent-white/close_icon--hover.png",
       "layer3.texture": "Enki Theme/assets/accent-white/dirty_icon--hover.png"
-    },*/
+    },
 
       // Opened files
 
@@ -6152,7 +5800,7 @@
 
       // Tabs
 
-    /*{
+    {
       "class": "tab_control",
       "settings": ["enki_theme_accent_bluegray"],
       "layer1.texture": "Enki Theme/assets/accent-bluegray/tab_current.png",
@@ -6165,7 +5813,7 @@
       "settings": ["enki_theme_accent_bluegray"],
       "layer1.texture": "Enki Theme/assets/accent-bluegray/close_icon--hover.png",
       "layer3.texture": "Enki Theme/assets/accent-bluegray/dirty_icon--hover.png"
-    },*/
+    },
 
       // Opened files
 
@@ -6451,7 +6099,7 @@
 
       // Tabs
 
-    /*{
+    {
       "class": "tab_control",
       "settings": ["enki_theme_accent_green"],
       "layer1.texture": "Enki Theme/assets/accent-green/tab_current.png",
@@ -6464,7 +6112,7 @@
       "settings": ["enki_theme_accent_green"],
       "layer1.texture": "Enki Theme/assets/accent-green/close_icon--hover.png",
       "layer3.texture": "Enki Theme/assets/accent-green/dirty_icon--hover.png"
-    },*/
+    },
 
       // Opened files
 
@@ -6778,7 +6426,7 @@
       "class": "sidebar_label",
       "settings": ["enki_theme_color_expanded_folder", "enki_theme_accent_red"],
       "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
-      "color": [204, 0, 0]
+      "color": [240, 46, 71]
     },
     {
       "class": "sidebar_label",
