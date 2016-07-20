@@ -32,7 +32,8 @@ Alternate color scheme:
 "theme": "Enki-Theme.sublime-theme",
 ```
 
-For those who prefer something less purple:
+A color scheme for those who prefer something less purple:
+
 ```json
 "color_scheme": "Packages/Enki Theme/scheme/Enki-Alt.tmTheme",
 ```
@@ -54,7 +55,7 @@ There are, however, *five more color options* that coordinate well with this col
   "enki_theme_accent_lime": true,
   "enki_theme_accent_purple": true,
   "enki_theme_accent_pink": true,
-  "enki_theme_accent_red": true,
+  "enki_theme_accent_red": true, // Changed to a deeper shade
   "enki_theme_accent_orange": true,
   "enki_theme_accent_indigo": true,
   "enki_theme_accent_teal": true,
@@ -63,9 +64,9 @@ There are, however, *five more color options* that coordinate well with this col
   "enki_theme_accent_yellow": true,
 ```
 
-<a href="https://raw.githubusercontent.com/enkia/enki-theme/master/screenshots/screenshots_accents.gif" target="_blank">
-    <img src="screenshots/screenshot_accents.gif" alt="Preview Accents" width="305">
-</a>
+
+<img src="screenshots/screenshot_accents.gif" alt="Preview Accents" width="305">
+
 
 Options to mimic the screenshot:
 
