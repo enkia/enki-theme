@@ -33,15 +33,19 @@
 				<key>background</key>
 				<string>#1a1b20</string>
 				<key>caret</key>
-				<string>#E5E5E5</string>
+				<string>#DBC08A</string>
 				<key>findHighlight</key>
 				<string>#ffa300</string>
+				<key>findHighlightForeground</key>
+				<string>#000000</string>
 				<key>foreground</key>
 				<string>#AFBAD4ff</string>
 				<key>guide</key>
 				<string>#3F414D40</string>
 				<key>gutterForeground</key>
 				<string>#3F414D90</string>
+				<key>inactiveSelection</key>
+				<string>#282833</string>
 				<key>invisibles</key>
 				<string>#3F414D</string>
 				<key>lineHighlight</key>
@@ -867,7 +871,7 @@
 			<key>name</key>
 			<string>Smarty / Twig quoted</string>
 			<key>scope</key>
-			<string>string.quoted.single.twig, string.quoted.double.twig</string>
+			<string>string.quoted.single.twig, string.quoted.double.twig, string.quoted.single.smarty</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>

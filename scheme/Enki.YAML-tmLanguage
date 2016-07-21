@@ -54,11 +54,13 @@ settings:
 - settings:
     activeGuide: '#6D3B66'
     background: '#1a1b20'
-    caret: '#E5E5E5'
+    caret: '#DBC08A'
     findHighlight: '#ffa300'
+    findHighlightForeground: '#000000'
     foreground: '#AFBAD4ff'
     guide: '#3F414D40'
     gutterForeground: '#3F414D90'
+    inactiveSelection: '#282833'
     invisibles: '#3F414D'
     lineHighlight: '#00000030'
     selection: '#8d4d8540'
@@ -522,7 +524,7 @@ settings:
     foreground: '#F99157'
 
 - name: 'Smarty / Twig quoted'
-  scope: string.quoted.single.twig, string.quoted.double.twig
+  scope: string.quoted.single.twig, string.quoted.double.twig, string.quoted.single.smarty
   settings:
     foreground: '#DBC08A'
 
