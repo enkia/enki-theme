@@ -6362,6 +6362,50 @@
 
 
 
+// Red  Accent Color
+// ===========================================================================
+
+      // Panel labels
+
+    {
+      "class": "quick_panel_label",
+      "settings": ["enki_theme_accent_red"],
+      "match_fg": [ 240, 46, 71],
+      "selected_fg": [255, 255, 255, 255],
+      "selected_match_fg": [ 240, 46, 71]
+    },
+
+      // Panel labels
+
+    {
+      "class": "quick_panel_label",
+      "settings": ["enki_theme_accent_red"],
+      "parents": [{"class": "overlay_control"}],
+      "match_fg": [ 240, 46, 71],
+      "selected_fg": [255, 255, 255, 255],
+      "selected_match_fg": [ 240, 46, 71]
+    },
+
+      // Panels sublabels
+
+    {
+      "class": "quick_panel_path_label",
+      "settings": ["enki_theme_accent_red"],
+      "match_fg": [ 240, 46, 71],
+      "selected_fg": [255, 255, 255, 255],
+      "selected_match_fg": [ 240, 46, 71]
+    },
+
+      // Panels data / score
+
+    {
+      "class": "quick_panel_score_label",
+      "settings": ["enki_theme_accent_red"],
+      "fg": [ 240, 46, 71],
+      "selected_fg": [255, 255, 255, 255]
+    },
+
+
 
 
     // Additional Options for Enki Theme
