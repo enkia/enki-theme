@@ -71,7 +71,7 @@ There are, however, *five more color options* that coordinate well with this col
 Options to mimic the screenshot:
 
 ```json
-  "enki_theme_accent_samon": true, // accent color samon
+  "enki_theme_accent_red": true,
   "enki_theme_compact_sidebar": true,
   "enki_theme_contrast_mode": true,
   "enki_theme_panel_separator": true,
