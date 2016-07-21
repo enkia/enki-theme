@@ -106,11 +106,11 @@ Options to mimic the screenshot:
 #### Theme:
 Despite this being a modified version of the Material Theme, please submit UI issues here as I may have introduced a bug when changing the theme.
 
-I will attempt to keep this updated with all major bug fixes released by
+This will be updated with all major bug fixes released by
 [equinusocio](https://github.com/equinusocio) for
 [Material Theme](https://github.com/equinusocio/material-theme) and
 [Material Theme Appbar](https://github.com/equinusocio/material-theme-appbar)
-but understand that since I'm not the original developer of the UI theme, these updates will not occur immediately.
+but understand that since this is not the original UI theme, these updates will not occur immediately.
 *Note:* There is **[a known issue](https://github.com/equinusocio/material-theme#known-issues)** that may affect some people.
 
 
