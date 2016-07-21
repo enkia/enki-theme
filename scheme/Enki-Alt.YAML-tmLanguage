@@ -54,7 +54,7 @@ settings:
 - settings:
     activeGuide: '#455682'
     background: '#1a1b20'
-    caret: '#FAC863'
+    caret: '#E5E5E5'
     findHighlight: '#ffa300'
     foreground: '#AFBAD4ff'
     guide: '#3F414D40'
@@ -93,7 +93,7 @@ settings:
 # --------------------------------------------------------------------------------------
 
 - name: 'Comment'
-  scope: comment, punctuation.definition.comment
+  scope: comment, punctuation.definition.comment, keyword.other.phpdoc.php
   settings:
     fontStyle: italic
     foreground: '#3F414D'

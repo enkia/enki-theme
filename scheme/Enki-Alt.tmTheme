@@ -33,7 +33,7 @@
 				<key>background</key>
 				<string>#1a1b20</string>
 				<key>caret</key>
-				<string>#FAC863</string>
+				<string>#E5E5E5</string>
 				<key>findHighlight</key>
 				<string>#ffa300</string>
 				<key>foreground</key>
@@ -368,7 +368,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Function Object literal</string>
+			<string>Function (Object Literal)</string>
 			<key>scope</key>
 			<string>entity.name.function</string>
 			<key>settings</key>
@@ -462,7 +462,7 @@
 			<key>name</key>
 			<string>Attributes</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name.html, entity.other.attribute-name.id.html</string>
+			<string>entity.other.attribute-name.html</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>

@@ -54,7 +54,7 @@ settings:
 - settings:
     activeGuide: '#6D3B66'
     background: '#1a1b20'
-    caret: '#FAC863'
+    caret: '#E5E5E5'
     findHighlight: '#ffa300'
     foreground: '#AFBAD4ff'
     guide: '#3F414D40'
@@ -93,7 +93,7 @@ settings:
 # --------------------------------------------------------------------------------------
 
 - name: 'Comment'
-  scope: comment, punctuation.definition.comment
+  scope: comment, punctuation.definition.comment, keyword.other.phpdoc.php
   settings:
     fontStyle: italic
     foreground: '#3F414D'
@@ -513,7 +513,7 @@ settings:
   settings:
     foreground: '#ca9b55'
 
-- name: 'Smarty / Twig variabe, function'
+- name: 'Smarty / Twig variable, function'
   scope: variable.other.property.twig, support.function.twig, meta.function-call.twig,
     keyword.control.twig, keyword.operator.other.twig, keyword.operator.comparison.twig,
     support.function.functions.twig, support.function.functions.twig, keyword.operator.assignment.twig,

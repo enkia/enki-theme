@@ -33,7 +33,7 @@
 				<key>background</key>
 				<string>#1a1b20</string>
 				<key>caret</key>
-				<string>#FAC863</string>
+				<string>#E5E5E5</string>
 				<key>findHighlight</key>
 				<string>#ffa300</string>
 				<key>foreground</key>
@@ -64,7 +64,7 @@
 			<key>name</key>
 			<string>Comment</string>
 			<key>scope</key>
-			<string>comment, punctuation.definition.comment</string>
+			<string>comment, punctuation.definition.comment, keyword.other.phpdoc.php</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -854,7 +854,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Smarty / Twig variabe, function</string>
+			<string>Smarty / Twig variable, function</string>
 			<key>scope</key>
 			<string>variable.other.property.twig, support.function.twig, meta.function-call.twig, keyword.control.twig, keyword.operator.other.twig, keyword.operator.comparison.twig, support.function.functions.twig, support.function.functions.twig, keyword.operator.assignment.twig, support.function.filters.twig, support.function.built-in.smarty, keyword.operator.smarty</string>
 			<key>settings</key>
