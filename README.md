@@ -111,6 +111,7 @@ This will be updated with all major bug fixes released by
 [Material Theme](https://github.com/equinusocio/material-theme) and
 [Material Theme Appbar](https://github.com/equinusocio/material-theme-appbar)
 but understand that since this is not the original UI theme, these updates will not occur immediately.
+
 *Note:* There is **[a known issue](https://github.com/equinusocio/material-theme#known-issues)** that may affect some people.
 
 
