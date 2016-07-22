@@ -9,6 +9,41 @@ To install, open preferences and change the color scheme and theme lines:
 "color_scheme": "Packages/Enki Theme/Enki.tmTheme",
 "theme": "Enki-Theme.sublime-theme",
 
+**********************************************************************************************
+Options:
+
+Choose an accent color by adding one of these lines to your preferences file:
+
+"enki_theme_accent_samon": true,
+"enki_theme_accent_bluegray": true,
+"enki_theme_accent_fuschia": true,
+"enki_theme_accent_white": true,
+"enki_theme_accent_green": true,
+"enki_theme_accent_lime": true,
+"enki_theme_accent_purple": true,
+"enki_theme_accent_pink": true,
+"enki_theme_accent_red": true,
+"enki_theme_accent_orange": true,
+"enki_theme_accent_indigo": true,
+"enki_theme_accent_teal": true,
+"enki_theme_accent_blue": true,
+"enki_theme_accent_cyan": true,
+"enki_theme_accent_yellow": true,
+
+Recommended Sublime Text preferences:
+
+"overlay_scroll_bars": "enabled",
+"line_padding_bottom": 2,
+"line_padding_top": 2,
+"bold_folder_labels": false,
+"always_show_minimap_viewport": true,
+"indent_guide_options": ["draw_normal", "draw_active"],
+"font_options": ["gray_antialias", "subpixel_antialias"], // for retina Mac & Windows
+
+See additional options at:
+https://github.com/enkia/enki-theme
+
+
 
 
 
