@@ -1,5 +1,5 @@
-# Enki Theme for Sublime Text
-A dark color scheme and UI theme with clear, disparate colors to help differentiate between all syntactic aspects of code, including syntax highlighting for the console.
+# Enki Theme
+A dark color scheme and UI theme for **Sublime Text** with clear, disparate colors to help differentiate between all syntactic aspects of code, including syntax highlighting for the console.
 
 The UI theme itself is a **modified version** of
 [@equinusocio's](https://github.com/equinusocio) amazing work,
@@ -80,9 +80,10 @@ Options to mimic the screenshot:
   "enki_theme_tabs_autowidth": true,
   "enki_theme_tree_headings": false,
 
+  "overlay_scroll_bars": "enabled",
   "line_padding_bottom": 2,
   "line_padding_top": 2,
-  "bold_folder_labels": false,
+  "bold_folder_labels": false, // or remove this line if you set it to true for Material Theme
   "always_show_minimap_viewport": true,
   "indent_guide_options": ["draw_normal", "draw_active"],
   "font_options": ["gray_antialias", "subpixel_antialias"], // for retina Mac & Windows
@@ -100,11 +101,11 @@ Options to mimic the screenshot:
 
 ## Issues / Requests / Contributions
 #### Color Scheme:
-* If a syntax definition doesn't appear to be supported, please let me know by [submitting an issue.](http://github.com/enkia/enki-theme/issues)
+* If a syntax definition doesn't appear to be supported, please [submit an issue.](http://github.com/enkia/enki-theme/issues)
 * Use the supplied YAML file for use with [PackageDev](https://packagecontrol.io/packages/PackageDev) if you'd like to contribute to the *color scheme.*
 
 #### Theme:
-Despite this being a modified version of the Material Theme, please submit UI issues here as I may have introduced a bug when changing the theme.
+Despite this being a modified version of the Material Theme, please submit UI issues here as a bug may have been introduced when modifying Material Theme.
 
 This will be updated with all major bug fixes released by
 [equinusocio](https://github.com/equinusocio) for
