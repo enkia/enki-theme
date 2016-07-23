@@ -7,14 +7,14 @@ The UI theme itself is a **modified version** of
 [Material Theme Appbar.](https://github.com/equinusocio/material-theme-appbar)
 Specifically, the overall UI colors have been changed in Material App Bar and Material Theme to better align with this color scheme.
 
-<a href="https://raw.githubusercontent.com/enkia/enki-theme/master/screenshots/screenshot1.png" target="_blank">
-    <img src="screenshots/screenshot1.png" alt="Preview" width="890">
+<a href="http://kuuv.io/i/ochcNZd.png" target="_blank">
+    <img src="http://kuuv.io/i/ochcNZd.png" alt="Preview" width="890">
 </a>
 
 Alternate color scheme:
 
-<a href="https://raw.githubusercontent.com/enkia/enki-theme/master/screenshots/screenshot2.png" target="_blank">
-    <img src="screenshots/screenshot2.png" alt="Preview" width="890">
+<a href="http://kuuv.io/i/arkOGsr.png" target="_blank">
+    <img src="http://kuuv.io/i/arkOGsr.png" alt="Preview" width="890">
 </a>
 
 
@@ -65,7 +65,7 @@ There are, however, *five more color options* that coordinate well with this col
 ```
 
 
-<img src="screenshots/screenshot_accents.gif" alt="Preview Accents" width="305">
+<img src="http://kuuv.io/i/ulKbDfQ.gif" alt="Preview Accents" width="305">
 
 
 Options to mimic the screenshot:
