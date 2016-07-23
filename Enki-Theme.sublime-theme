@@ -12,7 +12,7 @@
 
     {
       "class": "sheet_container_control",
-      "layer0.tint": [24, 26, 32],
+      "layer0.tint": [32, 34, 44],
       "layer0.opacity": 1.0
     },
 
@@ -39,13 +39,13 @@
 
     {
       "class": "dialog",
-      "layer0.tint": [24, 26, 32],
+      "layer0.tint": [32, 34, 44],
       "layer0.opacity": 1.0
     },
 
     {
       "class": "progress_bar_control",
-      "layer0.tint": [24, 26, 32],
+      "layer0.tint": [32, 34, 44],
       "layer0.opacity": 1.0,
     },
 
@@ -86,7 +86,7 @@
 
     {
       "class": "popup_control",
-      "layer0.tint": [24, 26, 32],
+      "layer0.tint": [32, 34, 44],
       "layer0.opacity": 1.0,
       "content_margin": [0, 0]
     },
@@ -94,7 +94,7 @@
     {
       "class": "auto_complete",
       "row_padding": [12, 6],
-      "layer0.tint": [24, 26, 32],
+      "layer0.tint": [32, 34, 44],
       "layer0.opacity": 1.0
     },
 
@@ -131,7 +131,6 @@
       "content_margin": [16, 8]
     },
 
-
     {
       "class": "tool_tip_label_control",
       "color": [0, 0, 0, 150]
@@ -157,7 +156,7 @@
 
     {
       "class": "mini_quick_panel_row",
-      "layer0.tint": [24, 26, 32, 0],
+      "layer0.tint": [32, 34, 44, 0],
       "layer0.inner_margin": [2, 2, 2, 2],
       "layer0.opacity": 1.0
     },
@@ -176,7 +175,7 @@
     {
       "class": "quick_panel",
       "row_padding": [32, 12],
-      "layer0.tint": [24, 26, 32],
+      "layer0.tint": [32, 34, 44],
       "layer0.opacity": 1.0
     },
 
@@ -184,7 +183,7 @@
 
     {
       "class": "quick_panel_row",
-      "layer0.tint": [24, 26, 32, 0],
+      "layer0.tint": [32, 34, 44, 0],
       "layer0.opacity": 1.0
     },
 
@@ -193,7 +192,7 @@
     {
       "class": "quick_panel_row",
       "parents": [{"class": "overlay_control"}],
-      "layer0.tint": [24, 26, 32, 0],
+      "layer0.tint": [32, 34, 44, 0],
       "layer0.opacity": 1.0
     },
 
@@ -203,7 +202,7 @@
       "class": "quick_panel",
       "parents": [{"class": "overlay_control"}],
       "row_padding": [32, 12],
-      "layer0.tint": [24, 26, 32, 0],
+      "layer0.tint": [32, 34, 44, 0],
       "layer0.opacity": 1.0
     },
 
@@ -265,7 +264,7 @@
       "class": "tabset_control",
 
       "layer0.opacity": 1.0,
-      "layer0.tint": [24, 26, 32],
+      "layer0.tint": [32, 34, 44],
       "tint_index": 1,
       "layer0.inner_margin": [2, 6],
       "layer0.opacity": 1.0,
@@ -288,7 +287,7 @@
     {
       "class": "tab_control",
 
-      "layer0.tint": [24, 26, 32],
+      "layer0.tint": [32, 34, 44],
       "layer0.inner_margin": [24, 0],
       "layer0.opacity": 1.0,
       "tint_index": 0,
@@ -527,7 +526,7 @@
 
     {
       "class": "sidebar_container",
-      "layer0.tint": [24, 26, 32],
+      "layer0.tint": [32, 34, 44],
       "layer0.opacity": 1.0,
       "layer0.draw_center": false,
       "layer0.inner_margin": [0, 24, 12, 24],
@@ -807,7 +806,7 @@
 
     {
       "class": "tree_row",
-      "layer0.tint": [24, 26, 32],
+      "layer0.tint": [32, 34, 44],
       "layer0.opacity": 0.0,
       "layer0.inner_margin": [1, 1]
     },
@@ -842,7 +841,7 @@
         { "class": "tree_row", "attributes": ["hover"] }
       ],
       // Default Close icon
-      "layer0.texture": "Enki Theme/assets/slate/close_icon.png",
+      "layer0.texture": "Enki Theme/assets/default/close_icon.png",
       "layer0.opacity": { "target": 1.0, "speed": 7.0, "interpolation": "smoothstep" },
       "layer0.inner_margin": [0,0],
     },
@@ -1089,7 +1088,7 @@
     },
     {
       "class": "status_button",
-      "layer0.tint": [24, 26, 32],
+      "layer0.tint": [32, 34, 44],
       "layer0.opacity": 1.0,
       "layer0.draw_center": false,
       "layer0.inner_margin": [1, 0, 0, 0],
@@ -1098,7 +1097,7 @@
     },
     {
       "class": "status_button",
-      "layer0.tint": [24, 26, 32],
+      "layer0.tint": [32, 34, 44],
       "layer0.opacity": 1.0,
       "layer0.draw_center": false,
       "layer0.inner_margin": [1, 0, 0, 0],
@@ -1128,10 +1127,10 @@
     // Status bar panel
     {
       "class": "panel_control",
-      "layer0.tint": [24, 26, 32],
+      "layer0.tint": [32, 34, 44],
       "layer0.inner_margin": [2, 2, 2, 2],
       "layer0.opacity": 1.0,
-      "layer1.tint": [24, 26, 32],
+      "layer1.tint": [32, 34, 44],
       "layer1.inner_margin": [2, 2, 2, 2],
       "layer1.opacity": 1.0,
       "content_margin": [6, 14, 6, 8],
@@ -1216,7 +1215,7 @@
       "class": "button_control",
       "content_margin": [6, 12, 6, 12],
       "min_size": [75, 0],
-      "layer0.tint": [24, 26, 32],
+      "layer0.tint": [32, 34, 44],
       "layer0.opacity": 0.0,
       "layer0.inner_margin": [6, 6],
       "layer1.texture": "Enki Theme/assets/commons/full_button_indented.png",
@@ -1246,7 +1245,7 @@
     // Small Icon Buttons
     {
       "class": "icon_button_control",
-      "layer0.tint": [24, 26, 32],
+      "layer0.tint": [32, 34, 44],
       "layer0.inner_margin": [6, 6],
       "layer0.opacity": 0.0,
       "layer2.tint": [255, 255, 255],
@@ -4404,6 +4403,24 @@
       "layer1.inner_margin": [2, 2, 2, 2],
     },
 
+      // Contrast mode
+
+    {
+      "class": "sidebar_container",
+      "settings": ["enki_theme_contrast_mode"],
+      "layer0.tint": [30, 30, 30]
+    },
+    {
+      "class": "sidebar_tree",
+      "settings": ["enki_theme_contrast_mode"],
+      "layer0.tint": [30 ,30, 30]
+    },
+    {
+      "class": "status_bar",
+      "settings": ["enki_theme_contrast_mode"],
+      "layer1.tint": [30, 30, 30]
+    },
+
       // Compact mode
 
     {
@@ -4417,6 +4434,9 @@
       "settings": ["enki_theme_compact_panel"],
       "content_margin": [0, 0, 0, 0],
     },
+
+
+  //
 
 
 
@@ -4669,15 +4689,16 @@
 
 
 
-  //  From Default Material Theme
+  //  Modifications for Default Material Theme
   // =====================================================================
 
+    // Empty Window
     {
       "class": "sheet_container_control",
       "layer0.tint": [24, 26, 32],
       "layer0.opacity": 1.0
     },
-
+    // Side Bar
     {
       "class": "sidebar_container",
       "settings": ["enki_theme_contrast_mode"],
@@ -4689,7 +4710,11 @@
     },
     {
       "class": "sidebar_tree",
-      //"settings": ["enki_theme_contrast_mode"],
+      "layer0.tint": [22, 22, 27]
+    },
+    {
+      "class": "sidebar_tree",
+      "settings": ["enki_theme_contrast_mode"],
       "layer0.tint": [22, 22, 27]
     },
     {
@@ -4717,7 +4742,6 @@
       "parents": [{"class": "tree_row", "attributes": ["hover"]}],
       "color": [229, 229, 229]
     },
-
 
     // Mini Map
     {
@@ -4763,24 +4787,16 @@
       "font.bold": false,
       "font.size": 12.0
     },
-    {
-      "class": "status_button",
-      "layer0.tint": [32, 34, 44], //slate
-    },
 
 
     // Panel
     {
       "class": "panel_control",
-      "layer0.tint": [32, 34, 44], // slate
-      "layer1.tint": [32, 34, 44],
       "content_margin": [15, 14, 15, 8],
     },
     {
       "class": "text_line_control",
       "layer0.texture": "Enki Theme/assets/slate/input_field_border.png", // slate
-      "color": [32, 34, 44]
-
     },
     {
       "class": "text_line_control",
@@ -4792,17 +4808,9 @@
       "layer0.texture": "Enki Theme/assets/slate/overlay-bg.png", // slate
     },
     {
-     "class": "mini_quick_panel_row",
-      "layer0.tint": [32, 34, 44], //slate
-    },
-    {
       "class": "mini_quick_panel_row",
       "attributes": ["selected"],
       "layer0.tint": [56, 59, 77]
-    },
-    {
-      "class": "quick_panel",
-      "layer0.tint": [32, 34, 44], // slate
     },
     {
       "class": "quick_panel_row",
@@ -4810,12 +4818,16 @@
       "layer0.tint": [56, 59, 77], //slate
     },
     {
+      "class": "quick_panel_path_label",
+      "fg": [88, 91, 103, 255]
+    },
+    {
       "class": "panel_button_control",
       "layer0.texture": "Enki Theme/assets/slate/overflow_menu.png",
        "layer0.opacity": 0.6,
     },
 
-    // Scroll Bars Enki
+    // Scroll Bars
     {
       "class": "puck_control",
       "layer0.tint": [24, 26, 32],
