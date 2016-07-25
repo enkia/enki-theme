@@ -717,7 +717,7 @@
 			<key>name</key>
 			<string>CSS - Pseudo Class</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name.pseudo-class</string>
+			<string>entity.other.attribute-name.pseudo-class, meta.property-list.scss meta.property-value.scss</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -876,6 +876,17 @@
 			<dict>
 				<key>foreground</key>
 				<string>#DBC08A</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP Array (parathesis)</string>
+			<key>scope</key>
+			<string>punctuation.definition.array.begin.php, punctuation.definition.array.end.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#AFBAD4</string>
 			</dict>
 		</dict>
 		<dict>

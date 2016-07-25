@@ -717,7 +717,7 @@
 			<key>name</key>
 			<string>CSS - Pseudo Class</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name.pseudo-class</string>
+			<string>entity.other.attribute-name.pseudo-class, meta.property-list.scss meta.property-value.scss</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -858,7 +858,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Smarty / Twig variabe, function</string>
+			<string>Smarty / Twig variable, function</string>
 			<key>scope</key>
 			<string>variable.other.property.twig, support.function.twig, meta.function-call.twig, keyword.control.twig, keyword.operator.other.twig, keyword.operator.comparison.twig, support.function.functions.twig, support.function.functions.twig, keyword.operator.assignment.twig, support.function.filters.twig, support.function.built-in.smarty, keyword.operator.smarty</string>
 			<key>settings</key>
@@ -876,6 +876,17 @@
 			<dict>
 				<key>foreground</key>
 				<string>#DBC08A</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP Array (parathesis)</string>
+			<key>scope</key>
+			<string>punctuation.definition.array.begin.php, punctuation.definition.array.end.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#AFBAD4</string>
 			</dict>
 		</dict>
 		<dict>

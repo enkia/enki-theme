@@ -439,7 +439,7 @@ settings:
     foreground: '#AFBAD4'
 
 - name: 'CSS - Pseudo Class'
-  scope: entity.other.attribute-name.pseudo-class
+  scope: entity.other.attribute-name.pseudo-class, meta.property-list.scss meta.property-value.scss
   settings:
     foreground: '#C33C4A'
 
@@ -515,7 +515,7 @@ settings:
   settings:
     foreground: '#ca9b55'
 
-- name: 'Smarty / Twig variabe, function'
+- name: 'Smarty / Twig variable, function'
   scope: variable.other.property.twig, support.function.twig, meta.function-call.twig,
     keyword.control.twig, keyword.operator.other.twig, keyword.operator.comparison.twig,
     support.function.functions.twig, support.function.functions.twig, keyword.operator.assignment.twig,
@@ -527,6 +527,11 @@ settings:
   scope: string.quoted.single.twig, string.quoted.double.twig, string.quoted.single.smarty
   settings:
     foreground: '#DBC08A'
+
+- name: 'PHP Array (parathesis)'
+  scope: punctuation.definition.array.begin.php, punctuation.definition.array.end.php
+  settings:
+      foreground: '#AFBAD4'
 
 
 #  SublimeLinter
