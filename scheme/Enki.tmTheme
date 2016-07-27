@@ -22,7 +22,7 @@
 	<key>name</key>
 	<string>Enki</string>
 	<key>semanticClass</key>
-	<string>enki.theme.dark</string>
+	<string>enki.theme.light</string>
 	<key>settings</key>
 	<array>
 		<dict>
