@@ -4405,21 +4405,7 @@
 
       // Contrast mode
 
-    {
-      "class": "sidebar_container",
-      "settings": ["enki_theme_contrast_mode"],
-      "layer0.tint": [30, 30, 30]
-    },
-    {
-      "class": "sidebar_tree",
-      "settings": ["enki_theme_contrast_mode"],
-      "layer0.tint": [30 ,30, 30]
-    },
-    {
-      "class": "status_bar",
-      "settings": ["enki_theme_contrast_mode"],
-      "layer1.tint": [30, 30, 30]
-    },
+
 
       // Compact mode
 
@@ -4677,9 +4663,10 @@
     "layer1.texture": "Enki Theme/assets/slate/sidebar_heading.png"
   },
 
+
   {
     "class": "sidebar_container",
-    "settings": ["enki_theme_small_tab", "material_theme_accent"],
+    "settings": ["enki_theme_small_tab"],
     "layer1.texture": "Enki Theme/assets/slate/sidebar_heading--small.png",
   },
 
@@ -4687,10 +4674,15 @@
 
 
 
-
-
   //  Modifications for Default Material Theme
   // =====================================================================
+
+    // Grid layout control
+    {
+      "class": "grid_layout_control",
+      "border_size": 1,
+      "border_color": [26, 27, 32] // 27, 27, 27
+    },
 
     // Empty Window
     {
@@ -4701,8 +4693,7 @@
     // Side Bar
     {
       "class": "sidebar_container",
-      "settings": ["enki_theme_contrast_mode"],
-      "layer0.tint": [14, 15, 21],
+      "layer0.tint": [22, 22, 27],
     },
     {
       "class": "tree_row",
@@ -4710,11 +4701,6 @@
     },
     {
       "class": "sidebar_tree",
-      "layer0.tint": [22, 22, 27]
-    },
-    {
-      "class": "sidebar_tree",
-      "settings": ["enki_theme_contrast_mode"],
       "layer0.tint": [22, 22, 27]
     },
     {
