@@ -73,7 +73,6 @@ Options to mimic the screenshot:
 ```json
   "enki_theme_accent_red": true,
   "enki_theme_compact_sidebar": true,
-  "enki_theme_contrast_mode": true,
   "enki_theme_panel_separator": true,
   "enki_theme_small_statusbar": true,
   "enki_theme_small_tab": true,
