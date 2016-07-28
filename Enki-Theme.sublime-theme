@@ -5629,9 +5629,9 @@
     {
       "class": "quick_panel_label",
       "settings": ["enki_theme_accent_white"],
-      "match_fg": [108, 134, 166],
+      "match_fg": [255, 255, 255],
       "selected_fg": [255, 255, 255, 255],
-      "selected_match_fg": [108, 134, 166]
+      "selected_match_fg": [197, 229, 255]
     },
 
       // Panel labels
@@ -5640,9 +5640,9 @@
       "class": "quick_panel_label",
       "settings": ["enki_theme_accent_white"],
       "parents": [{"class": "overlay_control"}],
-      "match_fg": [108, 134, 166],
+      "match_fg": [255, 255, 255],
       "selected_fg": [255, 255, 255, 255],
-      "selected_match_fg": [108, 134, 166]
+      "selected_match_fg": [197, 229, 255]
     },
 
       // Panels sublabels
@@ -5650,9 +5650,9 @@
     {
       "class": "quick_panel_path_label",
       "settings": ["enki_theme_accent_white"],
-      "match_fg": [108, 134, 166],
+      "match_fg": [255, 255, 255],
       "selected_fg": [255, 255, 255, 255],
-      "selected_match_fg": [108, 134, 166]
+      "selected_match_fg": [197, 229, 255]
     },
 
       // Panels data / score
@@ -5660,7 +5660,7 @@
     {
       "class": "quick_panel_score_label",
       "settings": ["enki_theme_accent_white"],
-      "fg": [108, 134, 166],
+      "fg": [255, 255, 255],
       "selected_fg": [255, 255, 255, 255]
     },
 
