@@ -45,8 +45,8 @@ A color scheme for those who prefer something less purple:
 "color_scheme": "Packages/Enki Theme/scheme/Enki-Alt.tmTheme",
 ```
 
-#### Light Color Scheme
-A color scheme for those who prefer something lighter:
+#### Light Color Scheme and UI Theme:
+A color scheme and UI theme for those who prefer something lighter:
 
 ```json
 "color_scheme": "Packages/Enki Theme/scheme/Enki-Light.tmTheme",
@@ -87,7 +87,7 @@ There are, however, *five more color options* that coordinate well with this col
 Options to mimic the screenshot:
 
 ```json
-  "enki_theme_accent_red": true, // or white for Light Theme
+  "enki_theme_accent_red": true, // or white for Light theme
   "enki_theme_compact_sidebar": true,
   "enki_theme_panel_separator": true,
   "enki_theme_small_statusbar": true,
