@@ -1,5 +1,5 @@
 # Enki Theme
-A dark color scheme and UI theme for **Sublime Text** with clear, disparate colors to help differentiate between all syntactic aspects of code, including syntax highlighting for the console.
+A color scheme and UI theme for **Sublime Text** with clear, disparate colors to help differentiate between all syntactic aspects of code, including syntax highlighting for the console.
 
 The UI theme itself is a **modified version** of
 [@equinusocio's](https://github.com/equinusocio) amazing work,
@@ -17,6 +17,12 @@ Alternate color scheme:
     <img src="http://kuuv.io/i/arkOGsr.png" alt="Preview" width="890">
 </a>
 
+Light color scheme and UI theme:
+
+<a href="http://kuuv.io/i/03N444z.png" target="_blank">
+    <img src="http://kuuv.io/i/03N444z.png" alt="Preview" width="890">
+</a>
+
 
 ## Installation
 1. Download the package
@@ -32,11 +38,21 @@ Alternate color scheme:
 "theme": "Enki-Theme.sublime-theme",
 ```
 
+#### Alternate Dark Color Scheme
 A color scheme for those who prefer something less purple:
 
 ```json
 "color_scheme": "Packages/Enki Theme/scheme/Enki-Alt.tmTheme",
 ```
+
+#### Light Color Scheme
+A color scheme for those who prefer something lighter:
+
+```json
+"color_scheme": "Packages/Enki Theme/scheme/Enki-Light.tmTheme",
+"theme": "Enki-Theme-Light.sublime-theme",
+```
+
 
 ## Options
 Because this is essentially Material Theme, it comes packed the [same options](https://github.com/equinusocio/material-theme#theme-options) as the original with the exception of contrast mode.
@@ -71,7 +87,7 @@ There are, however, *five more color options* that coordinate well with this col
 Options to mimic the screenshot:
 
 ```json
-  "enki_theme_accent_red": true,
+  "enki_theme_accent_red": true, // or white for Light Theme
   "enki_theme_compact_sidebar": true,
   "enki_theme_panel_separator": true,
   "enki_theme_small_statusbar": true,

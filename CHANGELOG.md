@@ -1,6 +1,13 @@
+## 1.1.0
+* Light them added
+* Fix white accent
+* Update dark theme UI elements
+* Fix scrollbar background
+
 ## 1.0.2
 * Fix PHP array() syntax
 * Update UUIDs
+
 
 ## 1.0.1
 * Change Quick Panel path color
