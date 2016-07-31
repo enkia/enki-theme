@@ -1,3 +1,7 @@
+## 1.1.1
+* Update symlink folder icon
+* Minor punctuation update
+
 ## 1.1.0
 * Light them added
 * Fix white accent
