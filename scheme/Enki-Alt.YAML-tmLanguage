@@ -36,17 +36,6 @@ semanticClass: 'enki.theme.alt'
 # #E5E5E5 - 229, 229, 229
 
 
-#  Gutter Settings
-# --------------------------------------------------------------------------------------
-
-gutterSettings:
-    background: '#221922'
-    divider: '#62758B'
-    foreground: '#453344'
-    selectionBackground: '#62758B'
-    selectionForeground: '#a7adba'
-
-
 #  Settings
 # --------------------------------------------------------------------------------------
 
@@ -89,7 +78,11 @@ settings:
         color: #ffa300;
       }
     ]]>'
-
+    phantomCss: '<![CDATA[
+    html {
+      position: relative;
+    }
+    ]]>'
 
 #  Comments, Variables
 # --------------------------------------------------------------------------------------
@@ -212,7 +205,8 @@ settings:
 - name: 'Punctuation (paranthesis)'
   scope: punctuation.definition.group, punctuation.definition.group.begin, punctuation.definition.group.end,
     punctuation.section.function, punctuation.definition.parameters, meta.brace.round.begin, meta.brace.round.end,
-    meta.brace.round
+    meta.brace.round, punctuation.section.group, punctuation.section.arguments.begin, punctuation.section.arguments.end,
+    meta.group.braces.round.function
   settings:
     foreground: '#AFBAD4'
 

@@ -6,19 +6,6 @@
 	<string>Kristi Russell (http://github.com/enkia)</string>
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
-	<key>gutterSettings</key>
-	<dict>
-		<key>background</key>
-		<string>#221922</string>
-		<key>divider</key>
-		<string>#62758B</string>
-		<key>foreground</key>
-		<string>#453344</string>
-		<key>selectionBackground</key>
-		<string>#62758B</string>
-		<key>selectionForeground</key>
-		<string>#a7adba</string>
-	</dict>
 	<key>name</key>
 	<string>Enki</string>
 	<key>semanticClass</key>
@@ -50,6 +37,8 @@
 				<string>#3F414D</string>
 				<key>lineHighlight</key>
 				<string>#00000030</string>
+				<key>phantomCss</key>
+				<string><![CDATA[ html { position: relative; } ]]></string>
 				<key>popupCss</key>
 				<string><![CDATA[ html { color: #1ABC9C; background-color: #20222c; padding: 10px; } a { color: #6189bb; line-height: 1.2; text-decoration: none; } .error, .deleted { color: #EB606B; } .success, .inserted { color: #9DBA72; } .warning, .modified { color: #ffa300; } ]]></string>
 				<key>selection</key>
@@ -284,7 +273,7 @@
 			<key>name</key>
 			<string>Punctuation (paranthesis)</string>
 			<key>scope</key>
-			<string>punctuation.definition.group, punctuation.definition.group.begin, punctuation.definition.group.end, punctuation.section.function, punctuation.definition.parameters, meta.brace.round.begin, meta.brace.round.end, meta.brace.round</string>
+			<string>punctuation.definition.group, punctuation.definition.group.begin, punctuation.definition.group.end, punctuation.section.function, punctuation.definition.parameters, meta.brace.round.begin, meta.brace.round.end, meta.brace.round, punctuation.section.group, punctuation.section.arguments.begin, punctuation.section.arguments.end, meta.group.braces.round.function</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
