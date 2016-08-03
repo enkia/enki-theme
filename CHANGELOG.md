@@ -1,3 +1,6 @@
+## 1.1.2
+* Fix some file icons
+
 ## 1.1.1
 * Update symlink folder icon
 * Minor punctuation update
