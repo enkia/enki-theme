@@ -772,7 +772,7 @@
 			<key>name</key>
 			<string>SCSS/CSS - property</string>
 			<key>scope</key>
-			<string>support.type.property-name</string>
+			<string>support.type.property-name, meta.property-name</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>

@@ -462,7 +462,7 @@ settings:
     foreground: '#50B4DC'
 
 - name: 'SCSS/CSS - property'
-  scope: support.type.property-name
+  scope: support.type.property-name, meta.property-name
   settings:
     foreground: '#A5BCFF'
 
