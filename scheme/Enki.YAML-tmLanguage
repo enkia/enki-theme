@@ -61,7 +61,7 @@ settings:
     popupCss: '<![CDATA[
       html {
         color: #A966A9;
-        background-color: #20222c;
+        background-color: #2b2d3a;
         padding: 10px;
       }
       a {

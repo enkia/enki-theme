@@ -40,7 +40,7 @@
 				<key>phantomCss</key>
 				<string><![CDATA[ html { position: relative; } ]]></string>
 				<key>popupCss</key>
-				<string><![CDATA[ html { color: #A966A9; background-color: #20222c; padding: 10px; } a { color: #6189bb; line-height: 1.2; text-decoration: none; } .error, .deleted { color: #EB606B; } .success, .inserted { color: #9DBA72; } .warning, .modified { color: #ffa300; } ]]></string>
+				<string><![CDATA[ html { color: #A966A9; background-color: #2b2d3a; padding: 10px; } a { color: #6189bb; line-height: 1.2; text-decoration: none; } .error, .deleted { color: #EB606B; } .success, .inserted { color: #9DBA72; } .warning, .modified { color: #ffa300; } ]]></string>
 				<key>selection</key>
 				<string>#8d4d8540</string>
 				<key>selectionBorder</key>

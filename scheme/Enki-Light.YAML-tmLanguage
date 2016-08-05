@@ -10,6 +10,7 @@ semanticClass: 'enki.theme.alt'
 # Color reference
 # --------------------------------------------------------------------------------------
 
+# #414457
 # #3F414D
 # #73AAFF
 # ----------
@@ -59,11 +60,11 @@ settings:
     popupCss: '<![CDATA[
       html {
         color: #A8DFCE;
-        background-color: #20222c;
+        background-color: #808093;
         padding: 10px;
       }
       a {
-        color: #A5BCFF;
+        color: #414457;
         line-height: 1.2;
         text-decoration: none;
       }
