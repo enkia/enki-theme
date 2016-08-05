@@ -1,5 +1,5 @@
 ## 1.1.2
-* Fix some file icons
+* Fix file icons
 * Fix SCSS Syntax
 * Change mdpopups background
 
