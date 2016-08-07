@@ -235,7 +235,7 @@ settings:
 - name: 'JSON Punctuation [square]'
   scope: punctuation.definition.array.begin.json, punctuation.definition.array.end.json
   settings:
-    foreground: '#A966A9'
+    foreground: '#AFBAD4'
 
 - name: 'JSON Punctuation "quotes"'
   scope: punctuation.definition.string.begin.json, punctuation.definition.string.end.json
@@ -254,7 +254,7 @@ settings:
     foreground: '#83AADA'
 
 - name: 'Function Constructor'
-  scope: meta.class-method, entity.name.function, variable.function.constructor,
+  scope: meta.class-method, variable.function.constructor,
     punctuation.definition.arguments.shell, entity.name.function.shell
   settings:
     foreground: '#EB606B'
@@ -269,6 +269,11 @@ settings:
     variable.parameter
   settings:
     foreground: '#F99157'
+
+- name: 'JSON Numeric Constant'
+  scope: 'constant.numeric.json'
+  settings:
+    foreground: '#83AADA'
 
 - name: 'Function Args'
   scope: variable.parameter.function
@@ -287,7 +292,7 @@ settings:
 - name: 'JSON strings'
   scope: string.quoted.double.json
   settings:
-    foreground: '#7BA1D0'
+    foreground: '#6189bb'
 
 - name: 'PHP Support'
   scope: support.other.namespace.use.php, meta.use.php, support.other.namespace.php
@@ -486,6 +491,54 @@ settings:
   scope: variable.parameter.handlebars
   settings:
     foreground: '#ca9b55'
+
+
+# JSON Specific
+# --------------------------------------------------------------------------------------
+- name: JSON Key - Level 8
+  scope: source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
+  settings:
+    foreground: '#A966A9'
+
+- name: JSON Key - Level 7
+  scope: source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
+  settings:
+    foreground: '#ca9b55'
+
+- name: JSON Key - Level 6
+  scope: source.json meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
+  settings:
+    foreground: '#EB606B'
+
+- name: JSON Key - Level 5
+  scope: source.json meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
+  settings:
+    foreground: '#A966A9'
+
+- name: JSON Key - Level 4
+  scope: source.json meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
+  settings:
+    foreground: '#F99157'
+
+- name: JSON Key - Level 3
+  scope: source.json meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
+  settings:
+    foreground: '#EB606B'
+
+- name: JSON Key - Level 2
+  scope: source.json meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
+  settings:
+    foreground: '#F99157'
+
+- name: JSON Key - Level 1
+  scope: source.json meta meta.structure.dictionary.json string.quoted.double.json - meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta.structure.dictionary.json punctuation.definition.string - meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
+  settings:
+    foreground: '#A966A9'
+
+- name: JSON Key - Level 0
+  scope: source.json meta.structure.dictionary.json string.quoted.double.json - meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta.structure.dictionary.json punctuation.definition.string - meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
+  settings:
+    foreground: '#FF435B'
 
 
 #  PHP Specific
