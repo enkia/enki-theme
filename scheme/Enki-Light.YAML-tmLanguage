@@ -265,7 +265,7 @@ settings:
 
 - name: 'Number, Constant, Function Argument, Tag Attribute, Embedded'
   scope: constant.numeric, constant.language, support.constant, constant.character,
-    variable.parameter
+    variable.parameter, variable.parameter.php punctuation.definition.variable.php
   settings:
     foreground: '#F99157'
 

@@ -374,7 +374,7 @@
 			<key>name</key>
 			<string>Number, Constant, Function Argument, Tag Attribute, Embedded</string>
 			<key>scope</key>
-			<string>constant.numeric, constant.language, support.constant, constant.character, variable.parameter</string>
+			<string>constant.numeric, constant.language, support.constant, constant.character, variable.parameter, variable.parameter.php punctuation.definition.variable.php</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
