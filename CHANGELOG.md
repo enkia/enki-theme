@@ -1,5 +1,6 @@
 ## 1.1.3
 * Update JSON Syntax
+* Update PHP function param
 
 ## 1.1.2
 * Fix file icons
