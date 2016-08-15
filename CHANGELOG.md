@@ -1,3 +1,6 @@
+## 1.1.4
+* Minor HTML Syntax update
+
 ## 1.1.3
 * Update JSON Syntax
 * Update PHP function param

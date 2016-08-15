@@ -686,6 +686,7 @@ settings:
 #    fontStyle: italic
 #    foreground: '#6189bb'
 
+
 - name: 'YAML Unquoted Values'
   scope: source.yaml string.unquoted.plain.out.yaml
   settings:
@@ -702,6 +703,12 @@ settings:
   settings:
     foreground: '#ffffff'
     background: '#C792EA'
+
+- name: 'HTML ampersand fix'
+  scope: string.quoted.double.html invalid.illegal.bad-ampersand.html, string.quoted.single.html invalid.illegal.bad-ampersand.html
+  settings:
+    foreground: '#6189bb'
+    background: '#1a1b20'
 
 - name: 'Unimplemented'
   scope: invalid.unimplemented

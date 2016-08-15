@@ -691,6 +691,12 @@ settings:
     foreground: '#ffffff'
     background: '#cc0000'
 
+- name: 'HTML ampersand fix'
+  scope: string.quoted.double.html invalid.illegal.bad-ampersand.html, string.quoted.single.html invalid.illegal.bad-ampersand.html
+  settings:
+    foreground: '#6189bb'
+    background: '#1a1b20'
+
 - name: 'Invalid deprecated'
   scope: invalid.deprecated
   settings:

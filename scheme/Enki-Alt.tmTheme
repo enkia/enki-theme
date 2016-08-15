@@ -1183,6 +1183,19 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>HTML ampersand fix</string>
+			<key>scope</key>
+			<string>string.quoted.double.html invalid.illegal.bad-ampersand.html, string.quoted.single.html invalid.illegal.bad-ampersand.html</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#1a1b20</string>
+				<key>foreground</key>
+				<string>#6189bb</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Invalid deprecated</string>
 			<key>scope</key>
 			<string>invalid.deprecated</string>
