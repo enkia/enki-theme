@@ -1,5 +1,6 @@
 ## 1.1.4
-* Minor HTML Syntax update
+* HTML Syntax update
+* Grid Layout Control color update
 
 ## 1.1.3
 * Update JSON Syntax
