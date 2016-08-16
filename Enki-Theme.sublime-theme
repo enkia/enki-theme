@@ -4681,7 +4681,7 @@
     {
       "class": "grid_layout_control",
       "border_size": 1,
-      "border_color": [26, 27, 32] // 27, 27, 27
+      "border_color": [22, 22, 27] // 27, 27, 27
     },
 
     // Empty Window

@@ -4682,7 +4682,7 @@
     {
       "class": "grid_layout_control",
       "border_size": 1,
-      "border_color": [101, 101, 116]
+      "border_color": [94, 94, 108]
     },
 
     // Empty Window
