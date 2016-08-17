@@ -671,7 +671,7 @@
 			<key>name</key>
 			<string>CSS/SCSS - Function and Media</string>
 			<key>scope</key>
-			<string>support.function.misc.scss, support.function.color.css, support.constant.media.css, support.type.property-name.media.css</string>
+			<string>meta.at-rule.include.scss support.function.misc.scss, support.function.color.css, support.constant.media.css, support.type.property-name.media.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -717,11 +717,22 @@
 			<key>name</key>
 			<string>CSS - Pseudo Class</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name.pseudo-class, meta.property-list.scss meta.property-value.scss</string>
+			<string>entity.other.attribute-name.pseudo-class</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#C33C4A</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS Property fix</string>
+			<key>scope</key>
+			<string>meta.property-list.scss mmeta.property-value.scss, meta.property-list.scss meta.property-list.scss meta.property-value.scss, source.scss meta.property-list.scss meta.property-list.scss meta.property-value.scss support.function.misc.scss</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F99157</string>
 			</dict>
 		</dict>
 		<dict>

@@ -417,7 +417,7 @@ settings:
 # --------------------------------------------------------------------------------------
 
 - name: 'CSS/SCSS - Function and Media'
-  scope: support.function.misc.scss, support.function.color.css, support.constant.media.css,
+  scope: meta.at-rule.include.scss support.function.misc.scss, support.function.color.css, support.constant.media.css,
     support.type.property-name.media.css
   settings:
     foreground: '#FAC863'
@@ -439,9 +439,15 @@ settings:
     foreground: '#AFBAD4'
 
 - name: 'CSS - Pseudo Class'
-  scope: entity.other.attribute-name.pseudo-class, meta.property-list.scss meta.property-value.scss
+  scope:  entity.other.attribute-name.pseudo-class
   settings:
     foreground: '#C33C4A'
+
+- name: 'CSS Property fix'
+  scope: meta.property-list.scss mmeta.property-value.scss, meta.property-list.scss meta.property-list.scss meta.property-value.scss,
+    source.scss meta.property-list.scss meta.property-list.scss meta.property-value.scss support.function.misc.scss
+  settings:
+    foreground: '#F99157'
 
 - name: 'CSS -  RGB values'
   scope: constant.other.color.rgb-value
@@ -685,7 +691,6 @@ settings:
 #  settings:
 #    fontStyle: italic
 #    foreground: '#6189bb'
-
 
 - name: 'YAML Unquoted Values'
   scope: source.yaml string.unquoted.plain.out.yaml

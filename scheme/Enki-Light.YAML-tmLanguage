@@ -36,6 +36,7 @@ semanticClass: 'enki.theme.alt'
 # #E5E5E5
 
 
+
 #  Settings
 # --------------------------------------------------------------------------------------
 
@@ -269,6 +270,11 @@ settings:
   settings:
     foreground: '#F99157'
 
+- name: 'JSON Numeric Constant'
+  scope: 'constant.numeric.json'
+  settings:
+    foreground: '#83AADA'
+
 - name: 'Function Args'
   scope: variable.parameter.function
   settings:
@@ -411,7 +417,7 @@ settings:
 # --------------------------------------------------------------------------------------
 
 - name: 'CSS/SCSS - Function and Media'
-  scope: support.function.misc.scss, support.function.color.css, support.constant.media.css,
+  scope: meta.at-rule.include.scss support.function.misc.scss, support.function.color.css, support.constant.media.css,
     support.type.property-name.media.css
   settings:
     foreground: '#FAC863'
@@ -433,9 +439,15 @@ settings:
     foreground: '#C2C3C5'
 
 - name: 'CSS - Pseudo Class'
-  scope: entity.other.attribute-name.pseudo-class, meta.property-list.scss meta.property-value.scss
+  scope:  entity.other.attribute-name.pseudo-class
   settings:
     foreground: '#F08697'
+
+- name: 'CSS Property fix'
+  scope: meta.property-list.scss mmeta.property-value.scss, meta.property-list.scss meta.property-list.scss meta.property-value.scss,
+    source.scss meta.property-list.scss meta.property-list.scss meta.property-value.scss support.function.misc.scss
+  settings:
+    foreground: '#F99157'
 
 - name: 'CSS -  RGB values'
   scope: constant.other.color.rgb-value
@@ -485,7 +497,6 @@ settings:
   scope: variable.parameter.handlebars
   settings:
     foreground: '#FFBA54'
-
 
 
 # JSON Specific
@@ -692,17 +703,17 @@ settings:
     foreground: '#ffffff'
     background: '#cc0000'
 
-- name: 'HTML ampersand fix'
-  scope: string.quoted.double.html invalid.illegal.bad-ampersand.html, string.quoted.single.html invalid.illegal.bad-ampersand.html
-  settings:
-    foreground: '#A5BCFF
-    background: '#656574'
-
 - name: 'Invalid deprecated'
   scope: invalid.deprecated
   settings:
     foreground: '#ffffff'
     background: '#C792EA'
+
+- name: 'HTML ampersand fix'
+  scope: string.quoted.double.html invalid.illegal.bad-ampersand.html, string.quoted.single.html invalid.illegal.bad-ampersand.html
+  settings:
+    foreground: '#A5BCFF
+    background: '#656574'
 
 - name: 'Unimplemented'
   scope: invalid.unimplemented

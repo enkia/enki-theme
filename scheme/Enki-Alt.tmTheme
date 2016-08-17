@@ -271,7 +271,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Punctuation (paranthesis)</string>
+			<string>Punctuation (parenthesis)</string>
 			<key>scope</key>
 			<string>punctuation.definition.group, punctuation.definition.group.begin, punctuation.definition.group.end, punctuation.section.function, punctuation.definition.parameters, meta.brace.round.begin, meta.brace.round.end, meta.brace.round, punctuation.section.group, punctuation.section.arguments.begin, punctuation.section.arguments.end, meta.group.braces.round.function</string>
 			<key>settings</key>
@@ -374,11 +374,22 @@
 			<key>name</key>
 			<string>Number, Constant, Function Argument, Tag Attribute, Embedded</string>
 			<key>scope</key>
-			<string>constant.numeric, constant.language, support.constant, constant.character, variable.parameter, , variable.parameter.php punctuation.definition.variable.php</string>
+			<string>constant.numeric, constant.language, support.constant, constant.character, variable.parameter, variable.parameter.php punctuation.definition.variable.php</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#F99157</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON Numeric Constant</string>
+			<key>scope</key>
+			<string>constant.numeric.json</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#83AADA</string>
 			</dict>
 		</dict>
 		<dict>
@@ -660,7 +671,7 @@
 			<key>name</key>
 			<string>CSS/SCSS - Function and Media</string>
 			<key>scope</key>
-			<string>support.function.misc.scss, support.function.color.css, support.constant.media.css, support.type.property-name.media.css</string>
+			<string>meta.at-rule.include.scss support.function.misc.scss, support.function.color.css, support.constant.media.css, support.type.property-name.media.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -706,11 +717,22 @@
 			<key>name</key>
 			<string>CSS - Pseudo Class</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name.pseudo-class, meta.property-list.scss meta.property-value.scss</string>
+			<string>entity.other.attribute-name.pseudo-class</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#C33C4A</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS Property fix</string>
+			<key>scope</key>
+			<string>meta.property-list.scss mmeta.property-value.scss, meta.property-list.scss meta.property-list.scss meta.property-value.scss, source.scss meta.property-list.scss meta.property-list.scss meta.property-value.scss support.function.misc.scss</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F99157</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1183,19 +1205,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>HTML ampersand fix</string>
-			<key>scope</key>
-			<string>string.quoted.double.html invalid.illegal.bad-ampersand.html, string.quoted.single.html invalid.illegal.bad-ampersand.html</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#1a1b20</string>
-				<key>foreground</key>
-				<string>#6189bb</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>Invalid deprecated</string>
 			<key>scope</key>
 			<string>invalid.deprecated</string>
@@ -1205,6 +1214,19 @@
 				<string>#C792EA</string>
 				<key>foreground</key>
 				<string>#ffffff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>HTML ampersand fix</string>
+			<key>scope</key>
+			<string>string.quoted.double.html invalid.illegal.bad-ampersand.html, string.quoted.single.html invalid.illegal.bad-ampersand.html</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#1a1b20</string>
+				<key>foreground</key>
+				<string>#6189bb</string>
 			</dict>
 		</dict>
 		<dict>
