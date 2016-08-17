@@ -1,6 +1,7 @@
 ## 1.1.4
 * HTML Syntax update
 * Grid Layout Control color update
+* SCSS Syntax update
 
 ## 1.1.3
 * Update JSON Syntax
