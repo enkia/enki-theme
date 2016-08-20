@@ -30,15 +30,23 @@ Choose an accent color by adding one of these lines to your preferences file:
 "enki_theme_accent_cyan": true,
 "enki_theme_accent_yellow": true,
 
-Recommended Sublime Text preferences:
+Recommended Preferences:
 
-"overlay_scroll_bars": "enabled",
-"line_padding_bottom": 2,
-"line_padding_top": 2,
-"bold_folder_labels": false,
-"always_show_minimap_viewport": true,
-"indent_guide_options": ["draw_normal", "draw_active"],
-"font_options": ["gray_antialias", "subpixel_antialias"], // for retina Mac & Windows
+  "enki_theme_accent_red": true,
+  "enki_theme_compact_sidebar": true,
+  "enki_theme_panel_separator": true,
+  "enki_theme_small_statusbar": true,
+  "enki_theme_small_tab": true,
+  "enki_theme_tabs_autowidth": true,
+  "enki_theme_tree_headings": false,
+
+  "overlay_scroll_bars": "enabled",
+  "line_padding_bottom": 2,
+  "line_padding_top": 2,
+  "bold_folder_labels": false,
+  "always_show_minimap_viewport": true,
+  "indent_guide_options": ["draw_normal", "draw_active"],
+  "font_options": ["gray_antialias", "subpixel_antialias"],
 
 See additional options at:
 https://github.com/enkia/enki-theme

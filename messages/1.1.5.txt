@@ -1,0 +1,9 @@
+Enki Theme for Sublime Text 3
+
+For more information on the Enki Theme: https://github.com/enkia/enki-theme
+
+**********************************************************************************************
+Recent Changes - 1.1.5
+**********************************************************************************************
+
+- Fix install message

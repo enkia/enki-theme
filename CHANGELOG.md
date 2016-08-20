@@ -1,3 +1,6 @@
+## 1.1.5
+* Fix install message
+
 ## 1.1.4
 * HTML Syntax update
 * Grid Layout Control color update
