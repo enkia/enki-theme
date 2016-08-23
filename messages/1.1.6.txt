@@ -1,0 +1,16 @@
+Enki Theme for Sublime Text 3
+
+For more information on the Enki Theme: https://github.com/enkia/enki-theme
+
+**********************************************************************************************
+Recent Changes - 1.1.6
+**********************************************************************************************
+
+* Update install message to include alternate options and fix pathing:
+
+- ALTERNATE Color Scheme:
+  "color_scheme": "Packages/Enki Theme/scheme/Enki-Alt.tmTheme",
+
+- LIGHT Color Scheme and UI Theme:
+  "color_scheme": "Packages/Enki Theme/scheme/Enki-Light.tmTheme",
+  "theme": "Enki-Theme-Light.sublime-theme",
