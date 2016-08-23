@@ -1,3 +1,6 @@
+## 1.1.6
+* Update install message to include alternate options and fix pathing
+
 ## 1.1.5
 * Fix install message
 
