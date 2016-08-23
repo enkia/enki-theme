@@ -6,7 +6,7 @@ For more information on the Enki Theme: https://github.com/enkia/enki-theme
 Recent Changes - 1.1.6
 **********************************************************************************************
 
-* Update install message to include alternate options and fix pathing:
+* Update install message to include alternate options and fix path:
 
 - ALTERNATE Color Scheme:
   "color_scheme": "Packages/Enki Theme/scheme/Enki-Alt.tmTheme",
