@@ -104,6 +104,11 @@ Options to mimic the screenshot:
   "font_options": ["gray_antialias", "subpixel_antialias"], // for retina Mac & Windows
 ```
 
+## Plugins
+UI Plugins shown in screenshot:
+* [Color Highlighter](https://packagecontrol.io/packages/Color%20Highlighter)
+* [BracketHighlighter](https://packagecontrol.io/packages/BracketHighlighter)
+
 ## Notes
 * **Ruby developers:** Try removing Ruby Slim package if syntax appears muddled.
 * **SCSS/SASS developers:** This theme is best used with the [SCSS - TextMate SCSS Official Bundle](https://packagecontrol.io/packages/SCSS) because the Sass package has fewer syntax definitions to work with.
