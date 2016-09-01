@@ -1,0 +1,14 @@
+Enki Theme for Sublime Text 3
+
+For more information on the Enki Theme: https://github.com/enkia/enki-theme
+
+**********************************************************************************************
+Recent Changes - 1.1.7
+**********************************************************************************************
+
+* Update control, new, and function keywords to italic fontstyle
+* Fix "enki_theme_disable_folder_animation" option
+
+
+
+------------------- I would appreciate any feedback on the italics change! -------------------
