@@ -152,10 +152,21 @@ settings:
   settings:
     foreground: '#ca9b55'
 
-- name: 'Keyword (Conditional / Loop)'
-  scope: keyword.control.conditional, keyword.control.flow, keyword.control.loop, keyword.control.trycatch, entity.name.label
+- name: 'Keyword New'
+  scope: keyword.other.new
   settings:
-    foreground: '#ca9b55'
+    fontStyle: 'italic'
+
+- name: 'Keyword Import'
+  scope: keyword.control.import.include
+  settings:
+    fontStyle: 'italic'
+
+- name: 'Keyword (Conditional / Loop)'
+  #scope: keyword.control.conditional, keyword.control.flow, keyword.control.loop, keyword.control.trycatch, entity.name.label
+  scope: keyword.control
+  settings:
+    fontStyle: 'italic'
 
 - name: 'Storage Type'
   scope: storage.type
@@ -166,7 +177,7 @@ settings:
 - name: 'Storage Type - Function'
   scope: storage.type.function
   settings:
-    fontStyle: 'regular'
+    fontStyle: 'italic'
     foreground: '#ca9b55'
 
 
