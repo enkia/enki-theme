@@ -4280,7 +4280,7 @@
 
     {
       "class": "icon_folder",
-      "settings": ["enki_theme_disable_folder_animation", "material_theme_accent_lime"],
+      "settings": ["enki_theme_disable_folder_animation", "enki_theme_accent_lime"],
       "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
       "layer1.opacity": 0.0,
       "layer2.opacity": 0.0,
@@ -4291,7 +4291,7 @@
 
     {
       "class": "icon_folder",
-      "settings": ["enki_theme_disable_folder_animation", "material_theme_accent_purple"],
+      "settings": ["enki_theme_disable_folder_animation", "enki_theme_accent_purple"],
       "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
       "layer1.opacity": 0.0,
       "layer2.opacity": 0.0,
@@ -4302,7 +4302,7 @@
 
     {
       "class": "icon_folder",
-      "settings": ["enki_theme_disable_folder_animation", "material_theme_accent_red"],
+      "settings": ["enki_theme_disable_folder_animation", "enki_theme_accent_red"],
       "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
       "layer1.opacity": 0.0,
       "layer2.opacity": 0.0,
@@ -4313,7 +4313,7 @@
 
     {
       "class": "icon_folder",
-      "settings": ["enki_theme_disable_folder_animation", "material_theme_accent_orange"],
+      "settings": ["enki_theme_disable_folder_animation", "enki_theme_accent_orange"],
       "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
       "layer1.opacity": 0.0,
       "layer2.opacity": 0.0,
@@ -4324,7 +4324,7 @@
 
     {
       "class": "icon_folder",
-      "settings": ["enki_theme_disable_folder_animation", "material_theme_accent_yellow"],
+      "settings": ["enki_theme_disable_folder_animation", "enki_theme_accent_yellow"],
       "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
       "layer1.opacity": 0.0,
       "layer2.opacity": 0.0,
@@ -4336,7 +4336,7 @@
 
     {
       "class": "icon_folder",
-      "settings": ["enki_theme_disable_folder_animation", "material_theme_accent_indigo"],
+      "settings": ["enki_theme_disable_folder_animation", "enki_theme_accent_indigo"],
       "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
       "layer1.opacity": 0.0,
       "layer2.opacity": 0.0,
@@ -4347,7 +4347,7 @@
 
     {
       "class": "icon_folder",
-      "settings": ["enki_theme_disable_folder_animation", "material_theme_accent_pink"],
+      "settings": ["enki_theme_disable_folder_animation", "enki_theme_accent_pink"],
       "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
       "layer1.opacity": 0.0,
       "layer2.opacity": 0.0,
@@ -4358,7 +4358,7 @@
 
     {
       "class": "icon_folder",
-      "settings": ["enki_theme_disable_folder_animation", "material_theme_accent_blue"],
+      "settings": ["enki_theme_disable_folder_animation", "enki_theme_accent_blue"],
       "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
       "layer1.opacity": 0.0,
       "layer2.opacity": 0.0,
@@ -4369,7 +4369,7 @@
 
     {
       "class": "icon_folder",
-      "settings": ["enki_theme_disable_folder_animation", "material_theme_accent_cyan"],
+      "settings": ["enki_theme_disable_folder_animation", "enki_theme_accent_cyan"],
       "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
       "layer1.opacity": 0.0,
       "layer2.opacity": 0.0,
@@ -4669,6 +4669,7 @@
     "settings": ["enki_theme_small_tab"],
     "layer1.texture": "Enki Theme/assets/slate/sidebar_heading--small.png",
   },
+
 
 
 
@@ -5163,6 +5164,16 @@
     },
 
 
+      // Disable folder animation
+
+    {
+      "class": "icon_folder",
+      "settings": ["enki_theme_disable_folder_animation", "enki_theme_accent_fuschia"],
+      "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
+      "layer1.opacity": 0.0,
+      "layer2.opacity": 0.0,
+      "layer3.texture": "Enki Theme/assets/accent-fuschia/folder--hover.png",
+    },
 
 
 
@@ -5460,6 +5471,17 @@
       "class": "icon_reverse",
       "settings": ["enki_theme_accent_samon"],
       "layer0.texture": "Enki Theme/assets/accent-samon/find_reverse--hover.png",
+    },
+
+    // Disable folder animation
+
+    {
+      "class": "icon_folder",
+      "settings": ["enki_theme_disable_folder_animation", "enki_theme_accent_samon"],
+      "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
+      "layer1.opacity": 0.0,
+      "layer2.opacity": 0.0,
+      "layer3.texture": "Enki Theme/assets/accent-samon/folder--hover.png",
     },
 
 
@@ -5761,6 +5783,18 @@
       "layer0.texture": "Enki Theme/assets/accent-white/find_reverse--hover.png",
     },
 
+      // Disable folder animation
+
+    {
+      "class": "icon_folder",
+      "settings": ["enki_theme_disable_folder_animation", "enki_theme_accent_white"],
+      "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
+      "layer1.opacity": 0.0,
+      "layer2.opacity": 0.0,
+      "layer3.texture": "Enki Theme/assets/accent-white/folder--hover.png",
+    },
+
+
 
 // Blue Gray Accent Color
 // ===========================================================================
@@ -6057,6 +6091,17 @@
       "class": "icon_reverse",
       "settings": ["enki_theme_accent_bluegray"],
       "layer0.texture": "Enki Theme/assets/accent-bluegray/find_reverse--hover.png",
+    },
+
+      // Disable folder animation
+
+    {
+      "class": "icon_folder",
+      "settings": ["enki_theme_disable_folder_animation", "enki_theme_accent_bluegray"],
+      "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
+      "layer1.opacity": 0.0,
+      "layer2.opacity": 0.0,
+      "layer3.texture": "Enki Theme/assets/accent-bluegray/folder--hover.png",
     },
 
 
@@ -6356,6 +6401,17 @@
       "class": "icon_reverse",
       "settings": ["enki_theme_accent_green"],
       "layer0.texture": "Enki Theme/assets/accent-green/find_reverse--hover.png",
+    },
+
+      // Disable folder animation
+
+    {
+      "class": "icon_folder",
+      "settings": ["enki_theme_disable_folder_animation", "enki_theme_accent_green"],
+      "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
+      "layer1.opacity": 0.0,
+      "layer2.opacity": 0.0,
+      "layer3.texture": "Enki Theme/assets/accent-green/folder--hover.png",
     },
 
 
