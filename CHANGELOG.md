@@ -1,3 +1,7 @@
+## 1.1.7
+* Update control, new, and function keywords to italic fontstyle
+* Fix "enki_theme_disable_folder_animation" option
+
 ## 1.1.6
 * Update install message to include alternate options and fix path
 
