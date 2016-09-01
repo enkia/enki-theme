@@ -106,6 +106,7 @@ Options to mimic the screenshot:
 
 ## Plugins
 UI Plugins shown in screenshot:
+
 * [Color Highlighter](https://packagecontrol.io/packages/Color%20Highlighter)
 * [BracketHighlighter](https://packagecontrol.io/packages/BracketHighlighter)
 
