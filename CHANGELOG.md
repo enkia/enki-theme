@@ -1,3 +1,7 @@
+## 1.1.8
+* Fix close icon for open files
+* Optimize UI images
+
 ## 1.1.7
 * Update control, new, and function keywords to italic fontstyle
 * Fix "enki_theme_disable_folder_animation" option
