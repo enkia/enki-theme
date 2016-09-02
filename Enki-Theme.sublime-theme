@@ -841,7 +841,7 @@
         { "class": "tree_row", "attributes": ["hover"] }
       ],
       // Default Close icon
-      "layer0.texture": "Enki Theme/assets/default/close_icon.png",
+      "layer0.texture": "Enki Theme/assets/slate/close_icon.png",
       "layer0.opacity": { "target": 1.0, "speed": 7.0, "interpolation": "smoothstep" },
       "layer0.inner_margin": [0,0],
     },
@@ -4635,26 +4635,6 @@
   {
     "class": "tab_control",
     "layer0.tint": [43, 45, 58],
-    "layer3.texture": {
-            "keyframes":
-            [
-              "Enki Theme/assets/slate/tab_animation1.png",
-              "Enki Theme/assets/slate/tab_animation2.png",
-              "Enki Theme/assets/slate/tab_animation3.png",
-              "Enki Theme/assets/slate/tab_animation4.png",
-              "Enki Theme/assets/slate/tab_animation5.png",
-              "Enki Theme/assets/slate/tab_animation6.png",
-              "Enki Theme/assets/slate/tab_animation7.png",
-              "Enki Theme/assets/slate/tab_animation8.png",
-              "Enki Theme/assets/slate/tab_animation9.png",
-              "Enki Theme/assets/slate/tab_animation10.png",
-              "Enki Theme/assets/slate/tab_animation11.png",
-              "Enki Theme/assets/slate/tab_animation12.png",
-              "Enki Theme/assets/slate/tab_animation13.png"
-            ],
-            "loop": false,
-            "frame_time": 0.015,
-    }
   },
 
   {
