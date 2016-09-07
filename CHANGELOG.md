@@ -1,3 +1,11 @@
+## 1.1.9
+* Minor CSS, SCSS and LESS syntax updates
+* Fix CSS curly brackets
+* Fix PHP array() syntax
+* Fix blurry folder icons on non-Retina screens
+* Fix enki_theme_compact_panel option
+* Update punctuation bracket color
+
 ## 1.1.8
 * Fix close icon for open files
 * Optimize UI images
