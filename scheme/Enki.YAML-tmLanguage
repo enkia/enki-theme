@@ -33,6 +33,7 @@ semanticClass: 'enki.theme.light'
 # #7BA1D0
 # #83AADA
 # #AFBAD4
+# #767D8E
 # #E5E5E5
 
 
@@ -110,7 +111,7 @@ settings:
     foreground: '#A966A9'
 
 - name: 'Variable scss/less'
-  scope: variable.scss, variable.less
+  scope: variable.scss, variable.less, variable.other.less, variable.other.scss
   settings:
     foreground: '#A966A9'
 
@@ -205,7 +206,7 @@ settings:
 # --------------------------------------------------------------------------------------
 
 - name: 'Terminated (Semi Colon)'
-  scope: punctuation.terminator.statement, punctuation.terminator.rule.scss
+  scope: punctuation.terminator.statement, punctuation.terminator.rule
   settings:
     foreground: '#767D8E'
 
@@ -218,7 +219,7 @@ settings:
   scope: punctuation.definition.group, punctuation.definition.group.begin, punctuation.definition.group.end,
     punctuation.section.function, punctuation.definition.parameters, meta.brace.round.begin, meta.brace.round.end,
     meta.brace.round, punctuation.section.group, punctuation.section.arguments.begin, punctuation.section.arguments.end,
-    meta.group.braces.round.function
+    meta.group.braces.round.function, punctuation.section.array.begin.php, punctuation.section.array.end.php
   settings:
     foreground: '#AFBAD4'
 
@@ -239,9 +240,9 @@ settings:
   scope: punctuation.definition.array.begin, punctuation.definition.array.end, punctuation.definition.array,
     meta.group.braces.square, meta.brace.square.begin, meta.brace.square.end, meta.brace.square,
     punctuation.section.array.begin, punctuation.section.array.end, punctuation.section.array,
-    punctuation.definition.brackets
+    punctuation.definition.brackets, punctuation.section.brackets.begin, punctuation.section.brackets.end
   settings:
-    foreground: '#6D3B66'
+    foreground: '#AFBAD4' #50B4DC
 
 - name: 'JSON Punctuation [square]'
   scope: punctuation.definition.array.begin.json, punctuation.definition.array.end.json
@@ -350,7 +351,7 @@ settings:
     foreground: '#EB8060'
 
 - name: 'HTML Text'
-  scope: text.html
+  scope: text.html, text.plain
   settings:
     foreground: '#AFBAD4'
 
@@ -427,32 +428,72 @@ settings:
 #  SCSS/CSS/LESS Specific
 # --------------------------------------------------------------------------------------
 
+- name: 'CSS/SCSS - Function'
+  scope: support.function.misc.scss, support.function.misc.css, support.function.misc.less, support.function.less,
+    support.function.url.css, source.css meta.property-list.css, support.function.shape.css, support.function.shape.scss,
+    support.function.shape.less, support.function.color.css, support.function.transform.css
+  settings:
+    foreground: '#F99157'
+
+- name: 'SCSS set'
+  scope: meta.set.variable, meta.set.variable support.constant.property-value.scss
+  settings:
+    foreground: '#6189bb'
+
+- name: 'CSS - Logic media'
+  scope: keyword.operator.logic.media.css
+  settings:
+    fontStyle: 'italic'
+    foreground: '#F99157'
+
 - name: 'CSS/SCSS - Function and Media'
-  scope: meta.at-rule.include.scss support.function.misc.scss, support.function.color.css, support.constant.media.css,
+  scope: meta.at-rule.include.scss support.function.misc.scss, support.constant.media.css,
     support.type.property-name.media.css
   settings:
     foreground: '#FAC863'
+
+- name: 'CSS/SCSS - @'
+  scope: meta.at-rule.media
+  settings:
+    foreground: '#ca9b55'
 
 - name: 'CSS: Class Selector'
   scope: entity.other.attribute-name
   settings:
     foreground: '#FF435B'
 
-- name: 'CSS: Reference'
-  scope: entity.name.tag.reference
+- name: 'SCSS/CSS: Reference, Punctuation'
+  scope: entity.name.tag.reference, punctuation.definition.entity, punctuationctuation.definition.entity,
+    meta.attribute-selector, keyword.operator.less
   settings:
-    fontStyle: 'bold'
-    foreground: '#FF435B'
+    foreground: '#ea5560'
 
 - name: 'SCSS - {curly}'
-  scope: meta.property-list.scss
+  scope: meta.property-list.scss, meta.at-rule.mixin.scss, variable.parameter.url.scss, punctuation.section.property-list,
+    punctuation.separator.parameters.scss
   settings:
     foreground: '#AFBAD4'
 
-- name: 'CSS - Pseudo Class'
-  scope:  entity.other.attribute-name.pseudo-class
+- name: 'SCSS/CSS - Pseudo Class, CSS Function parenthesis'
+  scope:  entity.other.attribute-name.pseudo-class, entity.other.pseudo-class, entity.other.pseudo-element,
+    meta.selector.css meta.function-call.css meta.group.css punctuation.definition.group.begin.css,
+    meta.selector.css meta.function-call.css meta.group.css punctuation.definition.group.end.css
   settings:
     foreground: '#C33C4A'
+
+- name: 'SCSS/CSS - String Quotes'
+  scope: punctuation.definition.string.begin.scss, punctuation.definition.string.end.scss, punctuation.definition.string.begin.css,
+    punctuation.definition.string.end.css, punctuation.definition.string.begin.less, punctuation.definition.string.end.less,
+    meta.function-call.css meta.group.css
+  settings:
+    foreground: '#E16325'
+
+- name: 'SCSS/CSS - String'
+  scope: string.quoted.double.attribute-value.scss, string.quoted.double.attribute-value.css, string.quoted.double.attribute-value.less,
+    string.quoted.single.scss, string.quoted.single.css, string.quoted.single.less, source.css meta.property-list.css, string.quoted.double.scss,
+    string.quoted.double.css, string.quoted.double.less, string.unquoted.css, string.unquoted.scss, string.unquoted.less
+  settings:
+    foreground: '#F99157'
 
 - name: 'CSS Property fix'
   scope: meta.property-list.scss mmeta.property-value.scss, meta.property-list.scss meta.property-list.scss meta.property-value.scss,
@@ -463,7 +504,7 @@ settings:
 - name: 'CSS -  RGB values'
   scope: constant.other.color.rgb-value
   settings:
-    foreground: '#1ABC9C'
+    foreground: '#767D8E'
 
 - name: 'SCSS/CSS -  Tag Name'
   scope: entity.name.tag.css, entity.name.tag.scss, keyword.control.html.elements
@@ -471,7 +512,7 @@ settings:
     foreground: '#EB606B'
 
 - name: 'SCSS/CSS - Key Value (Separator and Terminator)'
-  scope: punctuation.separator.key-value, punctuation.terminator.rule
+  scope: punctuation.separator.key-value
   settings:
     foreground: '#50B4DC'
 
@@ -486,10 +527,20 @@ settings:
     foreground: '#50B4DC'
 
 - name: 'SCSS/CSS - property'
-  scope: support.type.property-name, meta.property-name
+  scope: support.type.property-name, meta.property-name, support.type.vendor-prefix
   settings:
     foreground: '#6189bb'
 
+- name: 'SCSS parameter'
+  scope: meta.property-list.scss meta.property-list.scss meta.property-value.scss variable.parameter.url.scss
+  settings:
+    foreground: '#8d4d85'
+
+- name: 'SCSS parameter fix'
+  scope: meta.property-list.scss meta.property-list.scss meta.at-rule.return.scss variable.parameter.url.scss,
+    source.scss meta.property-list.scss meta.property-value.scss variable.parameter.url.scss
+  settings:
+    foreground: '#A966A9'
 
 #  JS Specific
 # --------------------------------------------------------------------------------------

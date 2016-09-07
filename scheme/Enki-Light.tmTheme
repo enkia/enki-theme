@@ -94,7 +94,7 @@
 			<key>name</key>
 			<string>Variable scss/less</string>
 			<key>scope</key>
-			<string>variable.scss, variable.less</string>
+			<string>variable.scss, variable.less, variable.other.less, variable.other.scss</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -273,7 +273,7 @@
 			<key>name</key>
 			<string>Terminated (Semi Colon)</string>
 			<key>scope</key>
-			<string>punctuation.terminator.statement, punctuation.terminator.rule.scss</string>
+			<string>punctuation.terminator.statement, punctuation.terminator.rule</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -295,7 +295,7 @@
 			<key>name</key>
 			<string>Punctuation (parenthesis)</string>
 			<key>scope</key>
-			<string>punctuation.definition.group, punctuation.definition.group.begin, punctuation.definition.group.end, punctuation.section.function, punctuation.definition.parameters, meta.brace.round.begin, meta.brace.round.end, meta.brace.round, punctuation.section.group, punctuation.section.arguments.begin, punctuation.section.arguments.end, meta.group.braces.round.function</string>
+			<string>punctuation.definition.group, punctuation.definition.group.begin, punctuation.definition.group.end, punctuation.section.function, punctuation.definition.parameters, meta.brace.round.begin, meta.brace.round.end, meta.brace.round, punctuation.section.group, punctuation.section.arguments.begin, punctuation.section.arguments.end, meta.group.braces.round.function, punctuation.section.array.begin.php, punctuation.section.array.end.php</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -328,11 +328,11 @@
 			<key>name</key>
 			<string>Punctuation [square]</string>
 			<key>scope</key>
-			<string>punctuation.definition.array.begin, punctuation.definition.array.end, punctuation.definition.array, meta.group.braces.square, meta.brace.square.begin, meta.brace.square.end, meta.brace.square, punctuation.section.array.begin, punctuation.section.array.end, punctuation.section.array, punctuation.definition.brackets</string>
+			<string>punctuation.definition.array.begin, punctuation.definition.array.end, punctuation.definition.array, meta.group.braces.square, meta.brace.square.begin, meta.brace.square.end, meta.brace.square, punctuation.section.array.begin, punctuation.section.array.end, punctuation.section.array, punctuation.definition.brackets, punctuation.section.brackets.begin, punctuation.section.brackets.end</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#34BD90</string>
+				<string>#cde7f8</string>
 			</dict>
 		</dict>
 		<dict>
@@ -400,7 +400,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#F99157</string>
+				<string>#F9A16F</string>
 			</dict>
 		</dict>
 		<dict>
@@ -424,7 +424,7 @@
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#F99157</string>
+				<string>#F9A16F</string>
 			</dict>
 		</dict>
 		<dict>
@@ -503,7 +503,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#F99157</string>
+				<string>#F9A16F</string>
 			</dict>
 		</dict>
 		<dict>
@@ -543,7 +543,7 @@
 			<key>name</key>
 			<string>HTML Text</string>
 			<key>scope</key>
-			<string>text.html</string>
+			<string>text.html, text.plain</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -691,9 +691,55 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>CSS/SCSS - Function</string>
+			<key>scope</key>
+			<string>support.function.misc.scss, support.function.misc.css, support.function.misc.less, support.function.less, support.function.url.css, source.css meta.property-list.css, support.function.shape.css, support.function.shape.scss, support.function.shape.less, support.function.color.css, support.function.transform.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F9A16F</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SCSS set</string>
+			<key>scope</key>
+			<string>meta.set.variable, meta.set.variable support.constant.property-value.scss</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#A5BCFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS - Logic media</string>
+			<key>scope</key>
+			<string>keyword.operator.logic.media.css</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#F9A16F</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>CSS/SCSS - Function and Media</string>
 			<key>scope</key>
-			<string>meta.at-rule.include.scss support.function.misc.scss, support.function.color.css, support.constant.media.css, support.type.property-name.media.css</string>
+			<string>meta.at-rule.include.scss support.function.misc.scss, support.constant.media.css, support.type.property-name.media.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FAC863</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS/SCSS - @</string>
+			<key>scope</key>
+			<string>meta.at-rule.media</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -713,22 +759,20 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>CSS: Reference</string>
+			<string>SCSS/CSS: Reference, Punctuation</string>
 			<key>scope</key>
-			<string>entity.name.tag.reference</string>
+			<string>entity.name.tag.reference, punctuation.definition.entity, punctuationctuation.definition.entity, meta.attribute-selector, keyword.operator.less</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>bold</string>
 				<key>foreground</key>
-				<string>#DED4DD</string>
+				<string>#eee9ee</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>SCSS - {curly}</string>
 			<key>scope</key>
-			<string>meta.property-list.scss</string>
+			<string>meta.property-list.scss, meta.at-rule.mixin.scss, variable.parameter.url.scss, punctuation.section.property-list</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -737,13 +781,35 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>CSS - Pseudo Class</string>
+			<string>SCSS/CSS - Pseudo Class, CSS Function parenthesis</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name.pseudo-class</string>
+			<string>entity.other.attribute-name.pseudo-class, entity.other.pseudo-class, entity.other.pseudo-element, meta.selector.css meta.function-call.css meta.group.css punctuation.definition.group.begin.css, meta.selector.css meta.function-call.css meta.group.css punctuation.definition.group.end.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#F08697</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SCSS/CSS - String Quotes</string>
+			<key>scope</key>
+			<string>punctuation.definition.string.begin.scss, punctuation.definition.string.end.scss, punctuation.definition.string.begin.css, punctuation.definition.string.end.css, punctuation.definition.string.begin.less, punctuation.definition.string.end.less, meta.function-call.css meta.group.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F9A16F</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SCSS/CSS - String</string>
+			<key>scope</key>
+			<string>string.quoted.double.attribute-value.scss, string.quoted.double.attribute-value.css, string.quoted.double.attribute-value.less, string.quoted.single.scss, string.quoted.single.css, string.quoted.single.less, source.css meta.property-list.css, string.quoted.double.scss, string.quoted.double.css, string.quoted.double.less, string.unquoted.css, string.unquoted.scss, string.unquoted.less</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F9A16F</string>
 			</dict>
 		</dict>
 		<dict>
@@ -754,7 +820,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#F99157</string>
+				<string>#F9A16F</string>
 			</dict>
 		</dict>
 		<dict>
@@ -783,7 +849,7 @@
 			<key>name</key>
 			<string>SCSS/CSS - Key Value (Separator and Terminator)</string>
 			<key>scope</key>
-			<string>punctuation.separator.key-value, punctuation.terminator.rule</string>
+			<string>punctuation.separator.key-value</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -816,11 +882,33 @@
 			<key>name</key>
 			<string>SCSS/CSS - property</string>
 			<key>scope</key>
-			<string>support.type.property-name, meta.property-name</string>
+			<string>support.type.property-name, meta.property-name, support.type.vendor-prefix</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#A5BCFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SCSS parameter</string>
+			<key>scope</key>
+			<string>meta.property-list.scss meta.property-list.scss meta.property-value.scss variable.parameter.url.scss</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#65DEC2</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SCSS parameter fix</string>
+			<key>scope</key>
+			<string>meta.property-list.scss meta.property-list.scss meta.at-rule.return.scss variable.parameter.url.scss, source.scss meta.property-list.scss meta.property-value.scss variable.parameter.url.scss</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#A8DFCE</string>
 			</dict>
 		</dict>
 		<dict>
@@ -908,7 +996,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#F99157</string>
+				<string>#F9A16F</string>
 			</dict>
 		</dict>
 		<dict>
@@ -996,7 +1084,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#F99157</string>
+				<string>#F9A16F</string>
 			</dict>
 		</dict>
 		<dict>
