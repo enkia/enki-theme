@@ -4757,10 +4757,10 @@
 
 
     // Panel
-    {
+    /*{
       "class": "panel_control",
       "content_margin": [15, 14, 15, 8],
-    },
+    },*/
     {
       "class": "text_line_control",
       "layer0.texture": "Enki Theme/assets/light/input_field_border.png", // slate
