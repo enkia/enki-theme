@@ -134,6 +134,10 @@ This will be updated with all major bug fixes released by
 [Material Theme Appbar](https://github.com/equinusocio/material-theme-appbar)
 but understand that since this is not the original UI theme, these updates will not occur immediately.
 
-*Note:* There is **[a known issue](https://github.com/equinusocio/material-theme#known-issues)** that may affect some people.
+*Note:* There is **[a known issue](https://github.com/equinusocio/material-theme#known-issues)** that may affect some people that prevents one from seeing the bottom panel's input box upon installation. Fix it by resizing the bottom panel while in Find/Replace mode:
+
+<a href="http://kuuv.io/i/etF8rY0.gif" target="_blank">
+    <img src="http://kuuv.io/i/etF8rY0.gif" alt="Preview" width="890">
+</a>
 
 
