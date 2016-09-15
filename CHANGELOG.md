@@ -1,3 +1,6 @@
+## 1.2.0
+* Update vendor prefix CSS
+
 ## 1.1.9
 * Minor CSS, SCSS and LESS syntax updates
 * Fix CSS curly brackets
