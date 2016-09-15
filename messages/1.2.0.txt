@@ -1,0 +1,20 @@
+Enki Theme for Sublime Text 3
+
+For more information on the Enki Theme: https://github.com/enkia/enki-theme
+
+**********************************************************************************************
+Recent Changes - 1.2.0
+**********************************************************************************************
+
+* Update vendor prefix CSS
+
+
+
+** Note to users of the SCSS Textmate Bundle:
+You may have noticed that its no longer maintained and there are a few issues with the package.
+Feel free to download my fork where I've made a few of my own updates to solve some syntax
+issues: https://github.com/enkia/SCSS.tmbundle
+
+
+---------------------- As always, feedback on these changes appreciated ----------------------
+
