@@ -1,3 +1,7 @@
+## 1.2.1
+* CSS update - at-rule
+* Smarty update - quotes
+
 ## 1.2.0
 * Update vendor prefix CSS
 
