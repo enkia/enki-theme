@@ -165,7 +165,7 @@ settings:
 
 - name: 'Keyword Italic / Conditional'
   scope: keyword.control.conditional, keyword.control.flow, keyword.control.loop, keyword.control.trycatch, entity.name.label,
-    meta.at-rule, keyword.control.at-rule
+    keyword.control.at-rule
   settings:
     fontStyle: 'italic'
 
@@ -641,7 +641,7 @@ settings:
     foreground: '#F9A16F'
 
 - name: 'Smarty / Twig quoted'
-  scope: string.quoted.single.twig, string.quoted.double.twig, string.quoted.single.smarty
+  scope: string.quoted.single.twig, string.quoted.double.twig, string.quoted.single.smarty, string.quoted.double.smarty
   settings:
     foreground: '#DBC08A'
 

@@ -201,7 +201,7 @@
 			<key>name</key>
 			<string>Keyword Italic / Conditional</string>
 			<key>scope</key>
-			<string>keyword.control.conditional, keyword.control.flow, keyword.control.loop, keyword.control.trycatch, entity.name.label, meta.at-rule, keyword.control.at-rule</string>
+			<string>keyword.control.conditional, keyword.control.flow, keyword.control.loop, keyword.control.trycatch, entity.name.label, keyword.control.at-rule</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -1091,7 +1091,7 @@
 			<key>name</key>
 			<string>Smarty / Twig quoted</string>
 			<key>scope</key>
-			<string>string.quoted.single.twig, string.quoted.double.twig, string.quoted.single.smarty</string>
+			<string>string.quoted.single.twig, string.quoted.double.twig, string.quoted.single.smarty, string.quoted.double.smarty</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>

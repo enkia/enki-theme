@@ -161,7 +161,7 @@
 				<key>fontStyle</key>
 				<string>regular</string>
 				<key>foreground</key>
-				<string>#EC5F67</string>
+				<string>#EB606B</string>
 			</dict>
 		</dict>
 		<dict>
@@ -201,7 +201,7 @@
 			<key>name</key>
 			<string>Keyword Italic / Conditional</string>
 			<key>scope</key>
-			<string>keyword.control.conditional, keyword.control.flow, keyword.control.loop, keyword.control.trycatch, entity.name.label, meta.at-rule, keyword.control.at-rule</string>
+			<string>keyword.control.conditional, keyword.control.flow, keyword.control.loop, keyword.control.trycatch, entity.name.label, keyword.control.at-rule</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -244,7 +244,7 @@
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#EC5F67</string>
+				<string>#EB606B</string>
 			</dict>
 		</dict>
 		<dict>
@@ -470,7 +470,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#EC5F67</string>
+				<string>#EB606B</string>
 			</dict>
 		</dict>
 		<dict>
@@ -573,7 +573,7 @@
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#EC5F67</string>
+				<string>#EB606B</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1091,7 +1091,7 @@
 			<key>name</key>
 			<string>Smarty / Twig quoted</string>
 			<key>scope</key>
-			<string>string.quoted.single.twig, string.quoted.double.twig, string.quoted.single.smarty</string>
+			<string>string.quoted.single.twig, string.quoted.double.twig, string.quoted.single.smarty, string.quoted.double.smarty</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
