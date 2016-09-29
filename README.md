@@ -55,13 +55,29 @@ A color scheme and UI theme for those who prefer something lighter:
 
 
 ## Options
-Because this is essentially Material Theme, it comes packed the [same options](https://github.com/equinusocio/material-theme#theme-options) as the original with the exception of contrast mode.
-There are, however, *five more color options* that coordinate well with this color scheme and *one additional option:*
+Because this is essentially Material Theme, it comes packed with many of the same options as the original and one additional option:
 
 ```json
-  "enki_theme_color_expanded_folder": true, // Set expanded folder in sidebar to accent color
-                                            // If no accent color is specified, it simply gets brighter
+"enki_theme_color_expanded_folder": true, // Set expanded folder in sidebar to accent color
+                                          // If no accent color is specified, it simply gets brighter
 
+"enki_theme_bold_tab": true, // Bold tab labels
+"enki_theme_compact_panel": true, // Compact panel
+"enki_theme_compact_sidebar": true, // Compact side bar
+"enki_theme_disable_fileicons": true, // Disable file icons
+"enki_theme_disable_folder_animation": true, // Disable folder animation
+"enki_theme_disable_tree_indicator": true, // Disable active file indicator
+"enki_theme_panel_separator": true, // Panel Separator
+"enki_theme_small_statusbar": true, // Smaller Status Bar
+"enki_theme_small_tab": true, // Smaller tabs
+"enki_theme_tabs_autowidth": true, // Automatically adjust width of tabs
+"enki_theme_tabs_separator": true, // Add separator in between tabs
+"enki_theme_tree_headings": true, // Show sidebar tree headings
+```
+
+Color options:
+
+```json
   "enki_theme_accent_samon": true,
   "enki_theme_accent_bluegray": true,
   "enki_theme_accent_fuschia": true,
