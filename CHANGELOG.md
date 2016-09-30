@@ -1,3 +1,11 @@
+## 1.2.3
+* Add Apache & Nginx conf syntax colors
+* Update file icons
+
+## 1.2.2
+* Fix spinner icon
+* Add ini file icon
+
 ## 1.2.1
 * CSS update - at-rule
 * Smarty update - quotes
