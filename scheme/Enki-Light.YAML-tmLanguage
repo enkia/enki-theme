@@ -719,6 +719,62 @@ settings:
     foreground: '#666666'
 
 
+
+# Apache & Nginx
+# --------------------------------------------------------------------------------------
+
+- name: 'Apache'
+  scope: source.apacheconf, string.path.apacheconf
+  settings:
+    foreground: '#C2C3C5'
+
+- name: 'Apache string value'
+  scope: string.value.apacheconf
+  settings:
+    foreground: '#F9A16F'
+
+- name: 'Apache keyword access'
+  scope: keyword.access.apacheconf
+  settings:
+    foreground: '#1ABC9C'
+
+- name: 'Apache replacement'
+  scope: source.apacheconf string.replacement.apacheconf
+  settings:
+    foreground: '#A5BCFF'
+
+- name: 'Apache entity tag'
+  scope: entity.tag.apacheconf
+  settings:
+    foreground: '#FFA5B2'
+
+- name: 'Nginx Storage Type'
+  scope: storage.type.context.nginx
+  settings:
+    foreground: '#DED4DD'
+
+- name: 'Nginx Punctuation Variable'
+  scope: punctuation.definition.variable, entity.name.context.location.nginx
+  settings:
+    foreground: '#A5BCFF'
+
+- name: 'Nginx Location'
+  scope: storage.type.context.location.nginx
+  settings:
+    foreground: '#DED4DD'
+
+- name: 'Nginx Address'
+  scope: string.ipaddress.nginx
+  settings:
+    foreground: '#F9A16F'
+
+- name: 'Nginx Variable'
+  scope: variable.other.nginx
+  settings:
+    foreground: '#A8DFCE'
+
+
+
 #  Misc
 # --------------------------------------------------------------------------------------
 

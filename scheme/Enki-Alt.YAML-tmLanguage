@@ -720,6 +720,116 @@ settings:
     foreground: '#666666'
 
 
+# Apache & Nginx
+# --------------------------------------------------------------------------------------
+
+- name: 'Apache'
+  scope: source.apacheconf, string.path.apacheconf
+  settings:
+    foreground: '#6189bb' #6189bb
+
+- name: 'Apache string value'
+  scope: string.value.apacheconf
+  settings:
+    foreground: '#F99157'
+
+- name: 'Apache keyword access'
+  scope: keyword.access.apacheconf
+  settings:
+    foreground: '#1ABC9C'
+
+- name: 'Apache replacement'
+  scope: source.apacheconf string.replacement.apacheconf
+  settings:
+    foreground: '#83AADA'
+
+- name: 'Apache entity tag'
+  scope: entity.tag.apacheconf
+  settings:
+    foreground: '#EB606B'
+
+- name: 'Nginx Storage Type'
+  scope: storage.type.context.nginx
+  settings:
+    foreground: '#FF435B'
+
+- name: 'Nginx Punctuation Variable'
+  scope: punctuation.definition.variable, entity.name.context.location.nginx
+  settings:
+    foreground: '#83AADA'
+
+- name: 'Nginx Location'
+  scope: storage.type.context.location.nginx
+  settings:
+    foreground: '#EB606B'
+
+- name: 'Nginx Address'
+  scope: string.ipaddress.nginx
+  settings:
+    foreground: '#F99157'
+
+- name: 'Nginx Variable'
+  scope: variable.other.nginx
+  settings:
+    foreground: '#1ABC9C'
+
+
+
+# Apache & Nginx
+# --------------------------------------------------------------------------------------
+
+- name: 'Apache'
+  scope: source.apacheconf, string.path.apacheconf
+  settings:
+    foreground: '#6189bb'
+
+- name: 'Apache string value'
+  scope: string.value.apacheconf
+  settings:
+    foreground: '#F99157'
+
+- name: 'Apache keyword access'
+  scope: keyword.access.apacheconf
+  settings:
+    foreground: '#1ABC9C'
+
+- name: 'Apache replacement'
+  scope: source.apacheconf string.replacement.apacheconf
+  settings:
+    foreground: '#83AADA'
+
+- name: 'Apache entity tag'
+  scope: entity.tag.apacheconf
+  settings:
+    foreground: '#EB606B'
+
+- name: 'Nginx Storage Type'
+  scope: storage.type.context.nginx
+  settings:
+    foreground: '#FF435B'
+
+- name: 'Nginx Punctuation Variable'
+  scope: punctuation.definition.variable, entity.name.context.location.nginx
+  settings:
+    foreground: '#83AADA'
+
+- name: 'Nginx Location'
+  scope: storage.type.context.location.nginx
+  settings:
+    foreground: '#EB606B'
+
+- name: 'Nginx Address'
+  scope: string.ipaddress.nginx
+  settings:
+    foreground: '#F99157'
+
+- name: 'Nginx Variable'
+  scope: variable.other.nginx
+  settings:
+    foreground: '#1ABC9C'
+
+
+
 #  Misc
 # --------------------------------------------------------------------------------------
 

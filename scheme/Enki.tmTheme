@@ -1232,6 +1232,116 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Apache</string>
+			<key>scope</key>
+			<string>source.apacheconf, string.path.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#6189bb</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Apache string value</string>
+			<key>scope</key>
+			<string>string.value.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F99157</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Apache keyword access</string>
+			<key>scope</key>
+			<string>keyword.access.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#1ABC9C</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Apache replacement</string>
+			<key>scope</key>
+			<string>source.apacheconf string.replacement.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#83AADA</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Apache entity tag</string>
+			<key>scope</key>
+			<string>entity.tag.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#EB606B</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Nginx Storage Type</string>
+			<key>scope</key>
+			<string>storage.type.context.nginx</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FF435B</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Nginx Punctuation Variable</string>
+			<key>scope</key>
+			<string>punctuation.definition.variable, entity.name.context.location.nginx</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#83AADA</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Nginx Location</string>
+			<key>scope</key>
+			<string>storage.type.context.location.nginx</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#EB606B</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Nginx Address</string>
+			<key>scope</key>
+			<string>string.ipaddress.nginx</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F99157</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Nginx Variable</string>
+			<key>scope</key>
+			<string>variable.other.nginx</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#A966A9</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Regular Expressions</string>
 			<key>scope</key>
 			<string>string.regexp</string>
