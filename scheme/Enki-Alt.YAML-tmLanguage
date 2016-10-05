@@ -1,6 +1,6 @@
 # [PackageDev] target_format: plist, ext: tmTheme
 ---
-name: Enki
+name: Enki-Alt
 author: Kristi Russell (http://github.com/enkia)
 uuid: 5e50052b-f0fa-4b41-aa22-c476b1747b10
 colorSpaceName: 'sRGB'
@@ -9,8 +9,9 @@ semanticClass: 'enki.theme.alt'
 
 # Color reference
 # --------------------------------------------------------------------------------------
-
+# #1A1B20
 # #3F414D
+# #2B2D3A
 # #425C7C
 # ---------
 # #455682
@@ -113,11 +114,6 @@ settings:
 
 - name: 'Variable scss/less'
   scope: variable.scss, variable.less, variable.other.less, variable.other.scss
-  settings:
-    foreground: '#1ABC9C'
-
-- name: 'Variable (Shell)'
-  scope: variable.other.bracket.shell
   settings:
     fontStyle: 'regular'
     foreground: '#65DEC2'
@@ -421,9 +417,9 @@ settings:
 - name: 'Markup: Separator'
   scope: meta.separator
   settings:
-    background: '#eee8d5'
-    fontStyle: bold
-    foreground: '#268bd2'
+    background: '#22222b'
+    fontStyle: 'bold'
+    foreground: '#2c2d35'
 
 
 #  SCSS/CSS/LESS Specific
@@ -754,7 +750,7 @@ settings:
     foreground: '#FF435B'
 
 - name: 'Nginx Punctuation Variable'
-  scope: punctuation.definition.variable, entity.name.context.location.nginx
+  scope: source.nginx punctuation.definition.variable, entity.name.context.location.nginx
   settings:
     foreground: '#83AADA'
 
@@ -829,6 +825,25 @@ settings:
     foreground: '#1ABC9C'
 
 
+# Shell
+# --------------------------------------------------------------------------------------
+- name: 'Variable (Shell)'
+  scope: variable.other.bracket.shell, variable.other.normal.shell, punctuation.definition.variable.shell
+  settings:
+    fontStyle: 'regular'
+    foreground: '#1ABC9C'
+
+- name: 'Built-in Functions (Shell)'
+  scope: support.function.builtin, support.function.external.shell
+  settings:
+    foreground: '#ca9b55'
+
+- name: 'Array , Keyword Other (Shell)'
+  scope: meta.structure.array.shell, punctuation.definition.array.begin.shell, punctuation.definition.array.end.shell,
+    meta.scope.subshell.shell, punctuation.definition.subshell.shell
+  settings:
+    foreground: '#6189bb'
+
 
 #  Misc
 # --------------------------------------------------------------------------------------
@@ -894,6 +909,3 @@ settings:
   settings:
     foreground: '#ffffff'
     background: '#1ABC9C'
-
-
-

@@ -7,9 +7,9 @@
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
 	<key>name</key>
-	<string>Enki</string>
+	<string>Enki-Light</string>
 	<key>semanticClass</key>
-	<string>enki.theme.alt</string>
+	<string>enki.theme.light</string>
 	<key>settings</key>
 	<array>
 		<dict>
@@ -95,17 +95,6 @@
 			<string>Variable scss/less</string>
 			<key>scope</key>
 			<string>variable.scss, variable.less, variable.other.less, variable.other.scss</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#A8DFCE</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Variable (Shell)</string>
-			<key>scope</key>
-			<string>variable.other.bracket.shell</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -682,11 +671,11 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#eee8d5</string>
+				<string>#717182</string>
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#268bd2</string>
+				<string>#7e7e8f</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1300,7 +1289,7 @@
 			<key>name</key>
 			<string>Nginx Punctuation Variable</string>
 			<key>scope</key>
-			<string>punctuation.definition.variable, entity.name.context.location.nginx</string>
+			<string>source.nginx punctuation.definition.variable, entity.name.context.location.nginx</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -1338,6 +1327,41 @@
 			<dict>
 				<key>foreground</key>
 				<string>#A8DFCE</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Variable (Shell)</string>
+			<key>scope</key>
+			<string>variable.other.bracket.shell, variable.other.normal.shell, punctuation.definition.variable.shell</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>regular</string>
+				<key>foreground</key>
+				<string>#A8DFCE</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Built-in Functions (Shell)</string>
+			<key>scope</key>
+			<string>support.function.builtin, support.function.external.shell</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ca9b55</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Array , Keyword Other (Shell)</string>
+			<key>scope</key>
+			<string>meta.structure.array.shell, punctuation.definition.array.begin.shell, punctuation.definition.array.end.shell, meta.scope.subshell.shell, punctuation.definition.subshell.shell</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#A5BCFF</string>
 			</dict>
 		</dict>
 		<dict>

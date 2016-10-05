@@ -4,13 +4,14 @@ name: Enki
 author: Kristi Russell (http://github.com/enkia)
 uuid: 67600156-44ad-4f03-a588-829e8c708575
 colorSpaceName: 'sRGB'
-semanticClass: 'enki.theme.light'
+semanticClass: 'enki.theme.dark'
 
 
 # Color reference
 # --------------------------------------------------------------------------------------
-
+# #1A1B20
 # #3F414D
+# #2B2D3A
 # #425C7C
 # ----------
 # #6D3B66
@@ -113,13 +114,8 @@ settings:
 - name: 'Variable scss/less'
   scope: variable.scss, variable.less, variable.other.less, variable.other.scss
   settings:
-    foreground: '#A966A9'
-
-- name: 'Variable (Shell)'
-  scope: variable.other.bracket.shell
-  settings:
     fontStyle: 'regular'
-    foreground: '#D57CD5'
+    foreground: '#A966A9'
 
 - name: 'Other Variable, String Link'
   scope: support.other.variable, string.other.link
@@ -420,9 +416,9 @@ settings:
 - name: 'Markup: Separator'
   scope: meta.separator
   settings:
-    background: '#eee8d5'
-    fontStyle: bold
-    foreground: '#268bd2'
+    background: '#22222b' #2B2D3A #202127
+    fontStyle: 'bold'
+    foreground: '#2c2d35'
 
 
 #  SCSS/CSS/LESS Specific
@@ -641,7 +637,7 @@ settings:
     foreground: '#F99157'
 
 - name: 'Smarty / Twig quoted'
-  scope: string.quoted.single.twig, string.quoted.double.twig, string.quoted.single.smarty
+  scope: string.quoted.single.twig, string.quoted.double.twig, string.quoted.single.smarty, string.quoted.double.smarty
   settings:
     foreground: '#DBC08A'
 
@@ -754,7 +750,7 @@ settings:
     foreground: '#FF435B'
 
 - name: 'Nginx Punctuation Variable'
-  scope: punctuation.definition.variable, entity.name.context.location.nginx
+  scope: source.nginx punctuation.definition.variable, entity.name.context.location.nginx
   settings:
     foreground: '#83AADA'
 
@@ -773,6 +769,25 @@ settings:
   settings:
     foreground: '#A966A9'
 
+
+# Shell
+# --------------------------------------------------------------------------------------
+- name: 'Variable (Shell)'
+  scope: variable.other.bracket.shell, variable.other.normal.shell, punctuation.definition.variable.shell
+  settings:
+    fontStyle: 'regular'
+    foreground: '#A966A9'
+
+- name: 'Built-in Functions (Shell)'
+  scope: support.function.builtin, support.function.external.shell
+  settings:
+    foreground: '#ca9b55'
+
+- name: 'Array , Keyword Other (Shell)'
+  scope: meta.structure.array.shell, punctuation.definition.array.begin.shell, punctuation.definition.array.end.shell,
+    meta.scope.subshell.shell, punctuation.definition.subshell.shell
+  settings:
+    foreground: '#6189bb'
 
 
 #  Misc

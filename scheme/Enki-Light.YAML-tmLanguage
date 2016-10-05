@@ -1,17 +1,17 @@
 # [PackageDev] target_format: plist, ext: tmTheme
 ---
-name: Enki
+name: Enki-Light
 author: Kristi Russell (http://github.com/enkia)
 uuid: 172d6629-7fc1-480c-895b-5875fd9f982c
 colorSpaceName: 'sRGB'
-semanticClass: 'enki.theme.alt'
+semanticClass: 'enki.theme.light'
 
 
 # Color reference
 # --------------------------------------------------------------------------------------
-
-# #414457
-# #3F414D
+# #656574
+# #40404F
+# #808093
 # #73AAFF
 # ----------
 # #34BD90
@@ -112,11 +112,6 @@ settings:
 
 - name: 'Variable scss/less'
   scope: variable.scss, variable.less, variable.other.less, variable.other.scss
-  settings:
-    foreground: '#A8DFCE'
-
-- name: 'Variable (Shell)'
-  scope: variable.other.bracket.shell
   settings:
     fontStyle: 'regular'
     foreground: '#65DEC2'
@@ -420,10 +415,9 @@ settings:
 - name: 'Markup: Separator'
   scope: meta.separator
   settings:
-    background: '#eee8d5'
-    fontStyle: bold
-    foreground: '#268bd2'
-
+    background: '#717182'
+    fontStyle: 'bold'
+    foreground: '#7e7e8f'
 
 #  SCSS/CSS/LESS Specific
 # --------------------------------------------------------------------------------------
@@ -754,7 +748,7 @@ settings:
     foreground: '#DED4DD'
 
 - name: 'Nginx Punctuation Variable'
-  scope: punctuation.definition.variable, entity.name.context.location.nginx
+  scope: source.nginx punctuation.definition.variable, entity.name.context.location.nginx
   settings:
     foreground: '#A5BCFF'
 
@@ -773,6 +767,25 @@ settings:
   settings:
     foreground: '#A8DFCE'
 
+
+# Shell
+# --------------------------------------------------------------------------------------
+- name: 'Variable (Shell)'
+  scope: variable.other.bracket.shell, variable.other.normal.shell, punctuation.definition.variable.shell
+  settings:
+    fontStyle: 'regular'
+    foreground: '#A8DFCE'
+
+- name: 'Built-in Functions (Shell)'
+  scope: support.function.builtin, support.function.external.shell
+  settings:
+    foreground: '#ca9b55'
+
+- name: 'Array , Keyword Other (Shell)'
+  scope: meta.structure.array.shell, punctuation.definition.array.begin.shell, punctuation.definition.array.end.shell,
+    meta.scope.subshell.shell, punctuation.definition.subshell.shell
+  settings:
+    foreground: '#A5BCFF'
 
 
 #  Misc
