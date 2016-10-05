@@ -1,3 +1,9 @@
+## 1.2.3
+* Shell update
+* Fix Markdown separator
+* Fix PHP variable
+
+
 ## 1.2.2
 * Fix spinner icon
 * Add Apache & Nginx conf syntax colors
