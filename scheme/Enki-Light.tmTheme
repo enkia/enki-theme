@@ -194,7 +194,7 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>italic</string>
+				<string>normal</string>
 			</dict>
 		</dict>
 		<dict>
@@ -333,17 +333,6 @@
 			<dict>
 				<key>foreground</key>
 				<string>#C2C3C5</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>JSON Punctuation "quotes"</string>
-			<key>scope</key>
-			<string>punctuation.definition.string.begin.json, punctuation.definition.string.end.json</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#73AAFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -547,9 +536,9 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#A57706</string>
+				<string>#6b6b7b</string>
 				<key>foreground</key>
-				<string>#E0EDDD</string>
+				<string>#6b6b7b</string>
 			</dict>
 		</dict>
 		<dict>

@@ -44,7 +44,7 @@ semanticClass: 'enki.theme.light'
 settings:
 - settings:
     activeGuide: '#34BD90'
-    background: '#656574' #656574
+    background: '#656574'
     caret: '#DBC08A'
     findHighlight: '#ffa300'
     findHighlightForeground: '#000000'
@@ -162,7 +162,7 @@ settings:
   scope: keyword.control.conditional, keyword.control.flow, keyword.control.loop, keyword.control.trycatch, entity.name.label,
     keyword.control.at-rule
   settings:
-    fontStyle: 'italic'
+    fontStyle: 'normal'
 
 - name: 'Storage Type'
   scope: storage.type
@@ -243,11 +243,6 @@ settings:
   scope: punctuation.definition.array.begin.json, punctuation.definition.array.end.json
   settings:
     foreground: '#C2C3C5'
-
-- name: 'JSON Punctuation "quotes"'
-  scope: punctuation.definition.string.begin.json, punctuation.definition.string.end.json
-  settings:
-    foreground: '#73AAFF'
 
 
 #  Functions, Funciton Arguments, Numbers, Constants, Strings
@@ -357,8 +352,8 @@ settings:
 - name: 'Markdown: Linebreak'
   scope: text.html.markdown meta.dummy.line-break
   settings:
-    background: '#A57706'
-    foreground: '#E0EDDD'
+    background: '#6b6b7b'
+    foreground: '#6b6b7b'
 
 - name: 'Markup: Heading'
   scope: markup.heading

@@ -40,7 +40,7 @@
 				<key>phantomCss</key>
 				<string><![CDATA[ html { position: relative; } ]]></string>
 				<key>popupCss</key>
-				<string><![CDATA[ html { color: #A966A9; background-color: #2b2d3a; padding: 10px; } a { color: #6189bb; line-height: 1.2; text-decoration: none; } .error, .deleted { color: #EB606B; } .success, .inserted { color: #9DBA72; } .warning, .modified { color: #ffa300; } ]]></string>
+				<string><![CDATA[ html { color: #B376B3; background-color: #2b2d3a; padding: 10px; } a { color: #6189bb; line-height: 1.2; text-decoration: none; } .error, .deleted { color: #EB606B; } .success, .inserted { color: #9DBA72; } .warning, .modified { color: #ffa300; } ]]></string>
 				<key>selection</key>
 				<string>#8d4d8540</string>
 				<key>selectionBorder</key>
@@ -87,7 +87,7 @@
 				<key>fontStyle</key>
 				<string>regular</string>
 				<key>foreground</key>
-				<string>#A966A9</string>
+				<string>#B376B3</string>
 			</dict>
 		</dict>
 		<dict>
@@ -100,7 +100,7 @@
 				<key>fontStyle</key>
 				<string>regular</string>
 				<key>foreground</key>
-				<string>#A966A9</string>
+				<string>#B376B3</string>
 			</dict>
 		</dict>
 		<dict>
@@ -137,7 +137,7 @@
 				<key>fontStyle</key>
 				<string>regular</string>
 				<key>foreground</key>
-				<string>#A966A9</string>
+				<string>#B376B3</string>
 			</dict>
 		</dict>
 		<dict>
@@ -194,7 +194,7 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>italic</string>
+				<string>normal</string>
 			</dict>
 		</dict>
 		<dict>
@@ -333,17 +333,6 @@
 			<dict>
 				<key>foreground</key>
 				<string>#AFBAD4</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>JSON Punctuation "quotes"</string>
-			<key>scope</key>
-			<string>punctuation.definition.string.begin.json, punctuation.definition.string.end.json</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#425C7C</string>
 			</dict>
 		</dict>
 		<dict>
@@ -503,7 +492,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#A966A9</string>
+				<string>#B376B3</string>
 			</dict>
 		</dict>
 		<dict>
@@ -547,9 +536,9 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#A57706</string>
+				<string>#202127</string>
 				<key>foreground</key>
-				<string>#E0EDDD</string>
+				<string>#202127</string>
 			</dict>
 		</dict>
 		<dict>
@@ -599,7 +588,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#A966A9</string>
+				<string>#B376B3</string>
 			</dict>
 		</dict>
 		<dict>
@@ -897,7 +886,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#A966A9</string>
+				<string>#B376B3</string>
 			</dict>
 		</dict>
 		<dict>
@@ -941,7 +930,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#A966A9</string>
+				<string>#B376B3</string>
 			</dict>
 		</dict>
 		<dict>
@@ -974,7 +963,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#A966A9</string>
+				<string>#B376B3</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1018,7 +1007,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#A966A9</string>
+				<string>#B376B3</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1326,7 +1315,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#A966A9</string>
+				<string>#B376B3</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1339,7 +1328,7 @@
 				<key>fontStyle</key>
 				<string>regular</string>
 				<key>foreground</key>
-				<string>#A966A9</string>
+				<string>#B376B3</string>
 			</dict>
 		</dict>
 		<dict>

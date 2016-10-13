@@ -16,7 +16,7 @@ semanticClass: 'enki.theme.dark'
 # ----------
 # #6D3B66
 # #8d4d85
-# #A966A9
+# #B376B3
 # #D57CD5
 # ----------
 # #D93232
@@ -62,7 +62,7 @@ settings:
     tagsOptions: 'underline'
     popupCss: '<![CDATA[
       html {
-        color: #A966A9;
+        color: #B376B3;
         background-color: #2b2d3a;
         padding: 10px;
       }
@@ -109,13 +109,13 @@ settings:
     keyword.other.name.sublime-settings, constant.other.php, meta.object-literal.key, variable.other.dollar
   settings:
     fontStyle: 'regular'
-    foreground: '#A966A9'
+    foreground: '#B376B3'
 
 - name: 'Variable scss/less'
   scope: variable.scss, variable.less, variable.other.less, variable.other.scss
   settings:
     fontStyle: 'regular'
-    foreground: '#A966A9'
+    foreground: '#B376B3'
 
 - name: 'Other Variable, String Link'
   scope: support.other.variable, string.other.link
@@ -132,7 +132,7 @@ settings:
   scope: string.unquoted.label.js
   settings:
     fontStyle: 'regular'
-    foreground: '#A966A9'
+    foreground: '#B376B3'
 
 - name: 'ES7 Bind Operator'
   scope: constant.other.object.key.js
@@ -163,7 +163,7 @@ settings:
   scope: keyword.control.conditional, keyword.control.flow, keyword.control.loop, keyword.control.trycatch, entity.name.label,
     keyword.control.at-rule
   settings:
-    fontStyle: 'italic'
+    fontStyle: 'normal'
 
 - name: 'Storage Type'
   scope: storage.type
@@ -245,10 +245,6 @@ settings:
   settings:
     foreground: '#AFBAD4'
 
-- name: 'JSON Punctuation "quotes"'
-  scope: punctuation.definition.string.begin.json, punctuation.definition.string.end.json
-  settings:
-    foreground: '#425C7C'
 
 
 #  Functions, Funciton Arguments, Numbers, Constants, Strings
@@ -334,7 +330,7 @@ settings:
 - name: 'Class'
   scope: entity.other.attribute-name.class.html
   settings:
-    foreground: '#A966A9'
+    foreground: '#B376B3'
 
 - name: 'HTML Brackets'
   scope: meta.tag.sgml.html, punctuation.definition.tag, punctuation.definition.tag.begin, punctuation.definition.tag.end
@@ -358,8 +354,8 @@ settings:
 - name: 'Markdown: Linebreak'
   scope: text.html.markdown meta.dummy.line-break
   settings:
-    background: '#A57706'
-    foreground: '#E0EDDD'
+    background: '#202127'
+    foreground: '#202127'
 
 - name: 'Markup: Heading'
   scope: markup.heading
@@ -383,7 +379,7 @@ settings:
   scope: string.other.link.title, punctuation.definition.string.begin.markdown,
     punctuation.definition.string.end.markdown, punctuation.definition.metadata.markdown
   settings:
-    foreground: '#A966A9'
+    foreground: '#B376B3'
 
 - name: 'Markup: Underline'
   scope: markup.underline.link
@@ -537,7 +533,7 @@ settings:
   scope: meta.property-list.scss meta.property-list.scss meta.at-rule.return.scss variable.parameter.url.scss,
     source.scss meta.property-list.scss meta.property-value.scss variable.parameter.url.scss
   settings:
-    foreground: '#A966A9'
+    foreground: '#B376B3'
 
 #  JS Specific
 # --------------------------------------------------------------------------------------
@@ -563,7 +559,7 @@ settings:
 - name: JSON Key - Level 8
   scope: source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
   settings:
-    foreground: '#A966A9'
+    foreground: '#B376B3'
 
 - name: JSON Key - Level 7
   scope: source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
@@ -578,7 +574,7 @@ settings:
 - name: JSON Key - Level 5
   scope: source.json meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
   settings:
-    foreground: '#A966A9'
+    foreground: '#B376B3'
 
 - name: JSON Key - Level 4
   scope: source.json meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
@@ -598,7 +594,7 @@ settings:
 - name: JSON Key - Level 1
   scope: source.json meta meta.structure.dictionary.json string.quoted.double.json - meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta.structure.dictionary.json punctuation.definition.string - meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
   settings:
-    foreground: '#A966A9'
+    foreground: '#B376B3'
 
 - name: JSON Key - Level 0
   scope: source.json meta.structure.dictionary.json string.quoted.double.json - meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta.structure.dictionary.json punctuation.definition.string - meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
@@ -767,7 +763,7 @@ settings:
 - name: 'Nginx Variable'
   scope: variable.other.nginx
   settings:
-    foreground: '#A966A9'
+    foreground: '#B376B3'
 
 
 # Shell
@@ -776,7 +772,7 @@ settings:
   scope: variable.other.bracket.shell, variable.other.normal.shell, punctuation.definition.variable.shell
   settings:
     fontStyle: 'regular'
-    foreground: '#A966A9'
+    foreground: '#B376B3'
 
 - name: 'Built-in Functions (Shell)'
   scope: support.function.builtin, support.function.external.shell

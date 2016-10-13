@@ -164,7 +164,7 @@ settings:
   scope: keyword.control.conditional, keyword.control.flow, keyword.control.loop, keyword.control.trycatch, entity.name.label,
     keyword.control.at-rule
   settings:
-    fontStyle: 'italic'
+    fontStyle: 'normal'
 
 - name: 'Storage Type'
   scope: storage.type
@@ -245,11 +245,6 @@ settings:
   scope: punctuation.definition.array.begin.json, punctuation.definition.array.end.json
   settings:
     foreground: '#AFBAD4'
-
-- name: 'JSON Punctuation "quotes"'
-  scope: punctuation.definition.string.begin.json, punctuation.definition.string.end.json
-  settings:
-    foreground: '#425C7C'
 
 
 #  Functions, Funciton Arguments, Numbers, Constants, Strings
@@ -359,8 +354,8 @@ settings:
 - name: 'Markdown: Linebreak'
   scope: text.html.markdown meta.dummy.line-break
   settings:
-    background: '#A57706'
-    foreground: '#E0EDDD'
+    background: '#202127'
+    foreground: '#202127'
 
 - name: 'Markup: Heading'
   scope: markup.heading
