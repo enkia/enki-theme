@@ -17,6 +17,12 @@ Alternate color scheme:
     <img src="http://kuuv.io/i/arkOGsr.png" alt="Preview" width="890">
 </a>
 
+Aster color scheme:
+
+<a href="http://kuuv.io/i/pdPQizy.png" target="_blank">
+    <img src="http://kuuv.io/i/pdPQizy.png" alt="Preview" width="890">
+</a>
+
 Light color scheme and UI theme:
 
 <a href="http://kuuv.io/i/03N444z.png" target="_blank">
@@ -43,6 +49,12 @@ A color scheme for those who prefer something less purple:
 
 ```json
 "color_scheme": "Packages/Enki Theme/scheme/Enki-Alt.tmTheme",
+```
+
+#### Aster Color Scheme
+A color scheme for those who prefer fewer colors:
+```json
+"color_scheme": "Packages/Enki Theme/scheme/Enki-Aster.tmTheme",
 ```
 
 #### Light Color Scheme and UI Theme:
