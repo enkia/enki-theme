@@ -5012,7 +5012,6 @@
       "class": "quick_panel_label",
       "settings": ["enki_theme_accent_fuschia"],
       "match_fg": [177, 103, 177],
-      "selected_fg": [255, 255, 255, 255],
       "selected_match_fg": [177, 103, 177]
     },
 
@@ -5023,7 +5022,6 @@
       "settings": ["enki_theme_accent_fuschia"],
       "parents": [{"class": "overlay_control"}],
       "match_fg": [177, 103, 177],
-      "selected_fg": [255, 255, 255, 255],
       "selected_match_fg": [177, 103, 177]
     },
 
@@ -5033,7 +5031,6 @@
       "class": "quick_panel_path_label",
       "settings": ["enki_theme_accent_fuschia"],
       "match_fg": [177, 103, 177],
-      "selected_fg": [255, 255, 255, 255],
       "selected_match_fg": [177, 103, 177]
     },
 
@@ -5042,8 +5039,7 @@
     {
       "class": "quick_panel_score_label",
       "settings": ["enki_theme_accent_fuschia"],
-      "fg": [177, 103, 177],
-      "selected_fg": [255, 255, 255, 255]
+      "fg": [177, 103, 177]
     },
 
     {
@@ -5322,7 +5318,6 @@
       "class": "quick_panel_label",
       "settings": ["enki_theme_accent_samon"],
       "match_fg": [235, 96, 107],
-      "selected_fg": [255, 255, 255, 255],
       "selected_match_fg": [235, 96, 107]
     },
 
@@ -5333,7 +5328,6 @@
       "settings": ["enki_theme_accent_samon"],
       "parents": [{"class": "overlay_control"}],
       "match_fg": [235, 96, 107],
-      "selected_fg": [255, 255, 255, 255],
       "selected_match_fg": [235, 96, 107]
     },
 
@@ -5343,7 +5337,6 @@
       "class": "quick_panel_path_label",
       "settings": ["enki_theme_accent_samon"],
       "match_fg": [235, 96, 107],
-      "selected_fg": [255, 255, 255, 255],
       "selected_match_fg": [235, 96, 107]
     },
 
@@ -5352,8 +5345,7 @@
     {
       "class": "quick_panel_score_label",
       "settings": ["enki_theme_accent_samon"],
-      "fg": [235, 96, 107],
-      "selected_fg": [255, 255, 255, 255]
+      "fg": [235, 96, 107]
     },
 
     {
@@ -5482,14 +5474,14 @@
     {
       "class": "progress_gauge_control",
       "settings": ["enki_theme_accent_white"],
-      "layer0.tint": [210, 77, 87],
+      "layer0.tint": [197, 229, 255],
     },
 
     {
       "class": "auto_complete_label",
       "settings": ["enki_theme_accent_white"],
-      "match_fg": [210, 77, 87],
-      "selected_match_fg": [210, 77, 87]
+      "match_fg": [197, 229, 255],
+      "selected_match_fg": [197, 229, 255]
     },
 
       // Sidebar tree highlight
@@ -5631,8 +5623,7 @@
     {
       "class": "quick_panel_label",
       "settings": ["enki_theme_accent_white"],
-      "match_fg": [255, 255, 255],
-      "selected_fg": [255, 255, 255, 255],
+      "match_fg": [197, 229, 255],
       "selected_match_fg": [197, 229, 255]
     },
 
@@ -5642,8 +5633,7 @@
       "class": "quick_panel_label",
       "settings": ["enki_theme_accent_white"],
       "parents": [{"class": "overlay_control"}],
-      "match_fg": [255, 255, 255],
-      "selected_fg": [255, 255, 255, 255],
+      "match_fg": [197, 229, 255],
       "selected_match_fg": [197, 229, 255]
     },
 
@@ -5652,8 +5642,7 @@
     {
       "class": "quick_panel_path_label",
       "settings": ["enki_theme_accent_white"],
-      "match_fg": [255, 255, 255],
-      "selected_fg": [255, 255, 255, 255],
+      "match_fg": [197, 229, 255],
       "selected_match_fg": [197, 229, 255]
     },
 
@@ -5662,8 +5651,7 @@
     {
       "class": "quick_panel_score_label",
       "settings": ["enki_theme_accent_white"],
-      "fg": [255, 255, 255],
-      "selected_fg": [255, 255, 255, 255]
+      "fg": [197, 229, 255]
     },
 
     {
@@ -5791,14 +5779,14 @@
     {
       "class": "progress_gauge_control",
       "settings": ["enki_theme_accent_bluegray"],
-      "layer0.tint": [210, 77, 87],
+      "layer0.tint": [108, 134, 166],
     },
 
     {
       "class": "auto_complete_label",
       "settings": ["enki_theme_accent_bluegray"],
-      "match_fg": [210, 77, 87],
-      "selected_match_fg": [210, 77, 87]
+      "match_fg": [108, 134, 166],
+      "selected_match_fg": [108, 134, 166]
     },
 
 
@@ -5942,7 +5930,6 @@
       "class": "quick_panel_label",
       "settings": ["enki_theme_accent_bluegray"],
       "match_fg": [108, 134, 166],
-      "selected_fg": [255, 255, 255, 255],
       "selected_match_fg": [108, 134, 166]
     },
 
@@ -5953,7 +5940,6 @@
       "settings": ["enki_theme_accent_bluegray"],
       "parents": [{"class": "overlay_control"}],
       "match_fg": [108, 134, 166],
-      "selected_fg": [255, 255, 255, 255],
       "selected_match_fg": [108, 134, 166]
     },
 
@@ -5963,7 +5949,6 @@
       "class": "quick_panel_path_label",
       "settings": ["enki_theme_accent_bluegray"],
       "match_fg": [108, 134, 166],
-      "selected_fg": [255, 255, 255, 255],
       "selected_match_fg": [108, 134, 166]
     },
 
@@ -5972,8 +5957,7 @@
     {
       "class": "quick_panel_score_label",
       "settings": ["enki_theme_accent_bluegray"],
-      "fg": [108, 134, 166],
-      "selected_fg": [255, 255, 255, 255]
+      "fg": [108, 134, 166]
     },
 
     {
@@ -6101,14 +6085,14 @@
     {
       "class": "progress_gauge_control",
       "settings": ["enki_theme_accent_green"],
-      "layer0.tint": [210, 77, 87],
+      "layer0.tint": [26, 186, 154],
     },
 
     {
       "class": "auto_complete_label",
       "settings": ["enki_theme_accent_green"],
-      "match_fg": [210, 77, 87],
-      "selected_match_fg": [210, 77, 87]
+      "match_fg": [26, 186, 154],
+      "selected_match_fg": [26, 186, 154]
     },
 
 
@@ -6251,9 +6235,8 @@
     {
       "class": "quick_panel_label",
       "settings": ["enki_theme_accent_green"],
-      "match_fg": [108, 134, 166],
-      "selected_fg": [255, 255, 255, 255],
-      "selected_match_fg": [108, 134, 166]
+      "match_fg": [26, 186, 154],
+      "selected_match_fg": [26, 186, 154]
     },
 
       // Panel labels
@@ -6262,9 +6245,8 @@
       "class": "quick_panel_label",
       "settings": ["enki_theme_accent_green"],
       "parents": [{"class": "overlay_control"}],
-      "match_fg": [108, 134, 166],
-      "selected_fg": [255, 255, 255, 255],
-      "selected_match_fg": [108, 134, 166]
+      "match_fg": [26, 186, 154],
+      "selected_match_fg": [26, 186, 154]
     },
 
       // Panels sublabels
@@ -6272,9 +6254,8 @@
     {
       "class": "quick_panel_path_label",
       "settings": ["enki_theme_accent_green"],
-      "match_fg": [108, 134, 166],
-      "selected_fg": [255, 255, 255, 255],
-      "selected_match_fg": [108, 134, 166]
+      "match_fg": [26, 186, 154],
+      "selected_match_fg": [26, 186, 154]
     },
 
       // Panels data / score
@@ -6282,8 +6263,7 @@
     {
       "class": "quick_panel_score_label",
       "settings": ["enki_theme_accent_green"],
-      "fg": [108, 134, 166],
-      "selected_fg": [255, 255, 255, 255]
+      "fg": [26, 186, 154]
     },
 
     {
@@ -6405,7 +6385,6 @@
       "class": "quick_panel_label",
       "settings": ["enki_theme_accent_red"],
       "match_fg": [ 240, 46, 71],
-      "selected_fg": [255, 255, 255, 255],
       "selected_match_fg": [ 240, 46, 71]
     },
 
@@ -6416,7 +6395,6 @@
       "settings": ["enki_theme_accent_red"],
       "parents": [{"class": "overlay_control"}],
       "match_fg": [ 240, 46, 71],
-      "selected_fg": [255, 255, 255, 255],
       "selected_match_fg": [ 240, 46, 71]
     },
 
@@ -6426,7 +6404,6 @@
       "class": "quick_panel_path_label",
       "settings": ["enki_theme_accent_red"],
       "match_fg": [ 240, 46, 71],
-      "selected_fg": [255, 255, 255, 255],
       "selected_match_fg": [ 240, 46, 71]
     },
 
@@ -6435,8 +6412,7 @@
     {
       "class": "quick_panel_score_label",
       "settings": ["enki_theme_accent_red"],
-      "fg": [ 240, 46, 71],
-      "selected_fg": [255, 255, 255, 255]
+      "fg": [ 240, 46, 71]
     },
 
 
