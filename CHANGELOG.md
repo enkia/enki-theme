@@ -1,3 +1,12 @@
+## 1.3.0
+* Add Aster color scheme
+* Slightly brighten variable color for Enki color scheme
+* Remove json quotes color
+* Update markdown linebreak color
+* Remove italics from conditionals
+* Fix Panel accent colors
+
+
 ## 1.2.3
 * Shell update
 * Fix Markdown separator
