@@ -1,0 +1,19 @@
+Enki Theme for Sublime Text 3
+
+For more information on the Enki Theme: https://github.com/enkia/enki-theme
+
+----------------------------------------------------------------------------------------------
+Recent Changes - 1.3.0
+
+----------------------------------------------------------------------------------------------
+
+- Add Aster color scheme
+- Slightly brighten variable color for Enki color scheme
+- Remove json quotes color
+- Update markdown linebreak color
+- Remove italics from conditionals
+- Fix Panel accent colors
+
+----------------------------------------------------------------------------------------------
+
+
