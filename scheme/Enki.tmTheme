@@ -70,7 +70,7 @@
 			<key>name</key>
 			<string>Variable - other</string>
 			<key>scope</key>
-			<string>variable.other.object, variable, entity.name.class, entity.name.type.class, support.type, support.class, variable.other.global.php punctuation.definition.variable.php</string>
+			<string>variable.other.object, variable, entity.name.class, entity.name.type.class, support.type, support.class, variable.other.global punctuation.definition.variable</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -1278,7 +1278,7 @@
 			<key>name</key>
 			<string>Nginx Punctuation Variable</string>
 			<key>scope</key>
-			<string>source.nginx punctuation.definition.variable, entity.name.context.location.nginx</string>
+			<string>punctuation.definition.variable.nginx, entity.name.context.location.nginx</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>

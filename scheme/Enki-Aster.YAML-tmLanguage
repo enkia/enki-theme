@@ -95,7 +95,7 @@ settings:
 
 - name: 'Variable - other'
   scope: variable.other.object, variable, entity.name.class, entity.name.type.class, support.type,
-    support.class, variable.other.global.php punctuation.definition.variable.php, variable.other.class.js
+    support.class, variable.other.global punctuation.definition.variable, variable.other.class.js
   settings:
     foreground: '#9D599D'
 
@@ -423,12 +423,12 @@ settings:
     foreground: '#65DBBD'
 
 - name: 'CSS/SCSS - Function and Media'
-  scope: meta.at-rule.include.scss support.function.misc.scss, support.constant.media.css,
+  scope: meta.at-rule.media.scss support.function.misc.scss, meta.at-rule.include.scss support.function.misc.scss, support.constant.media.css,
     support.type.property-name.media.css
   settings:
     foreground: '#50B4DC'
 
-- name: 'CSS/SCSS - @'
+- name: 'CSS - @'
   scope: meta.at-rule.media
   settings:
     foreground: '#50B4DC'
@@ -748,7 +748,7 @@ settings:
     foreground: '#0ACE9E'
 
 - name: 'Nginx Punctuation Variable'
-  scope: source.nginx punctuation.definition.variable, entity.name.context.location.nginx
+  scope: punctuation.definition.variable.nginx, entity.name.context.location.nginx
   settings:
     foreground: '#6189BB'
 

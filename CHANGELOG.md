@@ -1,3 +1,8 @@
+## 1.3.1
+* Fix @media
+* Fix PHP $_SESSION
+
+
 ## 1.3.0
 * Add Aster color scheme
 * Slightly brighten variable color for Enki color scheme
@@ -5,7 +10,6 @@
 * Update markdown linebreak color
 * Remove italics from conditionals
 * Fix Panel accent colors
-
 
 ## 1.2.3
 * Shell update

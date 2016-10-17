@@ -99,7 +99,7 @@ settings:
 
 - name: 'Variable - other'
   scope: variable.other.object, variable, entity.name.class, entity.name.type.class, support.type,
-    support.class, variable.other.global.php punctuation.definition.variable.php
+    support.class, variable.other.global punctuation.definition.variable
   settings:
     foreground: '#EB606B' #70dbc4 #9d599d
 
@@ -800,7 +800,7 @@ settings:
     foreground: '#FF435B'
 
 - name: 'Nginx Punctuation Variable'
-  scope: punctuation.definition.variable, entity.name.context.location.nginx
+  scope: punctuation.definition.variable.nginx, entity.name.context.location.nginx
   settings:
     foreground: '#83AADA'
 
