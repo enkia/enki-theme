@@ -45,6 +45,7 @@ Light color scheme and UI theme:
 ```
 
 #### Alternate Dark Color Scheme
+
 A color scheme for those who prefer something less purple:
 
 ```json
@@ -52,12 +53,15 @@ A color scheme for those who prefer something less purple:
 ```
 
 #### Aster Color Scheme
+
 A color scheme for those who prefer fewer colors:
+
 ```json
 "color_scheme": "Packages/Enki Theme/scheme/Enki-Aster.tmTheme",
 ```
 
 #### Light Color Scheme and UI Theme:
+
 A color scheme and UI theme for those who prefer something lighter:
 
 ```json
