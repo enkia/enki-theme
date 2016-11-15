@@ -1,3 +1,7 @@
+## 1.3.2
+* Add Aster-red color scheme
+* Update Background Color for Enki color schemes
+
 ## 1.3.1
 * Fix @media
 * Fix PHP $_SESSION
