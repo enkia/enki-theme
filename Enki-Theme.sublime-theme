@@ -4668,7 +4668,7 @@
     // Empty Window
     {
       "class": "sheet_container_control",
-      "layer0.tint": [24, 26, 32],
+      "layer0.tint": [25, 25, 31], //24, 26, 32
       "layer0.opacity": 1.0
     },
     // Side Bar
