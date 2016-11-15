@@ -45,7 +45,7 @@ semanticClass: 'enki.theme.dark'
 settings:
 - settings:
     activeGuide: '#6D3B66'
-    background: '#1a1b20'
+    background: '#19191F' #1a1b20
     caret: '#DBC08A'
     findHighlight: '#ffa300'
     findHighlightForeground: '#000000'

@@ -46,7 +46,7 @@ semanticClass: 'enki.theme.alt'
 settings:
 - settings:
     activeGuide: '#455682'
-    background: '#1a1b20'
+    background: '#19191F' #1a1b20
     caret: '#DBC08A'
     findHighlight: '#ffa300'
     findHighlightForeground: '#000000'
