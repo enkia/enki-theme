@@ -58,6 +58,9 @@ A color scheme for those who prefer fewer colors:
 
 ```json
 "color_scheme": "Packages/Enki Theme/scheme/Enki-Aster.tmTheme",
+
+// red instead of green:
+"color_scheme": "Packages/Enki Theme/scheme/Enki-Aster-red.tmTheme",
 ```
 
 #### Light Color Scheme and UI Theme:
