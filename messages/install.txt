@@ -12,8 +12,9 @@ To install, open preferences and change the color scheme and theme lines:
 - ALTERNATE Color Scheme:
   "color_scheme": "Packages/Enki Theme/scheme/Enki-Alt.tmTheme",
 
-- ASTER Color Scheme
-"color_scheme": "Packages/Enki Theme/scheme/Enki-Aster.tmTheme",
+- ASTER Color Schemes
+  "color_scheme": "Packages/Enki Theme/scheme/Enki-Aster.tmTheme",
+  "color_scheme": "Packages/Enki Theme/scheme/Enki-Aster-Red.tmTheme",
 
 - LIGHT Color Scheme and UI Theme:
   "color_scheme": "Packages/Enki Theme/scheme/Enki-Light.tmTheme",
