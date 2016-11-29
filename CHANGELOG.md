@@ -1,3 +1,6 @@
+## 1.3.3
+* Fix Aster-red colorscheme
+
 ## 1.3.2
 * Add Aster-red color scheme
 * Update Background Color for Enki color schemes
