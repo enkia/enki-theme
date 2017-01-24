@@ -1,10 +1,10 @@
 # [PackageDev] target_format: plist, ext: tmTheme
 ---
-name: Enki
+name: Enki-old
 author: Kristi Russell (http://github.com/enkia)
-uuid: 67600156-44ad-4f03-a588-829e8c708575
+uuid: c6266e05-6e56-481c-9ae5-fc73fa15e095
 colorSpaceName: 'sRGB'
-semanticClass: 'enki.theme.dark'
+semanticClass: 'enki-old.theme.dark'
 
 
 # Color reference
@@ -25,7 +25,6 @@ semanticClass: 'enki.theme.dark'
 # #EB606B
 # #D24D57
 # #F99157
-# #faa16f
 # #FAC863
 # #ca9b55
 # #DBC08A
@@ -95,7 +94,7 @@ settings:
   scope: comment, punctuation.definition.comment, keyword.other.phpdoc.php
   settings:
     fontStyle: italic
-    foreground: '#4f4f5e' #3F414D
+    foreground: '#3F414D'
 
 - name: 'Variable - other'
   scope: variable.other.object, variable, entity.name.class, entity.name.type.class, support.type,
@@ -176,7 +175,7 @@ settings:
   scope: storage.type.function
   settings:
     fontStyle: 'italic'
-    foreground: '#F99157' #ca9b55
+    foreground: '#ca9b55'
 
 
 - name: 'Language methods (this)'
@@ -196,7 +195,7 @@ settings:
 - name: 'Logical Operator'
   scope: keyword.operator.logical, keyword.control.flow.return
   settings:
-    foreground: '#ca9b55' #FAC863
+    foreground: '#FAC863'
 
 
 #  Punctuation, Parenthesis, Braces
@@ -223,7 +222,7 @@ settings:
 - name: 'Punctuation (paranthesis) - functions'
   scope: punctuation.definition.parameters.begin, punctuation.definition.parameters.end
   settings:
-    foreground: '#AFBAD4' #ca9b55
+    foreground: '#ca9b55'
 
 - name: 'Punctuation {curly}'
   scope: punctuation.definition.dictionary.begin, punctuation.definition.dictionary.end,
@@ -248,15 +247,15 @@ settings:
 
 
 
-#  Functions, Function Arguments, Numbers, Constants, Strings
+#  Functions, Funciton Arguments, Numbers, Constants, Strings
 # --------------------------------------------------------------------------------------
 
 - name: 'Function, Special Method, Block Level'
   scope: meta.function-call, variable.function, support.function, keyword.other.special-method,
-    meta.block-level, meta.group.braces.round.function.arguments
+    meta.block-level
   settings:
-    fontStyle: 'normal'
-    foreground: '#c28ec2' #83AADA #c28ec2
+    fontStyle: 'regular'
+    foreground: '#83AADA'
 
 - name: 'Function Constructor'
   scope: meta.class-method, variable.function.constructor,
@@ -273,11 +272,6 @@ settings:
   scope: constant.numeric, constant.language, support.constant, constant.character,
     variable.parameter, variable.parameter.php punctuation.definition.variable.php
   settings:
-    foreground: '#AFBAD4' #F99157
-
-- name: 'Constant Charcter'
-  scope: constant.character
-  settings:
     foreground: '#F99157'
 
 - name: 'JSON Numeric Constant'
@@ -289,7 +283,7 @@ settings:
   scope: variable.parameter.function
   settings:
     fontStyle: 'italic'
-    foreground: '#faa16f' #F99157
+    foreground: '#F99157'
 
 - name: 'String, Symbols, Inherited Class'
   scope: string, constant.other.symbol, constant.other.key, entity.other.inherited-class,
@@ -326,7 +320,7 @@ settings:
 - name: 'Attributes'
   scope: entity.other.attribute-name.html
   settings:
-    foreground: '#B376B3'
+    foreground: '#8d4d85'
 
 - name: 'ID'
   scope: entity.other.attribute-name.id.html
@@ -336,7 +330,6 @@ settings:
 - name: 'Class'
   scope: entity.other.attribute-name.class.html
   settings:
-    fontStyle: bold
     foreground: '#B376B3'
 
 - name: 'HTML Brackets'
@@ -443,12 +436,6 @@ settings:
   scope: keyword.operator.logic.media.css
   settings:
     fontStyle: 'italic'
-    foreground: '#F99157'
-
-- name: 'CSS/SCSS - properties'
-  scope: constant.numeric.css, constant.numeric.scss, constant.numeric.less, support.constant.property-value.css,
-    support.constant.property-value.scss, support.constant.property-value.less
-  settings:
     foreground: '#F99157'
 
 - name: 'CSS/SCSS - Function and Media'

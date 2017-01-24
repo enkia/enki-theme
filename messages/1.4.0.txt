@@ -1,0 +1,19 @@
+Enki Theme for Sublime Text 3
+
+For more information on the Enki Theme: https://github.com/enkia/enki-theme
+
+----------------------------------------------------------------------------------------------
+Recent Changes - 1.4.0
+
+----------------------------------------------------------------------------------------------
+
+* Change function color for Enki color scheme
+* Change comment color for Enkit color scheme
+* Change constant color for Enki color scheme
+* Introduce iTerm color schemes (https://github.com/enkia/enki-theme/tree/master/iterm)
+
+Note: Enki-old.tmTheme is provided for those who prefer the original Enki color scheme.
+
+----------------------------------------------------------------------------------------------
+
+

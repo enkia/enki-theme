@@ -62,7 +62,7 @@ Recommended Preferences: (Mimic screenshot #1)
   "font_options": ["gray_antialias", "subpixel_antialias"], // for retina Mac & Windows
 
 **********************************************************************************************
-See additional options at: https://github.com/enkia/enki-theme
+See additional options and get iTerm colors at: https://github.com/enkia/enki-theme
 
 ** Note to users of the SCSS Textmate Bundle:
 You may have noticed that its no longer maintained and there are a few issues with the package.

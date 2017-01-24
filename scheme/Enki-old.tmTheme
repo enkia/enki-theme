@@ -7,9 +7,9 @@
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
 	<key>name</key>
-	<string>Enki</string>
+	<string>Enki-old</string>
 	<key>semanticClass</key>
-	<string>enki.theme.dark</string>
+	<string>enki-old.theme.dark</string>
 	<key>settings</key>
 	<array>
 		<dict>
@@ -63,7 +63,7 @@
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#4f4f5e</string>
+				<string>#3F414D</string>
 			</dict>
 		</dict>
 		<dict>
@@ -220,7 +220,7 @@
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#F99157</string>
+				<string>#ca9b55</string>
 			</dict>
 		</dict>
 		<dict>
@@ -255,7 +255,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ca9b55</string>
+				<string>#FAC863</string>
 			</dict>
 		</dict>
 		<dict>
@@ -299,7 +299,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#AFBAD4</string>
+				<string>#ca9b55</string>
 			</dict>
 		</dict>
 		<dict>
@@ -339,13 +339,13 @@
 			<key>name</key>
 			<string>Function, Special Method, Block Level</string>
 			<key>scope</key>
-			<string>meta.function-call, variable.function, support.function, keyword.other.special-method, meta.block-level, meta.group.braces.round.function.arguments</string>
+			<string>meta.function-call, variable.function, support.function, keyword.other.special-method, meta.block-level</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>normal</string>
+				<string>regular</string>
 				<key>foreground</key>
-				<string>#c28ec2</string>
+				<string>#83AADA</string>
 			</dict>
 		</dict>
 		<dict>
@@ -378,17 +378,6 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#AFBAD4</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Constant Charcter</string>
-			<key>scope</key>
-			<string>constant.character</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
 				<string>#F99157</string>
 			</dict>
 		</dict>
@@ -413,7 +402,7 @@
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#faa16f</string>
+				<string>#F99157</string>
 			</dict>
 		</dict>
 		<dict>
@@ -481,7 +470,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#B376B3</string>
+				<string>#8d4d85</string>
 			</dict>
 		</dict>
 		<dict>
@@ -502,8 +491,6 @@
 			<string>entity.other.attribute-name.class.html</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>bold</string>
 				<key>foreground</key>
 				<string>#B376B3</string>
 			</dict>
@@ -711,17 +698,6 @@
 			<dict>
 				<key>fontStyle</key>
 				<string>italic</string>
-				<key>foreground</key>
-				<string>#F99157</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>CSS/SCSS - properties</string>
-			<key>scope</key>
-			<string>constant.numeric.css, constant.numeric.scss, constant.numeric.less, support.constant.property-value.css, support.constant.property-value.scss, support.constant.property-value.less</string>
-			<key>settings</key>
-			<dict>
 				<key>foreground</key>
 				<string>#F99157</string>
 			</dict>
@@ -1501,6 +1477,6 @@
 		</dict>
 	</array>
 	<key>uuid</key>
-	<string>67600156-44ad-4f03-a588-829e8c708575</string>
+	<string>c6266e05-6e56-481c-9ae5-fc73fa15e095</string>
 </dict>
 </plist>

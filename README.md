@@ -7,8 +7,8 @@ The UI theme itself is a **modified version** of
 [Material Theme Appbar.](https://github.com/equinusocio/material-theme-appbar)
 Specifically, the overall UI colors have been changed in Material App Bar and Material Theme to better align with this color scheme.
 
-<a href="http://kuuv.io/i/ochcNZd.png" target="_blank">
-    <img src="http://kuuv.io/i/ochcNZd.png" alt="Preview" width="890">
+<a href="http://kuuv.io/i/r2upwyz.png" target="_blank">
+    <img src="http://kuuv.io/i/r2upwyz.png" alt="Preview" width="890">
 </a>
 
 Alternate color scheme:
@@ -22,6 +22,12 @@ Aster color scheme:
 <a href="http://kuuv.io/i/pdPQizy.png" target="_blank">
     <img src="http://kuuv.io/i/pdPQizy.png" alt="Preview" width="890">
 </a>
+
+<a href="http://kuuv.io/i/3w2eucU.png" target="_blank">
+    <img src="http://kuuv.io/i/3w2eucU.png" alt="Preview" width="890">
+</a>
+
+
 
 Light color scheme and UI theme:
 
@@ -144,6 +150,9 @@ UI Plugins shown in screenshot:
 
 * [Color Highlighter](https://packagecontrol.io/packages/Color%20Highlighter)
 * [BracketHighlighter](https://packagecontrol.io/packages/BracketHighlighter)
+
+## Iterm Color Schemes
+Get schemes [here.](https://github.com/enkia/enki-theme/tree/master/iterm)
 
 ## Notes
 * **Ruby developers:** Try removing Ruby Slim package if syntax appears muddled.

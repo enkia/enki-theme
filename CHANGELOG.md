@@ -1,3 +1,9 @@
+## 1.4.0
+* Change function color for Enki color scheme
+* Change comment color for Enkit color scheme
+* Change constant color for Enki color scheme
+* Introduce [iTerm color schemes](https://github.com/enkia/enki-theme/tree/master/iterm)
+
 ## 1.3.3
 * Fix Aster-red colorscheme
 
