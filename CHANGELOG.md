@@ -1,3 +1,6 @@
+## 1.4.1
+* Add title bar support
+
 ## 1.4.0
 * Change function color for Enki color scheme
 * Change comment color for Enkit color scheme
