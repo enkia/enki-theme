@@ -29,12 +29,12 @@
   /* @TITLE BAR
    * App title bar
   ========================================================================= */
-  
+
     {
       "class": "title_bar",
-      "fg": [103, 110, 149],
+      "fg": [101, 104, 119],
       "bg": [32, 34, 44]
-    },    
+    },
 
   /* @DIALOG POPUP
    * Dialog popup style and progressbar
