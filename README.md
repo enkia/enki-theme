@@ -161,7 +161,7 @@ Get schemes [here.](https://github.com/enkia/enki-theme/tree/master/iterm)
 * **Color Scheme palettes:**
   [Color Palette 1,](http://colorpeek.com/#3f414d,425c7c,6d3b66,8d4d85,a966a9,d57cd5,d93232,c33c4a,ff435b,eb606b,d24d57,f99157,fac863,ca9b55,dbc08a,1abc9c,50b4dc,6189bb,7ba1d0,83aada,afbad4,e5e5e5)
   [Color Palette 2](http://colorpeek.com/#3f414d,425c7c,455682,62758b,1abc9c,65dec2,d93232,c33c4a,ff435b,eb606b,d24d57,f99157,fac863,ca9b55,dbc08a,1abc9c,50b4dc,6189bb,7ba1d0,83aada,afbad4,e5e5e5)
-* **Font:** [Input](http://input.fontbureau.com/)
+* **Font:** [Operator Mono](https://www.typography.com/fonts/operator/overview/)
 
 
 ## Issues / Requests / Contributions
