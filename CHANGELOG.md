@@ -1,3 +1,6 @@
+## 1.4.2
+* Fix Folder icon issue
+
 ## 1.4.1
 * Add title bar support
 
