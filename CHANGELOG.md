@@ -1,3 +1,6 @@
+## 1.4.3
+* Fix title color in dark theme
+
 ## 1.4.2
 * Fix Folder icon issue
 

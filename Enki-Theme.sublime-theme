@@ -32,7 +32,8 @@
 
     {
       "class": "title_bar",
-      "fg": [101, 104, 119],
+      "fg": [126, 129, 147],
+      //"fg": [101, 104, 119],
       "bg": [32, 34, 44]
     },
 
@@ -372,7 +373,7 @@
       "fg": [97, 97, 97, 255],
       "shadow_color": [255, 255, 255, 0],
       "shadow_offset": [0, 0],
-      "font.size": 11,
+      "font.size": 12, // 11 // FONT
       "font.italic": false,
       "font.bold": false
     },
@@ -4697,7 +4698,7 @@
     {
       "class": "sidebar_label",
       "color": [75, 79, 103],
-      "font.size": 11.8
+      "font.size": 13 // 11.8 // FONT
     },
     {
       "class": "sidebar_label",
