@@ -1,3 +1,6 @@
+## 1.4.4
+* Fix colors for SASS Package
+
 ## 1.4.3
 * Fix title color in dark theme
 
