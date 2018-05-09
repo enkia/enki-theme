@@ -26,6 +26,7 @@ semanticClass: 'enki.theme.alt'
 # #EB606B
 # #D24D57
 # #F99157
+# #faa16f
 # #FAC863
 # #ca9b55
 # #DBC08A
@@ -95,7 +96,7 @@ settings:
   scope: comment, punctuation.definition.comment, keyword.other.phpdoc.php
   settings:
     fontStyle: italic
-    foreground: '#3F414D'
+    foreground: '#4f4f5e' #3F414D
 
 - name: 'Variable - other'
   scope: variable.other.object, variable, entity.name.class, entity.name.type.class, support.type,
@@ -247,15 +248,15 @@ settings:
     foreground: '#AFBAD4'
 
 
-#  Functions, Funciton Arguments, Numbers, Constants, Strings
+#  Functions, Function Arguments, Numbers, Constants, Strings
 # --------------------------------------------------------------------------------------
 
 - name: 'Function, Special Method, Block Level'
   scope: meta.function-call, variable.function, support.function, keyword.other.special-method,
-    meta.block-level
+    meta.block-level, meta.group.braces.round.function.arguments
   settings:
-    fontStyle: 'regular'
-    foreground: '#83AADA'
+    fontStyle: 'normal'
+    foreground: '#65DEC2' #83AADA
 
 - name: 'Function Constructor'
   scope: meta.class-method, variable.function.constructor,
@@ -283,7 +284,7 @@ settings:
   scope: variable.parameter.function
   settings:
     fontStyle: 'italic'
-    foreground: '#F99157'
+    foreground: '#faa16f'
 
 - name: 'String, Symbols, Inherited Class'
   scope: string, constant.other.symbol, constant.other.key, entity.other.inherited-class,
@@ -440,7 +441,7 @@ settings:
 
 - name: 'CSS/SCSS - Function and Media'
   scope: meta.at-rule.include.scss support.function.misc.scss, support.constant.media.css,
-    support.type.property-name.media.css
+    support.type.property-name.media.css, support.function.sass
   settings:
     foreground: '#FAC863'
 

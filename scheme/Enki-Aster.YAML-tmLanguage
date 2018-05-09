@@ -10,7 +10,7 @@ semanticClass: 'enki.theme.aster'
 # Color reference
 # --------------------------------------------------------------------------------------
 # #19191F
-# #434350
+# #4f4f5e
 # #2B2D3A
 # ----------
 # #6D3B66
@@ -47,15 +47,15 @@ settings:
     findHighlight: '#ffa300'
     findHighlightForeground: '#000000'
     foreground: '#AFBAD4ff'
-    guide: '#43435040'
-    gutterForeground: '#43435090'
+    guide: '#4f4f5e40'
+    gutterForeground: '#4f4f5e90'
     inactiveSelection: '#282833'
-    invisibles: '#434350'
+    invisibles: '#4f4f5e'
     lineHighlight: '#00000030'
     selection: '#9D599D40'
     selectionBorder: '#9D599D'
     shadow: '#00000010'
-    stackGuide: '#43435060'
+    stackGuide: '#4f4f5e60'
     tagsOptions: 'underline'
     popupCss: '<![CDATA[
       html {
@@ -91,7 +91,7 @@ settings:
   scope: comment, punctuation.definition.comment, keyword.other.phpdoc.php
   settings:
     fontStyle: italic
-    foreground: '#434350'
+    foreground: '#4f4f5e'
 
 - name: 'Variable - other'
   scope: variable.other.object, variable, entity.name.class, entity.name.type.class, support.type,
@@ -236,12 +236,12 @@ settings:
     foreground: '#AFBAD4'
 
 
-#  Functions, Funciton Arguments, Numbers, Constants, Strings
+#  Functions, Function Arguments, Numbers, Constants, Strings
 # --------------------------------------------------------------------------------------
 
 - name: 'Function, Special Method, Block Level'
   scope: meta.function-call, variable.function, support.function, keyword.other.special-method,
-    meta.block-level
+    meta.block-level, meta.group.braces.round.function.arguments
   settings:
     fontStyle: 'regular'
     foreground: '#CCA1D6'
@@ -337,7 +337,7 @@ settings:
   scope: text.html.markdown meta.dummy.line-break
   settings:
     background: '#1f1f26'
-    foreground: '#434350'
+    foreground: '#4f4f5e'
 
 - name: 'Markup: Heading'
   scope: markup.heading
@@ -424,7 +424,7 @@ settings:
 
 - name: 'CSS/SCSS - Function and Media'
   scope: meta.at-rule.media.scss support.function.misc.scss, meta.at-rule.include.scss support.function.misc.scss, support.constant.media.css,
-    support.type.property-name.media.css
+    support.type.property-name.media.css, support.function.sass
   settings:
     foreground: '#50B4DC'
 
@@ -440,7 +440,7 @@ settings:
 
 - name: 'SCSS/CSS: Reference, Punctuation'
   scope: entity.name.tag.reference, punctuation.definition.entity, punctuationctuation.definition.entity,
-    meta.attribute-selector, keyword.operator.less, keyword.operator.attribute-selector
+    meta.attribute-selector, keyword.operator.less, keyword.operator.attribute-selector, keyword.other.parent-selector
   settings:
     foreground: '#65DBBD'
 
@@ -705,7 +705,7 @@ settings:
 - name: 'GG - Ignored'
   scope: markup.ignored, markup.ignored.git_gutter
   settings:
-    foreground: '#434350'
+    foreground: '#4f4f5e'
 
 - name: 'GG - Untracked'
   scope: markup.untracked, markup.untracked.git_gutter

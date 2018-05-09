@@ -437,7 +437,7 @@ settings:
 
 - name: 'CSS/SCSS - Function and Media'
   scope: meta.at-rule.include.scss support.function.misc.scss, support.constant.media.css,
-    support.type.property-name.media.css
+    support.type.property-name.media.css, support.function.sass
   settings:
     foreground: '#FAC863'
 
@@ -453,7 +453,7 @@ settings:
 
 - name: 'SCSS/CSS: Reference, Punctuation'
   scope: entity.name.tag.reference, punctuation.definition.entity, punctuationctuation.definition.entity,
-    meta.attribute-selector, keyword.operator.less, keyword.operator.attribute-selector
+    meta.attribute-selector, keyword.operator.less, keyword.operator.attribute-selector, keyword.other.parent-selector
   settings:
     foreground: '#eee9ee'
 

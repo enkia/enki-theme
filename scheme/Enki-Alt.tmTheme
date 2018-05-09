@@ -18,7 +18,7 @@
 				<key>activeGuide</key>
 				<string>#455682</string>
 				<key>background</key>
-				<string>#1a1b20</string>
+				<string>#19191F</string>
 				<key>caret</key>
 				<string>#DBC08A</string>
 				<key>findHighlight</key>
@@ -339,13 +339,13 @@
 			<key>name</key>
 			<string>Function, Special Method, Block Level</string>
 			<key>scope</key>
-			<string>meta.function-call, variable.function, support.function, keyword.other.special-method, meta.block-level</string>
+			<string>meta.function-call, variable.function, support.function, keyword.other.special-method, meta.block-level, meta.group.braces.round.function.arguments</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>regular</string>
+				<string>normal</string>
 				<key>foreground</key>
-				<string>#83AADA</string>
+				<string>#65DEC2</string>
 			</dict>
 		</dict>
 		<dict>
@@ -402,7 +402,7 @@
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#F99157</string>
+				<string>#faa16f</string>
 			</dict>
 		</dict>
 		<dict>

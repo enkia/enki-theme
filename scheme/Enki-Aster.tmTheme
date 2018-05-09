@@ -28,19 +28,19 @@
 				<key>foreground</key>
 				<string>#AFBAD4ff</string>
 				<key>guide</key>
-				<string>#43435040</string>
+				<string>#4f4f5e40</string>
 				<key>gutterForeground</key>
-				<string>#43435090</string>
+				<string>#4f4f5e90</string>
 				<key>inactiveSelection</key>
 				<string>#282833</string>
 				<key>invisibles</key>
-				<string>#434350</string>
+				<string>#4f4f5e</string>
 				<key>lineHighlight</key>
 				<string>#00000030</string>
 				<key>phantomCss</key>
-				<string><![CDATA[ html { position: relative; } ]]></string>
+				<string>&lt;![CDATA[ html { position: relative; } ]]&gt;</string>
 				<key>popupCss</key>
-				<string><![CDATA[ html { color: #B376B3; background-color: #2b2d3a; padding: 10px; } a { color: #6189BB; line-height: 1.2; text-decoration: none; } .error, .deleted { color: #50B4DC; } .success, .inserted { color: #9DBA72; } .warning, .modified { color: #ffa300; } ]]></string>
+				<string>&lt;![CDATA[ html { color: #B376B3; background-color: #2b2d3a; padding: 10px; } a { color: #6189BB; line-height: 1.2; text-decoration: none; } .error, .deleted { color: #50B4DC; } .success, .inserted { color: #9DBA72; } .warning, .modified { color: #ffa300; } ]]&gt;</string>
 				<key>selection</key>
 				<string>#9D599D40</string>
 				<key>selectionBorder</key>
@@ -48,7 +48,7 @@
 				<key>shadow</key>
 				<string>#00000010</string>
 				<key>stackGuide</key>
-				<string>#43435060</string>
+				<string>#4f4f5e60</string>
 				<key>tagsOptions</key>
 				<string>underline</string>
 			</dict>
@@ -63,7 +63,7 @@
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#434350</string>
+				<string>#4f4f5e</string>
 			</dict>
 		</dict>
 		<dict>
@@ -309,7 +309,7 @@
 			<key>name</key>
 			<string>Function, Special Method, Block Level</string>
 			<key>scope</key>
-			<string>meta.function-call, variable.function, support.function, keyword.other.special-method, meta.block-level</string>
+			<string>meta.function-call, variable.function, support.function, keyword.other.special-method, meta.block-level, meta.group.braces.round.function.arguments</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -497,7 +497,7 @@
 				<key>background</key>
 				<string>#1f1f26</string>
 				<key>foreground</key>
-				<string>#434350</string>
+				<string>#4f4f5e</string>
 			</dict>
 		</dict>
 		<dict>
@@ -672,7 +672,7 @@
 			<key>name</key>
 			<string>CSS/SCSS - Function and Media</string>
 			<key>scope</key>
-			<string>meta.at-rule.media.scss support.function.misc.scss, meta.at-rule.include.scss support.function.misc.scss, support.constant.media.css, support.type.property-name.media.css</string>
+			<string>meta.at-rule.media.scss support.function.misc.scss, meta.at-rule.include.scss support.function.misc.scss, support.constant.media.css, support.type.property-name.media.css, support.function.sass</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -705,7 +705,7 @@
 			<key>name</key>
 			<string>SCSS/CSS: Reference, Punctuation</string>
 			<key>scope</key>
-			<string>entity.name.tag.reference, punctuation.definition.entity, punctuationctuation.definition.entity, meta.attribute-selector, keyword.operator.less, keyword.operator.attribute-selector</string>
+			<string>entity.name.tag.reference, punctuation.definition.entity, punctuationctuation.definition.entity, meta.attribute-selector, keyword.operator.less, keyword.operator.attribute-selector, keyword.other.parent-selector</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -1182,7 +1182,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#434350</string>
+				<string>#4f4f5e</string>
 			</dict>
 		</dict>
 		<dict>

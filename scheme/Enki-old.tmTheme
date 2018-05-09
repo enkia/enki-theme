@@ -38,9 +38,9 @@
 				<key>lineHighlight</key>
 				<string>#00000030</string>
 				<key>phantomCss</key>
-				<string><![CDATA[ html { position: relative; } ]]></string>
+				<string>&lt;![CDATA[ html { position: relative; } ]]&gt;</string>
 				<key>popupCss</key>
-				<string><![CDATA[ html { color: #B376B3; background-color: #2b2d3a; padding: 10px; } a { color: #6189bb; line-height: 1.2; text-decoration: none; } .error, .deleted { color: #EB606B; } .success, .inserted { color: #9DBA72; } .warning, .modified { color: #ffa300; } ]]></string>
+				<string>&lt;![CDATA[ html { color: #B376B3; background-color: #2b2d3a; padding: 10px; } a { color: #6189bb; line-height: 1.2; text-decoration: none; } .error, .deleted { color: #EB606B; } .success, .inserted { color: #9DBA72; } .warning, .modified { color: #ffa300; } ]]&gt;</string>
 				<key>selection</key>
 				<string>#8d4d8540</string>
 				<key>selectionBorder</key>
@@ -706,7 +706,7 @@
 			<key>name</key>
 			<string>CSS/SCSS - Function and Media</string>
 			<key>scope</key>
-			<string>meta.at-rule.include.scss support.function.misc.scss, support.constant.media.css, support.type.property-name.media.css</string>
+			<string>meta.at-rule.include.scss support.function.misc.scss, support.constant.media.css, support.type.property-name.media.css, support.function.sass</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -739,7 +739,7 @@
 			<key>name</key>
 			<string>SCSS/CSS: Reference, Punctuation</string>
 			<key>scope</key>
-			<string>entity.name.tag.reference, punctuation.definition.entity, punctuationctuation.definition.entity, meta.attribute-selector, keyword.operator.less, keyword.operator.attribute-selector</string>
+			<string>entity.name.tag.reference, punctuation.definition.entity, punctuationctuation.definition.entity, meta.attribute-selector, keyword.operator.less, keyword.operator.attribute-selector, keyword.other.parent-selector</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
