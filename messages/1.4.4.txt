@@ -3,11 +3,11 @@ Enki Theme for Sublime Text 3
 For more information on the Enki Theme: https://github.com/enkia/enki-theme
 
 ----------------------------------------------------------------------------------------------
-Recent Changes - 1.4.3
+Recent Changes - 1.4.4
 
 ----------------------------------------------------------------------------------------------
 
-* Fix title color in dark theme
+* Fix colors for SASS Package
 
 
 ----------------------------------------------------------------------------------------------
