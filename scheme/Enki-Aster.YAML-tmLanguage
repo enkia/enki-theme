@@ -610,7 +610,8 @@ settings:
 - name: 'Smarty / Twig tag'
   scope: punctuation.section.embedded.begin.smarty, punctuation.section.embedded.end.smarty, meta.tag.template.value.twig,
     punctuation.section.tag.twig, meta.tag.expression.twig, punctuation.definition.tag.expression.twig,
-    variable.parameter.smarty, punctuation.definition.tag.output.twig
+    variable.parameter.smarty, punctuation.definition.tag.output.twig, custom.compiler.blade.php,
+    punctuation.section.embedded entity.name.tag.block.any.html  
   settings:
     foreground: '#09C295'
 

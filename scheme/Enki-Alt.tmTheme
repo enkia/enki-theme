@@ -38,9 +38,9 @@
 				<key>lineHighlight</key>
 				<string>#00000030</string>
 				<key>phantomCss</key>
-				<string><![CDATA[ html { position: relative; } ]]></string>
+				<string>&lt;![CDATA[ html { position: relative; } ]]&gt;</string>
 				<key>popupCss</key>
-				<string><![CDATA[ html { color: #1ABC9C; background-color: #2b2d3a; padding: 10px; } a { color: #6189bb; line-height: 1.2; text-decoration: none; } .error, .deleted { color: #EB606B; } .success, .inserted { color: #9DBA72; } .warning, .modified { color: #ffa300; } ]]></string>
+				<string>&lt;![CDATA[ html { color: #1ABC9C; background-color: #2b2d3a; padding: 10px; } a { color: #6189bb; line-height: 1.2; text-decoration: none; } .error, .deleted { color: #EB606B; } .success, .inserted { color: #9DBA72; } .warning, .modified { color: #ffa300; } ]]&gt;</string>
 				<key>selection</key>
 				<string>#62758B40</string>
 				<key>selectionBorder</key>
@@ -63,7 +63,7 @@
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#3F414D</string>
+				<string>#4f4f5e</string>
 			</dict>
 		</dict>
 		<dict>
@@ -706,7 +706,7 @@
 			<key>name</key>
 			<string>CSS/SCSS - Function and Media</string>
 			<key>scope</key>
-			<string>meta.at-rule.include.scss support.function.misc.scss, support.constant.media.css, support.type.property-name.media.css</string>
+			<string>meta.at-rule.include.scss support.function.misc.scss, support.constant.media.css, support.type.property-name.media.css, support.function.sass</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -1036,7 +1036,7 @@
 			<key>name</key>
 			<string>Smarty / Twig tag</string>
 			<key>scope</key>
-			<string>punctuation.definition.variable.smarty, punctuation.section.embedded.begin.smarty, punctuation.section.embedded.end.smarty, meta.tag.template.value.twig, punctuation.section.tag.twig, meta.tag.expression.twig, punctuation.definition.tag.expression.twig, punctuation.definition.tag.output.twig</string>
+			<string>punctuation.definition.variable.smarty, punctuation.section.embedded.begin.smarty, punctuation.section.embedded.end.smarty, meta.tag.template.value.twig, punctuation.section.tag.twig, meta.tag.expression.twig, punctuation.definition.tag.expression.twig, punctuation.definition.tag.output.twig, custom.compiler.blade.php, punctuation.section.embedded entity.name.tag.block.any.html</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>

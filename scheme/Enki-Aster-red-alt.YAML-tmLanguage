@@ -1,10 +1,10 @@
 # [PackageDev] target_format: plist, ext: tmTheme
 ---
-name: Enki-Aster-Red
+name: Enki-Aster-Red-Alt
 author: Kristi Russell (http://github.com/enkia)
-uuid: 8ae81679-247d-4ed1-acca-af28901ee41b
+uuid: 16995bce-6542-40c3-ab22-c797a4fdaa16
 colorSpaceName: 'sRGB'
-semanticClass: 'enki.theme.aster-red'
+semanticClass: 'enki.theme.aster-red-alt'
 
 
 # Color reference
@@ -21,7 +21,7 @@ semanticClass: 'enki.theme.aster-red'
 # ----------
 # #D93232
 # #C33C4A
-# #FF435B
+# #FF5D72
 # #FF5D71
 # #FF6D5B
 # #DBC08A
@@ -42,7 +42,7 @@ semanticClass: 'enki.theme.aster-red'
 settings:
 - settings:
     activeGuide: '#6D3B66'
-    background: '#19191F'
+    background: '#23242D'
     caret: '#DBC08A'
     findHighlight: '#ffa300'
     findHighlightForeground: '#000000'
@@ -91,7 +91,7 @@ settings:
   scope: comment, punctuation.definition.comment, keyword.other.phpdoc.php
   settings:
     fontStyle: italic
-    foreground: '#4f4f5e'
+    foreground: '#5f637d'
 
 - name: 'Variable - other'
   scope: variable.other.object, variable, entity.name.class, entity.name.type.class, support.type,
@@ -255,7 +255,7 @@ settings:
 - name: 'Function (Object Literal)'
   scope: entity.name.function, entity.name.function.shell, punctuation.definition.arguments.shell
   settings:
-    foreground: '#FF435B'
+    foreground: '#FF5D72'
 
 - name: 'Number, Constant, Function Argument, Tag Attribute, Embedded'
   scope: constant.numeric, constant.language, support.constant, constant.character,
@@ -307,7 +307,7 @@ settings:
 - name: 'ID'
   scope: entity.other.attribute-name.id.html, entity.other.attribute-name.style.html,entity.other.attribute-name.event.html
   settings:
-    foreground: '#FF435B'
+    foreground: '#FF5D72'
 
 - name: 'Class'
   scope: entity.other.attribute-name.class.html
@@ -343,7 +343,7 @@ settings:
   scope: markup.heading
   settings:
     fontStyle: bold
-    foreground: '#FF435B'
+    foreground: '#FF5D72'
 
 - name: 'Markup: Italic'
   scope: markup.italic
@@ -436,7 +436,7 @@ settings:
 - name: 'CSS: Class Selector'
   scope: entity.other.attribute-name
   settings:
-    foreground: '#FF435B'
+    foreground: '#FF5D72'
 
 - name: 'SCSS/CSS: Reference, Punctuation'
   scope: entity.name.tag.reference, punctuation.definition.entity, punctuationctuation.definition.entity,
@@ -537,7 +537,7 @@ settings:
 - name: 'Handlebars tag'
   scope: support.constant.handlebars
   settings:
-    foreground: '#FF435B'
+    foreground: '#FF5D72'
 
 - name: 'Handlebars name'
   scope: variable.parameter.handlebars
@@ -547,7 +547,7 @@ settings:
 - name: 'Handlebars function'
   scope: meta.function.inline.other.handlebars
   settings:
-    foreground: '#FF435B'
+    foreground: '#FF5D72'
 
 
 # JSON Specific
@@ -595,7 +595,7 @@ settings:
 - name: JSON Key - Level 0
   scope: source.json meta.structure.dictionary.json string.quoted.double.json - meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta.structure.dictionary.json punctuation.definition.string - meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
   settings:
-    foreground: '#FF435B'
+    foreground: '#FF5D72'
 
 
 #  PHP Specific
@@ -605,7 +605,7 @@ settings:
   scope: punctuation.section.embedded.begin.php, punctuation.section.embedded.end.php
   settings:
     #fontStyle: 'bold'
-    foreground: '#FF435B' #AFBAD4
+    foreground: '#FF5D72' #AFBAD4
 
 - name: 'Smarty / Twig tag'
   scope: punctuation.section.embedded.begin.smarty, punctuation.section.embedded.end.smarty, meta.tag.template.value.twig,
@@ -613,7 +613,7 @@ settings:
     variable.parameter.smarty, punctuation.definition.tag.output.twig, custom.compiler.blade.php,
     punctuation.section.embedded entity.name.tag.block.any.html  
   settings:
-    foreground: '#FF435B'
+    foreground: '#FF5D72'
 
 - name: 'Smarty / Twig source / variable'
   scope: source.smarty, variable.other.twig, variable.other.smarty, meta.tag.expression.twig, entity.name.tag.twig,
@@ -633,7 +633,7 @@ settings:
 - name: 'Smarty Operator'
   scope: keyword.operator.smarty
   settings:
-    foreground: '#FF435B'
+    foreground: '#FF5D72'
 
 - name: 'Smarty / Twig quoted / variable'
   scope: string.quoted.single.twig, string.quoted.double.twig, string.quoted.single.smarty, string.quoted.double.smarty
@@ -746,7 +746,7 @@ settings:
 - name: 'Nginx Storage Type'
   scope: storage.type.context.nginx
   settings:
-    foreground: '#FF435B'
+    foreground: '#FF5D72'
 
 - name: 'Nginx Punctuation Variable'
   scope: punctuation.definition.variable.nginx, entity.name.context.location.nginx

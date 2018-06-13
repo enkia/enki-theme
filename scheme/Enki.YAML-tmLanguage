@@ -623,11 +623,11 @@ settings:
   settings:
     foreground: '#FAC863' #6A6D81
 
-- name: 'Smarty / Twig tag'
+- name: 'Smarty / Twig tag / Blade'
   scope: punctuation.definition.variable.smarty, punctuation.section.embedded.begin.smarty,
     punctuation.section.embedded.end.smarty, meta.tag.template.value.twig, punctuation.section.tag.twig,
-    meta.tag.expression.twig, punctuation.definition.tag.expression.twig,
-    punctuation.definition.tag.output.twig
+    meta.tag.expression.twig, punctuation.definition.tag.expression.twig, custom.compiler.blade.php,
+    punctuation.section.embedded entity.name.tag.block.any.html  
   settings:
     foreground: '#FAC863'
 
