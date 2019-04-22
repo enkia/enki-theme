@@ -263,11 +263,6 @@ settings:
   settings:
     foreground: '#FF5D71'
 
-- name: 'JSON Numeric Constant'
-  scope: 'constant.numeric.json'
-  settings:
-    foreground: '#6189BB'
-
 - name: 'Function Args'
   scope: variable.parameter.function
   settings:
@@ -552,48 +547,43 @@ settings:
 
 # JSON Specific
 # --------------------------------------------------------------------------------------
-- name: JSON Key - Level 8
-  scope: source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
-  settings:
-    foreground: '#B376B3'
-
 - name: JSON Key - Level 7
-  scope: source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
+  scope: source.json meta.mapping.value.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.sequence.json meta.mapping.key.json string.quoted.double.json
   settings:
     foreground: '#50B4DC'
 
 - name: JSON Key - Level 6
-  scope: source.json meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
+  scope: source.json meta.mapping.value.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.sequence.json meta.mapping.key.json string.quoted.double.json
   settings:
     foreground: '#50B4DC'
 
 - name: JSON Key - Level 5
-  scope: source.json meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
+  scope: source.json meta.mapping.value.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.sequence.json meta.mapping.key.json string.quoted.double.json
   settings:
     foreground: '#B376B3'
 
 - name: JSON Key - Level 4
-  scope: source.json meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
+  scope: source.json meta.mapping.value.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.sequence.json meta.mapping.key.json string.quoted.double.json
   settings:
     foreground: '#FF5D71'
 
 - name: JSON Key - Level 3
-  scope: source.json meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
+  scope: source.json meta.mapping.value.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.mapping.value.json meta.sequence.json meta.mapping.key.json string.quoted.double.json
   settings:
     foreground: '#50B4DC'
 
 - name: JSON Key - Level 2
-  scope: source.json meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
+  scope: source.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.mapping.key.json string.quoted.double.json
   settings:
     foreground: '#FF5D71'
 
 - name: JSON Key - Level 1
-  scope: source.json meta meta.structure.dictionary.json string.quoted.double.json - meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta.structure.dictionary.json punctuation.definition.string - meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
+  scope: source.json meta.mapping.value.json meta.sequence.json meta.mapping.key.json string.quoted.double.json
   settings:
     foreground: '#B376B3'
 
 - name: JSON Key - Level 0
-  scope: source.json meta.structure.dictionary.json string.quoted.double.json - meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta.structure.dictionary.json punctuation.definition.string - meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
+  scope: source.json meta.mapping.key.json string.quoted.double.json
   settings:
     foreground: '#FF435B'
 
@@ -611,7 +601,7 @@ settings:
   scope: punctuation.section.embedded.begin.smarty, punctuation.section.embedded.end.smarty, meta.tag.template.value.twig,
     punctuation.section.tag.twig, meta.tag.expression.twig, punctuation.definition.tag.expression.twig,
     variable.parameter.smarty, punctuation.definition.tag.output.twig, custom.compiler.blade.php,
-    punctuation.section.embedded entity.name.tag.block.any.html  
+    punctuation.section.embedded entity.name.tag.block.any.html
   settings:
     foreground: '#FF435B'
 

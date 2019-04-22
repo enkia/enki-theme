@@ -394,17 +394,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>JSON Numeric Constant</string>
-			<key>scope</key>
-			<string>constant.numeric.json</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#83AADA</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>Function Args</string>
 			<key>scope</key>
 			<string>variable.parameter.function</string>
@@ -961,7 +950,7 @@
 			<key>name</key>
 			<string>JSON Key - Level 7</string>
 			<key>scope</key>
-			<string>source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string</string>
+			<string>source.json meta.mapping.value.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.sequence.json meta.mapping.key.json string.quoted.double.json</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -972,7 +961,7 @@
 			<key>name</key>
 			<string>JSON Key - Level 6</string>
 			<key>scope</key>
-			<string>source.json meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string</string>
+			<string>source.json meta.mapping.value.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.sequence.json meta.mapping.key.json string.quoted.double.json</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -983,7 +972,7 @@
 			<key>name</key>
 			<string>JSON Key - Level 5</string>
 			<key>scope</key>
-			<string>source.json meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string</string>
+			<string>source.json meta.mapping.value.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.sequence.json meta.mapping.key.json string.quoted.double.json</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -994,7 +983,7 @@
 			<key>name</key>
 			<string>JSON Key - Level 4</string>
 			<key>scope</key>
-			<string>source.json meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string</string>
+			<string>source.json meta.mapping.value.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.sequence.json meta.mapping.key.json string.quoted.double.json</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -1005,7 +994,7 @@
 			<key>name</key>
 			<string>JSON Key - Level 3</string>
 			<key>scope</key>
-			<string>source.json meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string</string>
+			<string>source.json meta.mapping.value.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.mapping.value.json meta.sequence.json meta.mapping.key.json string.quoted.double.json</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -1016,7 +1005,7 @@
 			<key>name</key>
 			<string>JSON Key - Level 2</string>
 			<key>scope</key>
-			<string>source.json meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string</string>
+			<string>source.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.mapping.key.json string.quoted.double.json</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -1027,7 +1016,7 @@
 			<key>name</key>
 			<string>JSON Key - Level 1</string>
 			<key>scope</key>
-			<string>source.json meta meta.structure.dictionary.json string.quoted.double.json - meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta.structure.dictionary.json punctuation.definition.string - meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string</string>
+			<string>source.json meta.mapping.value.json meta.sequence.json meta.mapping.key.json string.quoted.double.json</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -1038,7 +1027,7 @@
 			<key>name</key>
 			<string>JSON Key - Level 0</string>
 			<key>scope</key>
-			<string>source.json meta.structure.dictionary.json string.quoted.double.json - meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta.structure.dictionary.json punctuation.definition.string - meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string</string>
+			<string>source.json meta.mapping.key.json string.quoted.double.json</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
