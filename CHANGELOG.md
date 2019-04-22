@@ -1,3 +1,9 @@
+## 1.4.6
+* Fix JSON syntax highlighting
+
+## 1.4.5
+* Fix colors for Laravel Blade Highlighter Package
+
 ## 1.4.4
 * Fix colors for SASS Package
 
