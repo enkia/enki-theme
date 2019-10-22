@@ -7,33 +7,21 @@ The UI theme itself is a **modified version** of
 [Material Theme Appbar.](https://github.com/equinusocio/material-theme-appbar)
 Specifically, the overall UI colors have been changed in Material App Bar and Material Theme to better align with this color scheme.
 
-<a href="https://lh3.googleusercontent.com/2JHyThnVebFtjZH893M3hNN_JymgveMkNY9Jt2OOzP6iF50J_WFkSmaRilVPqwcXffrlRwD5vM5xvu7DVQA_aQcCz2zLEoXRN2ICk-BKIw47oesPOdBGhJkGwhpWMwl9Qgl-e3zJ0ZThJ6_267YYD15UVls5sLw4Ov2nKVQZz_5ZFS6b2fMEuBNv03ml9dDgjFaFqmQtUgtcFCDsdSWyq0dZv4FQk3FlSDRUo-T8QJGMEANOipzZW7FHzBZyohGcDMHx8EiaDupVi3DHE5ZiwA0OoBD7NDSiM9Iq7F46Vz52sL_H0QUNx9gEPZA3eMOBVzCDka2nvFiLjBmC4mtc2er87g4u2PA1HcDPrWDV06hYwDb4upheR9k-xdauagkHoDzlkZFPz5rLJJPNufTuwaeNxY5NUpzxAEKqpqdiVDh4sfG1VDB8fwB1Sr6ycFWv6yniikJSboWqcQnu8eJH_ci-wqR--NTxNv6bDTw7HkgVeAjP5C5Ax6Y7vTuNSmrl3k6Jqte0lWgJ9G6xyQFJdxHyhVg759iS9VBl67cF35cOmMdgLnCuhDbh94MoyYJ3BCQDC1vuDQggMiMT-rEPp_3aCDaTkfR6f_m0nw=w2356-h1362-no" target="_blank">
-    <img src="https://lh3.googleusercontent.com/2JHyThnVebFtjZH893M3hNN_JymgveMkNY9Jt2OOzP6iF50J_WFkSmaRilVPqwcXffrlRwD5vM5xvu7DVQA_aQcCz2zLEoXRN2ICk-BKIw47oesPOdBGhJkGwhpWMwl9Qgl-e3zJ0ZThJ6_267YYD15UVls5sLw4Ov2nKVQZz_5ZFS6b2fMEuBNv03ml9dDgjFaFqmQtUgtcFCDsdSWyq0dZv4FQk3FlSDRUo-T8QJGMEANOipzZW7FHzBZyohGcDMHx8EiaDupVi3DHE5ZiwA0OoBD7NDSiM9Iq7F46Vz52sL_H0QUNx9gEPZA3eMOBVzCDka2nvFiLjBmC4mtc2er87g4u2PA1HcDPrWDV06hYwDb4upheR9k-xdauagkHoDzlkZFPz5rLJJPNufTuwaeNxY5NUpzxAEKqpqdiVDh4sfG1VDB8fwB1Sr6ycFWv6yniikJSboWqcQnu8eJH_ci-wqR--NTxNv6bDTw7HkgVeAjP5C5Ax6Y7vTuNSmrl3k6Jqte0lWgJ9G6xyQFJdxHyhVg759iS9VBl67cF35cOmMdgLnCuhDbh94MoyYJ3BCQDC1vuDQggMiMT-rEPp_3aCDaTkfR6f_m0nw=w2356-h1362-no" alt="Preview" width="890">
-</a>
+![Screenshot - Enki](https://raw.githubusercontent.com/enkia/enki-theme/master/static/enki.png)
 
 Alternate color scheme:
-
-<a href="https://lh3.googleusercontent.com/j6aUpcRiMgVb5dbyfqCOtRLa0fkwGJaCKgt0cCidpAsTwGXGda8dO28e5kjgbQvXgUZfMF79s54UMRnao5Tk1oGKj0a-GKqjjvtI5TT4LiHz081lLxhr1OcUbY87Uzy1WXVdJkLqEhf1GEbSRv-N8MrFBfe9bD662zbFXvP-eGBXzZIU3cyGlQV-Q4opksQJCcR8ghDSvl-6KT4E0D4GL_0V7e6_yEYBj7fqjq5DwJcat5lHYbhAKy3gMG7WgPtKd7heBigfoquixJEdsfsLUIj94LXSQiNjc40ICRPnM2T_pd6e33pWR5GElTkg20u0TgTgi81Aj7kkVf_EinwwwaLAvC1dCFF4FfOEJ1c5sTjAEsjMmTrL8v_97C2lQa84jZ0wuSpsZcrzDw4s56EZEgBOuEweSiI0RsUzQfrIEoBx9AdSULEFoAH-zKH1CuzRJl6dN9Nl_qB3H-R1NoJlrhEelz4KvtYCoMdfhQgPTZDrLL4Wl-hxrhRzzkZbkLZnLJC7F_ZVCkD4z5UxgMtS-i2FWwzF32-agpB8UR8LOrJALfSkxnXR14aEQaa_ML2jIQ3jQglHoHd9XsdLdSr3r77eDqyJNCRzjYWbeg=w2356-h1362-no" target="_blank">
-    <img src="https://lh3.googleusercontent.com/j6aUpcRiMgVb5dbyfqCOtRLa0fkwGJaCKgt0cCidpAsTwGXGda8dO28e5kjgbQvXgUZfMF79s54UMRnao5Tk1oGKj0a-GKqjjvtI5TT4LiHz081lLxhr1OcUbY87Uzy1WXVdJkLqEhf1GEbSRv-N8MrFBfe9bD662zbFXvP-eGBXzZIU3cyGlQV-Q4opksQJCcR8ghDSvl-6KT4E0D4GL_0V7e6_yEYBj7fqjq5DwJcat5lHYbhAKy3gMG7WgPtKd7heBigfoquixJEdsfsLUIj94LXSQiNjc40ICRPnM2T_pd6e33pWR5GElTkg20u0TgTgi81Aj7kkVf_EinwwwaLAvC1dCFF4FfOEJ1c5sTjAEsjMmTrL8v_97C2lQa84jZ0wuSpsZcrzDw4s56EZEgBOuEweSiI0RsUzQfrIEoBx9AdSULEFoAH-zKH1CuzRJl6dN9Nl_qB3H-R1NoJlrhEelz4KvtYCoMdfhQgPTZDrLL4Wl-hxrhRzzkZbkLZnLJC7F_ZVCkD4z5UxgMtS-i2FWwzF32-agpB8UR8LOrJALfSkxnXR14aEQaa_ML2jIQ3jQglHoHd9XsdLdSr3r77eDqyJNCRzjYWbeg=w2356-h1362-no" alt="Preview" width="890">
-</a>
+![Screenshot - Enki - Alt](https://raw.githubusercontent.com/enkia/enki-theme/master/static/enki_alt.png)
 
 Aster color scheme:
+![Screenshot - Enki - Alt](https://raw.githubusercontent.com/enkia/enki-theme/master/static/enki_aster.png)
 
-<a href="https://lh3.googleusercontent.com/i6LvDM5uw-dTnzci7YV17bUen5Uv4mwQL5vP2fhHrgRcoDk2w1utl3APOE20bQLrjzU99dscaSGbLk-09KiJJ4mP5lWnHgPSKvrXnZlZ16b57EHsw4gCJ-qykLlBLIyx1euzv80QmcTdwbpO_NMl72aCI04Fgj_e6ZjzUjGs6VtwqQtt6fK8-62CgbpF-2jIhC-zrdIxs0Xsgdkg1U9kpXrCVMzfOhAS2jIom7Hf3qdYtoOjl2xueRK5epLZNA7Bxhr0tubQEf-icbW618yJEP0IbtEDMXNlZN3hhjDlUD7JCfA9kJIJ__fYvcFucOxHIWLcBttwkzHRX-K0HIuoNL8L8osmK5qjZCCkKM1n1vUBpF-_FBcwvwNRHlREryURvn-x7gVtxm2f6o1r1n8qYo7EyFfEdGuJ2hH3rHacg01hf3YtCna4317Us_GWN0uiluoprszjLe2Luel0aE3Hfi9Aj9SPdl6dy1WRNV8Okvm0FNtoGYXeBDfWF5t71doLrIU_ijhr4TaZuLLUrNjmfkiIyL2vWog8DD4Z0U2ROJJJ6fGqBAWptVlrTiu0AyDgz9970v2uttO9Zoem_XKC0f5dQkNdu11f5GwAEA=w2356-h1362-no" target="_blank">
-    <img src="https://lh3.googleusercontent.com/i6LvDM5uw-dTnzci7YV17bUen5Uv4mwQL5vP2fhHrgRcoDk2w1utl3APOE20bQLrjzU99dscaSGbLk-09KiJJ4mP5lWnHgPSKvrXnZlZ16b57EHsw4gCJ-qykLlBLIyx1euzv80QmcTdwbpO_NMl72aCI04Fgj_e6ZjzUjGs6VtwqQtt6fK8-62CgbpF-2jIhC-zrdIxs0Xsgdkg1U9kpXrCVMzfOhAS2jIom7Hf3qdYtoOjl2xueRK5epLZNA7Bxhr0tubQEf-icbW618yJEP0IbtEDMXNlZN3hhjDlUD7JCfA9kJIJ__fYvcFucOxHIWLcBttwkzHRX-K0HIuoNL8L8osmK5qjZCCkKM1n1vUBpF-_FBcwvwNRHlREryURvn-x7gVtxm2f6o1r1n8qYo7EyFfEdGuJ2hH3rHacg01hf3YtCna4317Us_GWN0uiluoprszjLe2Luel0aE3Hfi9Aj9SPdl6dy1WRNV8Okvm0FNtoGYXeBDfWF5t71doLrIU_ijhr4TaZuLLUrNjmfkiIyL2vWog8DD4Z0U2ROJJJ6fGqBAWptVlrTiu0AyDgz9970v2uttO9Zoem_XKC0f5dQkNdu11f5GwAEA=w2356-h1362-no" alt="Preview" width="890">
-</a>
-
-<a href="https://lh3.googleusercontent.com/V7kpBZ4VBxx1-9qq4HnuAyEL8qYXVycgp0I0dktcoXlVsZUGBsNrgDgQCqLBEf1Tkipj__t2SRbpfxLrsvFxtmY-Y5mP7DSlxvQpHyoVhjLGuaeVCJBI4A-c_JnqOvagP05tR2hVJFI4HHNCj2oi6fsx2GuSpTKvc-7l2QFR-lM5p7g08Gbl_KeFGj2xCudXgcyzIZE6ovOJtBtFcqZkm5qZn0xoRAoDjRMOJHLQ3Iz9LnSjBH1vFn7SeDhYP-tK0ApOW4EGbiJBvE3ywtQC8RytUn0Fp6reShAlr63E9YjUV2Cx7B4YfT-sfAMWysV_ro2BOds1UrF48Thxs_NKF-9wsYgBPcQWxTDTAdrb9nFgvuX6Xo-H3s4g6l2eRPBbBEAbwfJLprl601z5-ODu4Fjk9UoLi2lbo6QX0-CW8aS8KYZWyGMIsSfwIy48zppKknyRSeL1xgyysxZAjYWWUH77I3Lmbb0rnbRpMLtYp4D_ysPGWxNBjnJK6OmGX4S9ftCziKWrcwAXTv9ri0OliK9xhka4OBxsPaK0NTOiKUb2mTo6V6RyMRB7uvIG-NNVJ-XOrJHstYGvJRw9uILGK-ngbboQGLhnwV6CgQ=w2356-h1362-no" target="_blank">
-    <img src="https://lh3.googleusercontent.com/V7kpBZ4VBxx1-9qq4HnuAyEL8qYXVycgp0I0dktcoXlVsZUGBsNrgDgQCqLBEf1Tkipj__t2SRbpfxLrsvFxtmY-Y5mP7DSlxvQpHyoVhjLGuaeVCJBI4A-c_JnqOvagP05tR2hVJFI4HHNCj2oi6fsx2GuSpTKvc-7l2QFR-lM5p7g08Gbl_KeFGj2xCudXgcyzIZE6ovOJtBtFcqZkm5qZn0xoRAoDjRMOJHLQ3Iz9LnSjBH1vFn7SeDhYP-tK0ApOW4EGbiJBvE3ywtQC8RytUn0Fp6reShAlr63E9YjUV2Cx7B4YfT-sfAMWysV_ro2BOds1UrF48Thxs_NKF-9wsYgBPcQWxTDTAdrb9nFgvuX6Xo-H3s4g6l2eRPBbBEAbwfJLprl601z5-ODu4Fjk9UoLi2lbo6QX0-CW8aS8KYZWyGMIsSfwIy48zppKknyRSeL1xgyysxZAjYWWUH77I3Lmbb0rnbRpMLtYp4D_ysPGWxNBjnJK6OmGX4S9ftCziKWrcwAXTv9ri0OliK9xhka4OBxsPaK0NTOiKUb2mTo6V6RyMRB7uvIG-NNVJ-XOrJHstYGvJRw9uILGK-ngbboQGLhnwV6CgQ=w2356-h1362-no" alt="Preview" width="890">
-</a>
+Aster Red color scheme:
+![Screenshot - Enki - Alt](https://raw.githubusercontent.com/enkia/enki-theme/master/static/enki_aster_red.png)
 
 
 
 Light color scheme and UI theme:
-
-<a href="https://lh3.googleusercontent.com/RjhRnjrH6MqTqSN8pOV64sXTNk-q2GEXYhmHcquWgUStycHtO17vLAJy9q5CABytzPY-eOEMXLG8l2P-07o07Eud2A6_qJRQHM_p0ude2_wIyapd1ozG8nfqMVnCeZTZUefJo9TeRd3ZKi5zcJf7eKeFYlV4TLRoqq0vmS_l1iGcYJM2ZS1kI_gEPUVyvz_GrHw7-fr6QoMhYJyZQl6-qaQ2ZknMWCTm42G5NMsgtpWIrknyYhSL4Zi69oq_sbKfX2fBOY27U_GpTnlAzej7ZAvFJc_TqaTc1RHnSiEJHxzV7qqJC1jPFxWaUDAGwn3jU9t5vIyY_P5is1POjvqRcTDX2lN3d0NGJP5fyMey5UobJXg9VKCwLkg9yV5BaDhcBnldVBZ1Em-b7lq1OzKY6ieOrNOwpkJYdTc28e70Equ4i6bqWEbUNPflcZnrTGRaZghLnnfXhxL71NyIhZvpigUVbJoSNN9yvivjvHO6pQGjRFJzpf26LHz1Pe-MXff_g_ExFqqchKOzxM-qsB-4VDMIijuuimj2r8cxNy2BzSnSYw4hwyQlTP1em513uu-9ItIdLoPNCjn59X88vD5aRrb1pukTU9ZPt9E0rA=w2356-h1362-no" target="_blank">
-    <img src="https://lh3.googleusercontent.com/RjhRnjrH6MqTqSN8pOV64sXTNk-q2GEXYhmHcquWgUStycHtO17vLAJy9q5CABytzPY-eOEMXLG8l2P-07o07Eud2A6_qJRQHM_p0ude2_wIyapd1ozG8nfqMVnCeZTZUefJo9TeRd3ZKi5zcJf7eKeFYlV4TLRoqq0vmS_l1iGcYJM2ZS1kI_gEPUVyvz_GrHw7-fr6QoMhYJyZQl6-qaQ2ZknMWCTm42G5NMsgtpWIrknyYhSL4Zi69oq_sbKfX2fBOY27U_GpTnlAzej7ZAvFJc_TqaTc1RHnSiEJHxzV7qqJC1jPFxWaUDAGwn3jU9t5vIyY_P5is1POjvqRcTDX2lN3d0NGJP5fyMey5UobJXg9VKCwLkg9yV5BaDhcBnldVBZ1Em-b7lq1OzKY6ieOrNOwpkJYdTc28e70Equ4i6bqWEbUNPflcZnrTGRaZghLnnfXhxL71NyIhZvpigUVbJoSNN9yvivjvHO6pQGjRFJzpf26LHz1Pe-MXff_g_ExFqqchKOzxM-qsB-4VDMIijuuimj2r8cxNy2BzSnSYw4hwyQlTP1em513uu-9ItIdLoPNCjn59X88vD5aRrb1pukTU9ZPt9E0rA=w2356-h1362-no" alt="Preview" width="890">
-</a>
+![Screenshot - Enki - Alt](https://raw.githubusercontent.com/enkia/enki-theme/master/static/enki_light.png)
 
 
 ## Installation
@@ -45,7 +33,7 @@ Light color scheme and UI theme:
 
 2. Open preferences and change the color scheme and theme lines:
 
-```json
+```javascript
 "color_scheme": "Packages/Enki Theme/scheme/Enki.tmTheme",
 "theme": "Enki-Theme.sublime-theme",
 ```
@@ -54,7 +42,7 @@ Light color scheme and UI theme:
 
 A color scheme for those who prefer something less purple:
 
-```json
+```javascript
 "color_scheme": "Packages/Enki Theme/scheme/Enki-Alt.tmTheme",
 ```
 
@@ -62,7 +50,7 @@ A color scheme for those who prefer something less purple:
 
 A color scheme for those who prefer fewer colors:
 
-```json
+```javascript
 "color_scheme": "Packages/Enki Theme/scheme/Enki-Aster.tmTheme",
 
 // red instead of green:
@@ -73,7 +61,7 @@ A color scheme for those who prefer fewer colors:
 
 A color scheme and UI theme for those who prefer something lighter:
 
-```json
+```javascript
 "color_scheme": "Packages/Enki Theme/scheme/Enki-Light.tmTheme",
 "theme": "Enki-Theme-Light.sublime-theme",
 ```
@@ -82,7 +70,7 @@ A color scheme and UI theme for those who prefer something lighter:
 ## Options
 Because this is essentially Material Theme, it comes packed with many of the same options as the original and one additional option:
 
-```json
+```javascript
 "enki_theme_color_expanded_folder": true, // Set expanded folder in sidebar to accent color
                                           // If no accent color is specified, it simply gets brighter
 
@@ -102,7 +90,7 @@ Because this is essentially Material Theme, it comes packed with many of the sam
 
 Color options:
 
-```json
+```javascript
   "enki_theme_accent_samon": true,
   "enki_theme_accent_bluegray": true,
   "enki_theme_accent_fuschia": true,
@@ -122,12 +110,12 @@ Color options:
 ```
 
 
-<img src="https://lh3.googleusercontent.com/IJnSSaaGg7QODYC1D7Aqrat8rEGQfBPDBZamoPv1j_FFIVg7mEZUMPIgphskDI9aBDt_E-yMQueayiIvwFz9672knJfNqbgLYI0oDq-nEGHi5M_4XuiuIkA3slOAqKRnv3gCnNtjesdS6h95oxMdIR7zJAp82fXIeCRhkjlRDqVSDndc8CiUjT6wOxo47i9rcK0dMIIK3YEzHiaaPo1A11ZmbTjI-l8YIC04Ga72nDmInJ8aXtLfdX8R8dBiNE3e9qIRUzi0bFmD4eajSvLNYdqxqWOZl6xKaFsChnspYp1ki9bh2Y_N9jPhgQwYhiFGDSDjXOtl_Ow5n2G700a6Z-KxutzoaRXjnOShxra0UXPGi1QMk-2fdQYub0KaZK6RnNPFONxIZytYcbOmlnqIFHKS7sMQ_fLG-3wbHgbMDZlKa0O4HUch50LdttflaCi8BjMg-wwM9r1m_FVskqn83lWMoTOoNA-vl9YqoMzhgqSZsDaQniX0Gm3pz_6ci8xhd8loOzUOTa4FsECuEQKlqdWfQkCwxJN4bn12ULJWJhVKwgNggQpFUt23wiYvLzlYfTRXoqNZOOXc_n5hb7LkVymhBxiWkXe3-f41Gg=w609-h193-no" alt="Preview Accents" width="305">
+<img src="https://raw.githubusercontent.com/enkia/enki-theme/master/static/screenshot_accents.gif" alt="Preview Accents" width="305">
 
 
 Options to mimic the screenshot:
 
-```json
+```javascript
   "enki_theme_accent_red": true, // or white for Light theme
   "enki_theme_compact_sidebar": true,
   "enki_theme_panel_separator": true,
@@ -177,11 +165,4 @@ This will be updated with all major bug fixes released by
 [Material Theme](https://github.com/equinusocio/material-theme) and
 [Material Theme Appbar](https://github.com/equinusocio/material-theme-appbar)
 but understand that since this is not the original UI theme, these updates will not occur immediately.
-
-*Note:* There is **[a known issue](https://github.com/equinusocio/material-theme#known-issues)** that may affect some people that prevents one from seeing the bottom panel's input box upon installation. Fix it by resizing the bottom panel:
-
-<a href="https://lh3.googleusercontent.com/MpQvgg5ccBTEn9tkMKwQFe1QQtX7yJkGj3cvVvYZMoUo2LEWwSC_WHe3lw8DRm_zcnCmbEZDffxys9fcBOeoDW3ZZq5hir8LBhvldrbM1U_24D1FCp8FDHE19e4KqmJBufLFWaTDi2wIk1npRuhgLksXKXiF5zEs8Wq5uAec9fG5JsA3BJa8rP4UQh6ptjae-g87LqCC2938NMxIFYgQPxCePwD3KwW-TVP__WX8J-DWBTahr3j0bbYMVK1JyaCQUVgKFa9qQ4RYvA5T9YKlWNPxQVXx4WxytNhGKsgyoYScYfWdpkVy-Erq29atajv23h2_iFfJoLQ3-E-L15fkG4hLXYj1Kud06EfiKW-lniWVq962SMlGXLACoCWxDmfpGYjt3PhYl56tacIfGsucIFBACZN6mzlZdBP_MYjpSQ8TcnvwQny9wfleQHkeSEb6QR35uZ69re3zuJq8z9wWhrj__5SIwXvIx_drUUp_yEWe3TzU2YJoi8P632gHRXwqxSwKWiP4AJIhYvutsFA4Avk8mO51sqCxnn6u8--nR-ZzyH554inQhKHUQiJ71RnSb25yxaJhL6Px5LUFbQ-CCQFb-OQl_m0auGgR2g=w2176-h492-no" target="_blank">
-  <img src="https://lh3.googleusercontent.com/MpQvgg5ccBTEn9tkMKwQFe1QQtX7yJkGj3cvVvYZMoUo2LEWwSC_WHe3lw8DRm_zcnCmbEZDffxys9fcBOeoDW3ZZq5hir8LBhvldrbM1U_24D1FCp8FDHE19e4KqmJBufLFWaTDi2wIk1npRuhgLksXKXiF5zEs8Wq5uAec9fG5JsA3BJa8rP4UQh6ptjae-g87LqCC2938NMxIFYgQPxCePwD3KwW-TVP__WX8J-DWBTahr3j0bbYMVK1JyaCQUVgKFa9qQ4RYvA5T9YKlWNPxQVXx4WxytNhGKsgyoYScYfWdpkVy-Erq29atajv23h2_iFfJoLQ3-E-L15fkG4hLXYj1Kud06EfiKW-lniWVq962SMlGXLACoCWxDmfpGYjt3PhYl56tacIfGsucIFBACZN6mzlZdBP_MYjpSQ8TcnvwQny9wfleQHkeSEb6QR35uZ69re3zuJq8z9wWhrj__5SIwXvIx_drUUp_yEWe3TzU2YJoi8P632gHRXwqxSwKWiP4AJIhYvutsFA4Avk8mO51sqCxnn6u8--nR-ZzyH554inQhKHUQiJ71RnSb25yxaJhL6Px5LUFbQ-CCQFb-OQl_m0auGgR2g=w2176-h492-no" alt="Preview" width="890">
-</a>
-
 
