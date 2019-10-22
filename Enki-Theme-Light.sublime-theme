@@ -6549,8 +6549,100 @@
       "settings": ["enki_theme_color_expanded_folder", "enki_theme_accent_green"],
       "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
       "color": [26, 188, 156]
-    }
+    },
 
+    // VCS File Status
+    // =====================================================================
+    {
+        "class": "file_system_entry",
+        "content_margin": [0, 0, 8, 0]
+    },
+    {
+        "class": "file_system_entry",
+        "parents": [{"class": "scroll_area_control", "attributes": ["scrollable"]}],
+        "settings": ["!overlay_scroll_bars"],
+        "content_margin": [0, 0, 0, 0]
+    },
+    {
+        "class": "vcs_status_badge",
+        "parents": [{"class": "file_system_entry", "attributes": ["untracked"]}],
+        "layer0.texture": "Enki Theme/assets/commons/status_untracked.png",
+        "layer0.tint": "color(var(--background) blend(rgb(255, 255, 255) 60%))",
+        "layer0.opacity": 1.0,
+        "content_margin": 6
+    },
+    {
+        "class": "vcs_status_badge",
+        "parents": [
+            {"class": "window", "attributes": ["file_light"]},
+            {"class": "file_system_entry", "attributes": ["untracked"]}
+        ],
+        "layer0.texture": "Enki Theme/assets/commons/status_untracked.png",
+        "layer0.tint": "color(var(--background) blend(rgb(0, 0, 0) 60%))",
+        "layer0.opacity": 1.0,
+        "content_margin": 6
+    },
+    {
+        "class": "vcs_status_badge",
+        "parents": [{"class": "file_system_entry", "attributes": ["modified"]}],
+        "layer0.texture": "Enki Theme/assets/commons/status_modified.png",
+        "layer0.tint": "color(var(--bluish) min-contrast(var(--background) 2.5))",
+        "layer0.opacity": 1.0,
+        "content_margin": 6
+    },
+    {
+        "class": "vcs_status_badge",
+        "parents": [{"class": "file_system_entry", "attributes": ["missing"]}],
+        "layer0.texture": "Enki Theme/assets/commons/status_modified.png",
+        "layer0.tint": "color(var(--redish) min-contrast(var(--background) 2.5))",
+        "layer0.opacity": 1.0,
+        "content_margin": 6
+    },
+    {
+        "class": "vcs_status_badge",
+        "parents": [{"class": "file_system_entry", "attributes": ["staged"]}],
+        "layer0.texture": "Enki Theme/assets/commons/status_staged.png",
+        "layer0.tint": "color(var(--bluish) min-contrast(var(--background) 2.5))",
+        "layer0.opacity": 1.0,
+        "content_margin": 6
+    },
+    {
+        "class": "vcs_status_badge",
+        "parents": [{"class": "file_system_entry", "attributes": ["added"]}],
+        "layer0.texture": "Enki Theme/assets/commons/status_staged.png",
+        "layer0.tint": "color(var(--greenish) min-contrast(var(--background) 2.5))",
+        "layer0.opacity": 1.0,
+        "content_margin": 6
+    },
+    {
+        "class": "vcs_status_badge",
+        "parents": [{"class": "file_system_entry", "attributes": ["deleted"]}],
+        "layer0.texture": "Enki Theme/assets/commons/status_staged.png",
+        "layer0.tint": "color(var(--redish) min-contrast(var(--background) 2.5))",
+        "layer0.opacity": 1.0,
+        "content_margin": 6
+    },
+    {
+        "class": "vcs_status_badge",
+        "parents": [{"class": "file_system_entry", "attributes": ["unmerged"]}],
+        "layer0.texture": "Enki Theme/assets/commons/status_unmerged.png",
+        "layer0.tint": "color(var(--orangish) min-contrast(var(--background) 2.5))",
+        "layer0.opacity": 1.0,
+        "content_margin": 6
+    },
+    {
+        "class": "sidebar_label",
+        "parents": [{"class": "file_system_entry", "attributes": ["ignored"]}],
+        "color": "color(var(--background) blend(rgb(255, 255, 255) 50%))"
+    },
+    {
+        "class": "sidebar_label",
+        "parents": [
+            {"class": "window", "attributes": ["file_light"]},
+            {"class": "file_system_entry", "attributes": ["ignored"]}
+        ],
+        "color": "color(var(--background) blend(rgb(0, 0, 0) 50%))"
+    }
   ]
 
 

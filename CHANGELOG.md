@@ -1,3 +1,6 @@
+## 1.4.7
+* Add File Status Icons from Adaptive Default Theme
+
 ## 1.4.6
 * Fix JSON syntax highlighting
 
