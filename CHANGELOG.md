@@ -1,3 +1,6 @@
+## 1.4.8
+* Add my Tokyo Night vscode color scheme
+
 ## 1.4.7
 * Add File Status Icons from Adaptive Default Theme
 
