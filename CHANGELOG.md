@@ -1,3 +1,6 @@
+## 1.4.9
+* Add JSON NPM syntax definition colors
+
 ## 1.4.8
 * Add my Tokyo Night vscode color scheme
 
@@ -121,4 +124,3 @@
 
 ## 1.0.0
 * Initial Release
-

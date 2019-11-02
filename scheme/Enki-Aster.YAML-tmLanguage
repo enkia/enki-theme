@@ -553,40 +553,58 @@ settings:
     foreground: '#50B4DC'
 
 - name: JSON Key - Level 6
-  scope: source.json meta.mapping.value.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.sequence.json meta.mapping.key.json string.quoted.double.json
+  scope: source.json meta.mapping.value.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.sequence.json meta.mapping.key.json string.quoted.double.json,
+    source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json string.quoted.double.json
   settings:
     foreground: '#B376B3'
 
 - name: JSON Key - Level 5
-  scope: source.json meta.mapping.value.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.sequence.json meta.mapping.key.json string.quoted.double.json
+  scope: source.json meta.mapping.value.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.sequence.json meta.mapping.key.json string.quoted.double.json,
+    source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json string.quoted.double.json
   settings:
     foreground: '#0ACE9E'
 
 - name: JSON Key - Level 4
-  scope: source.json meta.mapping.value.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.sequence.json meta.mapping.key.json string.quoted.double.json
+  scope: source.json meta.mapping.value.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.sequence.json meta.mapping.key.json string.quoted.double.json,
+    source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json string.quoted.double.json
   settings:
     foreground: '#50B4DC'
 
 - name: JSON Key - Level 3
-  scope: source.json meta.mapping.value.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.mapping.value.json meta.sequence.json meta.mapping.key.json string.quoted.double.json
+  scope: source.json meta.mapping.value.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.mapping.value.json meta.sequence.json meta.mapping.key.json string.quoted.double.json,
+    source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json string.quoted.double.json,
+    source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json
   settings:
     foreground: '#B376B3'
 
 - name: JSON Key - Level 2
-  scope: source.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.mapping.key.json string.quoted.double.json
+  scope: source.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.mapping.key.json string.quoted.double.json,
+    source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json
   settings:
     foreground: '#0ACE9E'
 
 - name: JSON Key - Level 1
-  scope: source.json meta.mapping.value.json meta.sequence.json meta.mapping.key.json string.quoted.double.json
+  scope: source.json meta.mapping.value.json meta.sequence.json meta.mapping.key.json string.quoted.double.json,
+    source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json
   settings:
     foreground: '#50B4DC'
 
 - name: JSON Key - Level 0
-  scope: source.json meta.mapping.key.json string.quoted.double.json
+  scope: source.json meta.mapping.key.json string.quoted.double.json,
+    source.json meta.structure.dictionary.json string.quoted.double.json
   settings:
     foreground: '#B376B3'
 
+- name: JSON Key - value
+  scope: source.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json,
+    source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json,
+    source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json,
+    source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json,
+    source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json,
+    source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json,
+    source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json
+  settings:
+      foreground: '#6189bb'
 
 #  PHP Specific
 # --------------------------------------------------------------------------------------
