@@ -147,7 +147,7 @@ settings:
   scope: keyword.operator.spread, keyword.operator.rest
   settings:
     fontStyle: 'bold'
-    foreground: '#f78f8f'
+    foreground: '#f7768e'
 
 - name: 'Operator, Misc'
   scope: keyword.operator, keyword.control.as, keyword.other, keyword.operator.bitwise.shift, punctuation, punctuation.definition.constant.markdown, punctuation.definition.string, punctuation.support.type.property-name, text.html.vue-html meta.tag, punctuation.definition.keyword, punctuation.terminator.rule, punctuation.definition.entity, punctuation.definition.tag, punctuation.separator.inheritance.php, punctuation.definition.tag.html, keyword.other.template, keyword.other.substitution, entity.name.operator, text.html.vue meta.tag.block.any.html, text.html.vue meta.tag.inline.any.html, text.html.vue meta.tag.other.html
@@ -177,7 +177,7 @@ settings:
 - name: 'Tag'
   scope: entity.name.tag, entity.name.tag support.class.component, meta.tag
   settings:
-    foreground: '#f78f8f'
+    foreground: '#f7768e'
 
 - name: 'Tag Punctuation'
   scope: punctuation.definition.tag, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html
@@ -228,12 +228,12 @@ settings:
 - name: 'C-related Block Level Variables'
   scope: source.cpp meta.block variable.other
   settings:
-    foreground: '#f78f8f'
+    foreground: '#f7768e'
 
 - name: 'Other Variable'
   scope: support.other.variable
   settings:
-    foreground: '#f78f8f'
+    foreground: '#f7768e'
 
 - name: 'Methods'
   scope: meta.class-method.js entity.name.function.js, entity.name.method.js, variable.function.constructor, keyword.other.special-method, storage.type.cs
@@ -349,7 +349,7 @@ settings:
 - name: 'Language methods'
   scope: variable.language
   settings:
-    foreground: '#f78f8f'
+    foreground: '#f7768e'
 
 - name: 'Variable punctuation'
   scope: variable.other punctuation.definition.variable
@@ -359,7 +359,7 @@ settings:
 - name: 'Keyword this with Punctuation, ES7 Bind Operator'
   scope: source.js constant.other.object.key.js string.unquoted.label.js, variable.language.this punctuation.definition.variable, keyword.other.this
   settings:
-    foreground: '#f78f8f'
+    foreground: '#f7768e'
 
 - name: 'HTML Attributes'
   scope: entity.other.attribute-name, text.html.basic entity.other.attribute-name.html, text.html.basic entity.other.attribute-name
@@ -409,7 +409,7 @@ settings:
 - name: 'Regular Expressions - Punctuation'
   scope: punctuation.definition.group
   settings:
-    foreground: '#f78f8f'
+    foreground: '#f7768e'
 
 - name: 'Regular Expressions - Character Class'
   scope: constant.other.character-class.regexp
@@ -444,7 +444,7 @@ settings:
 - name: 'CSS Units'
   scope: keyword.other.unit
   settings:
-    foreground: '#f78f8f'
+    foreground: '#f7768e'
 
 - name: 'JSON Key - Level 0'
   scope: source.json meta.mapping.key.json string.quoted.double.json,
@@ -492,7 +492,7 @@ settings:
 - name: 'JSON Key - Level 7'
   scope: source.json meta.mapping.value.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.sequence.json meta.mapping.key.json string.quoted.double.json
   settings:
-    foreground: '#f78f8f'
+    foreground: '#f7768e'
 
 - name: 'JSON Key - Level 8'
   scope: source.json meta.mapping.value.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.sequence.json meta.mapping.key.json string.quoted.double.json punctuation.definition.string.end.json
@@ -654,7 +654,7 @@ settings:
 - name: 'Apache Tag'
   scope: entity.tag.apacheconf
   settings:
-    foreground: '#f78f8f'
+    foreground: '#f7768e'
 
 - name: 'Preprocessor'
   scope: meta.preprocessor

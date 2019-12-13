@@ -1,3 +1,6 @@
+## 1.5.0
+* Update Tokyo Night 'editor red'
+
 ## 1.4.9
 * Add JSON NPM syntax definition colors
 
