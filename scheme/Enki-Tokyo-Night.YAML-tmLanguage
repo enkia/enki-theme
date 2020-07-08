@@ -210,7 +210,7 @@ settings:
     foreground: '#73daca'
 
 - name: 'Object Property'
-  scope: variable.other.property, support.variable.property, support.variable.property.dom, meta.function-call variable.other.object.property, variable.language.prototype, meta.property.object
+  scope: variable.other.property, support.variable.property, support.variable.property.dom, meta.function-call variable.other.object.property, variable.language.prototype, meta.property.object, variable.other.member
   settings:
     foreground: '#7dcfff'
 

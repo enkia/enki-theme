@@ -325,7 +325,7 @@
 			<key>name</key>
 			<string>Object Property</string>
 			<key>scope</key>
-			<string>variable.other.property, support.variable.property, support.variable.property.dom, meta.function-call variable.other.object.property, variable.language.prototype, meta.property.object</string>
+			<string>variable.other.property, support.variable.property, support.variable.property.dom, meta.function-call variable.other.object.property, variable.language.prototype, meta.property.object, variable.other.member</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
