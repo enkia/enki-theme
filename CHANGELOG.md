@@ -1,3 +1,7 @@
+## 1.5.1
+* Update blade and smarty definition colors
+* Fix object property color under certain conditions
+
 ## 1.5.0
 * Update Tokyo Night 'editor red'
 

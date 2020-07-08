@@ -150,7 +150,7 @@ settings:
     foreground: '#f7768e'
 
 - name: 'Operator, Misc'
-  scope: keyword.operator, keyword.control.as, keyword.other, keyword.operator.bitwise.shift, punctuation, punctuation.definition.constant.markdown, punctuation.definition.string, punctuation.support.type.property-name, text.html.vue-html meta.tag, punctuation.definition.keyword, punctuation.terminator.rule, punctuation.definition.entity, punctuation.definition.tag, punctuation.separator.inheritance.php, punctuation.definition.tag.html, keyword.other.template, keyword.other.substitution, entity.name.operator, text.html.vue meta.tag.block.any.html, text.html.vue meta.tag.inline.any.html, text.html.vue meta.tag.other.html
+  scope: keyword.operator, keyword.control.as, keyword.other, keyword.operator.bitwise.shift, punctuation, punctuation.definition.constant.markdown, punctuation.definition.string, punctuation.support.type.property-name, text.html.vue-html meta.tag, punctuation.definition.keyword, punctuation.terminator.rule, punctuation.definition.entity, punctuation.definition.tag, punctuation.separator.inheritance.php, punctuation.definition.tag.html, keyword.other.template, keyword.other.substitution, entity.name.operator, text.html.vue meta.tag.block.any.html, text.html.vue meta.tag.inline.any.html, text.html.vue meta.tag.other.html, text.html.twig meta.tag.inline.any.html, text.html.twig meta.tag.block.any.html, text.html.twig meta.tag.structure.any.html, text.html.twig meta.tag.any.html
   settings:
     foreground: '#89ddff'
 
@@ -180,7 +180,7 @@ settings:
     foreground: '#f7768e'
 
 - name: 'Tag Punctuation'
-  scope: punctuation.definition.tag, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html
+  scope: punctuation.definition.tag, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html
   settings:
     foreground: '#ba3c97'
 
@@ -189,7 +189,22 @@ settings:
   settings:
     foreground: '#7aa2f7'
 
-- name: 'Globals, PHP Constants, etc'
+- name: 'PHP - Embedded Tag'
+  scope: punctuation.section.embedded.begin.php, punctuation.section.embedded.end.php
+  settings:
+    foreground: '#0db9d7' #6A6D81
+
+- name: 'Smarty - Twig tag - Blade'
+  scope: punctuation.definition.variable.smarty, punctuation.section.embedded.begin.smarty, punctuation.section.embedded.end.smarty, meta.tag.template.value.twig, punctuation.section.tag.twig, meta.tag.expression.twig, punctuation.definition.tag.expression.twig, punctuation.definition.tag.output.twig, variable.parameter.smarty
+  settings:
+    foreground: '#7DCFFF'
+
+- name: 'Smarty - Twig variable - function'
+  scope: variable.other.property.twig, support.function.twig, meta.function-call.twig, keyword.control.twig, keyword.control.smarty, keyword.operator.other.twig, keyword.operator.comparison.twig, support.function.functions.twig, support.function.functions.twig, keyword.operator.assignment.twig, support.function.filters.twig, support.function.built-in.smarty, keyword.operator.smarty, text.blade text.html.blade custom.compiler.blade.php punctuation.section.embedded.php entity.name.tag.block.any.html, text.blade text.html.blade custom.compiler.blade.php punctuation.section.embedded.php constant.other.inline-data.html, text.blade text.html.blade custom.compiler.blade.php support.function constant.other.inline-data.html
+  settings:
+    foreground: '#0db9d7'
+
+- name: 'Globals - PHP Constants  etc'
   scope: constant.other.php, variable.other.global.safer, variable.other.global.safer punctuation.definition.variable, variable.other.global, variable.other.global punctuation.definition.variable, constant.other
   settings:
     foreground: '#e0af68'
@@ -362,7 +377,7 @@ settings:
     foreground: '#f7768e'
 
 - name: 'HTML Attributes'
-  scope: entity.other.attribute-name, text.html.basic entity.other.attribute-name.html, text.html.basic entity.other.attribute-name
+  scope: entity.other.attribute-name, text.html.basic entity.other.attribute-name.html, text.html.basic entity.other.attribute-name, text.blade entity.other.attribute-name.class, text.html.smarty entity.other.attribute-name.class
   settings:
     foreground: '#bb9af7'
 

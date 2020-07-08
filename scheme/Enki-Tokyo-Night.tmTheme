@@ -193,7 +193,7 @@
 			<key>name</key>
 			<string>Operator, Misc</string>
 			<key>scope</key>
-			<string>keyword.operator, keyword.control.as, keyword.other, keyword.operator.bitwise.shift, punctuation, punctuation.definition.constant.markdown, punctuation.definition.string, punctuation.support.type.property-name, text.html.vue-html meta.tag, punctuation.definition.keyword, punctuation.terminator.rule, punctuation.definition.entity, punctuation.definition.tag, punctuation.separator.inheritance.php, punctuation.definition.tag.html, keyword.other.template, keyword.other.substitution, entity.name.operator, text.html.vue meta.tag.block.any.html, text.html.vue meta.tag.inline.any.html, text.html.vue meta.tag.other.html</string>
+			<string>keyword.operator, keyword.control.as, keyword.other, keyword.operator.bitwise.shift, punctuation, punctuation.definition.constant.markdown, punctuation.definition.string, punctuation.support.type.property-name, text.html.vue-html meta.tag, punctuation.definition.keyword, punctuation.terminator.rule, punctuation.definition.entity, punctuation.definition.tag, punctuation.separator.inheritance.php, punctuation.definition.tag.html, keyword.other.template, keyword.other.substitution, entity.name.operator, text.html.vue meta.tag.block.any.html, text.html.vue meta.tag.inline.any.html, text.html.vue meta.tag.other.html, text.html.twig meta.tag.inline.any.html, text.html.twig meta.tag.block.any.html, text.html.twig meta.tag.structure.any.html, text.html.twig meta.tag.any.html</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -259,7 +259,7 @@
 			<key>name</key>
 			<string>Tag Punctuation</string>
 			<key>scope</key>
-			<string>punctuation.definition.tag, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html</string>
+			<string>punctuation.definition.tag, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -279,7 +279,40 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Globals, PHP Constants, etc</string>
+			<string>PHP - Embedded Tag</string>
+			<key>scope</key>
+			<string>punctuation.section.embedded.begin.php, punctuation.section.embedded.end.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#0db9d7</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Smarty - Twig tag - Blade</string>
+			<key>scope</key>
+			<string>punctuation.definition.variable.smarty, punctuation.section.embedded.begin.smarty, punctuation.section.embedded.end.smarty, meta.tag.template.value.twig, punctuation.section.tag.twig, meta.tag.expression.twig, punctuation.definition.tag.expression.twig, punctuation.definition.tag.output.twig, variable.parameter.smarty</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#7DCFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Smarty - Twig variable - function</string>
+			<key>scope</key>
+			<string>variable.other.property.twig, support.function.twig, meta.function-call.twig, keyword.control.twig, keyword.control.smarty, keyword.operator.other.twig, keyword.operator.comparison.twig, support.function.functions.twig, support.function.functions.twig, keyword.operator.assignment.twig, support.function.filters.twig, support.function.built-in.smarty, keyword.operator.smarty, text.blade text.html.blade custom.compiler.blade.php punctuation.section.embedded.php entity.name.tag.block.any.html, text.blade text.html.blade custom.compiler.blade.php punctuation.section.embedded.php constant.other.inline-data.html, text.blade text.html.blade custom.compiler.blade.php support.function constant.other.inline-data.html</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#0db9d7</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Globals - PHP Constants  etc</string>
 			<key>scope</key>
 			<string>constant.other.php, variable.other.global.safer, variable.other.global.safer punctuation.definition.variable, variable.other.global, variable.other.global punctuation.definition.variable, constant.other</string>
 			<key>settings</key>
@@ -657,7 +690,7 @@
 			<key>name</key>
 			<string>HTML Attributes</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name, text.html.basic entity.other.attribute-name.html, text.html.basic entity.other.attribute-name</string>
+			<string>entity.other.attribute-name, text.html.basic entity.other.attribute-name.html, text.html.basic entity.other.attribute-name, text.blade entity.other.attribute-name.class, text.html.smarty entity.other.attribute-name.class</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
