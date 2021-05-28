@@ -1122,9 +1122,21 @@
       "layer0.opacity": 0.5,
       "content_margin": [10, 10]
     },
+    {
+      "class": "sidebar_button_control",
+      "layer0.texture": "Enki Theme/assets/light/overflow_menu.png",
+      "layer0.opacity": 0.5,
+      "layer0.tint": [255, 255, 255],
+      "content_margin": [10, 10]
+    },
 
     {
       "class": "panel_button_control",
+      "attributes": ["hover"],
+      "layer0.texture": "Enki Theme/assets/commons/overflow_menu--hover.png",
+    },
+    {
+      "class": "sidebar_button_control",
       "attributes": ["hover"],
       "layer0.texture": "Enki Theme/assets/commons/overflow_menu--hover.png",
     },
@@ -1459,6 +1471,12 @@
       "attributes": ["hover"],
       "layer0.texture": "Enki Theme/assets/accent-lime/overflow_menu--hover.png"
     },
+    {
+      "class": "sidebar_button_control",
+      "settings": ["enki_theme_accent_lime"],
+      "attributes": ["hover"],
+      "layer0.texture": "Enki Theme/assets/accent-lime/overflow_menu--hover.png"
+    },
 
     // tooltip
 
@@ -1763,6 +1781,12 @@
 
     {
       "class": "panel_button_control",
+      "settings": ["enki_theme_accent_purple"],
+      "attributes": ["hover"],
+      "layer0.texture": "Enki Theme/assets/accent-purple/overflow_menu--hover.png"
+    },
+    {
+      "class": "sidebar_button_control",
       "settings": ["enki_theme_accent_purple"],
       "attributes": ["hover"],
       "layer0.texture": "Enki Theme/assets/accent-purple/overflow_menu--hover.png"
@@ -2075,6 +2099,12 @@
       "attributes": ["hover"],
       "layer0.texture": "Enki Theme/assets/accent-red/overflow_menu--hover.png"
     },
+    {
+      "class": "sidebar_button_control",
+      "settings": ["enki_theme_accent_red"],
+      "attributes": ["hover"],
+      "layer0.texture": "Enki Theme/assets/accent-red/overflow_menu--hover.png"
+    },
 
     // tooltip
 
@@ -2379,6 +2409,12 @@
 
     {
       "class": "panel_button_control",
+      "settings": ["enki_theme_accent_orange"],
+      "attributes": ["hover"],
+      "layer0.texture": "Enki Theme/assets/accent-orange/overflow_menu--hover.png"
+    },
+    {
+      "class": "sidebar_button_control",
       "settings": ["enki_theme_accent_orange"],
       "attributes": ["hover"],
       "layer0.texture": "Enki Theme/assets/accent-orange/overflow_menu--hover.png"
@@ -2691,6 +2727,12 @@
       "attributes": ["hover"],
       "layer0.texture": "Enki Theme/assets/accent-yellow/overflow_menu--hover.png"
     },
+    {
+      "class": "sidebar_button_control",
+      "settings": ["enki_theme_accent_yellow"],
+      "attributes": ["hover"],
+      "layer0.texture": "Enki Theme/assets/accent-yellow/overflow_menu--hover.png"
+    },
 
     // tooltip
 
@@ -2995,6 +3037,12 @@
 
     {
       "class": "panel_button_control",
+      "settings": ["enki_theme_accent_indigo"],
+      "attributes": ["hover"],
+      "layer0.texture": "Enki Theme/assets/accent-indigo/overflow_menu--hover.png"
+    },
+    {
+      "class": "sidebar_button_control",
       "settings": ["enki_theme_accent_indigo"],
       "attributes": ["hover"],
       "layer0.texture": "Enki Theme/assets/accent-indigo/overflow_menu--hover.png"
@@ -3307,6 +3355,12 @@
       "attributes": ["hover"],
       "layer0.texture": "Enki Theme/assets/accent-pink/overflow_menu--hover.png"
     },
+    {
+      "class": "sidebar_button_control",
+      "settings": ["enki_theme_accent_pink"],
+      "attributes": ["hover"],
+      "layer0.texture": "Enki Theme/assets/accent-pink/overflow_menu--hover.png"
+    },
 
     // tooltip
 
@@ -3615,6 +3669,12 @@
       "attributes": ["hover"],
       "layer0.texture": "Enki Theme/assets/accent-blue/overflow_menu--hover.png"
     },
+    {
+      "class": "sidebar_button_control",
+      "settings": ["enki_theme_accent_blue"],
+      "attributes": ["hover"],
+      "layer0.texture": "Enki Theme/assets/accent-blue/overflow_menu--hover.png"
+    },
 
     // tooltip
 
@@ -3919,6 +3979,12 @@
 
     {
       "class": "panel_button_control",
+      "settings": ["enki_theme_accent_cyan"],
+      "attributes": ["hover"],
+      "layer0.texture": "Enki Theme/assets/accent-cyan/overflow_menu--hover.png"
+    },
+    {
+      "class": "sidebar_button_control",
       "settings": ["enki_theme_accent_cyan"],
       "attributes": ["hover"],
       "layer0.texture": "Enki Theme/assets/accent-cyan/overflow_menu--hover.png"
@@ -4804,6 +4870,11 @@
        "layer0.opacity": 0.5,
     },
     {
+      "class": "sidebar_button_control",
+      "layer0.texture": "Enki Theme/assets/light/overflow_menu.png",
+       "layer0.opacity": 0.5,
+    },
+    {
       "class": "quick_panel_label",
       "fg": [57, 60, 77, 255],
     },
@@ -4872,6 +4943,12 @@
 
     {
       "class": "panel_button_control",
+      "settings": ["enki_theme_accent_fuschia"],
+      "attributes": ["hover"],
+      "layer0.texture": "Enki Theme/assets/accent-fuschia/overflow_menu--hover.png"
+    },
+    {
+      "class": "sidebar_button_control",
       "settings": ["enki_theme_accent_fuschia"],
       "attributes": ["hover"],
       "layer0.texture": "Enki Theme/assets/accent-fuschia/overflow_menu--hover.png"
@@ -5182,6 +5259,12 @@
       "attributes": ["hover"],
       "layer0.texture": "Enki Theme/assets/accent-samon/overflow_menu--hover.png"
     },
+    {
+      "class": "sidebar_button_control",
+      "settings": ["enki_theme_accent_samon"],
+      "attributes": ["hover"],
+      "layer0.texture": "Enki Theme/assets/accent-samon/overflow_menu--hover.png"
+    },
 
 
     {
@@ -5483,6 +5566,12 @@
 
     {
       "class": "panel_button_control",
+      "settings": ["enki_theme_accent_white"],
+      "attributes": ["hover"],
+      "layer0.texture": "Enki Theme/assets/accent-white/overflow_menu--hover.png"
+    },
+    {
+      "class": "sidebar_button_control",
       "settings": ["enki_theme_accent_white"],
       "attributes": ["hover"],
       "layer0.texture": "Enki Theme/assets/accent-white/overflow_menu--hover.png"
@@ -5793,6 +5882,12 @@
       "attributes": ["hover"],
       "layer0.texture": "Enki Theme/assets/accent-bluegray/overflow_menu--hover.png"
     },
+    {
+      "class": "sidebar_button_control",
+      "settings": ["enki_theme_accent_bluegray"],
+      "attributes": ["hover"],
+      "layer0.texture": "Enki Theme/assets/accent-bluegray/overflow_menu--hover.png"
+    },
 
     // tooltip
 
@@ -6095,6 +6190,12 @@
 
     {
       "class": "panel_button_control",
+      "settings": ["enki_theme_accent_green"],
+      "attributes": ["hover"],
+      "layer0.texture": "Enki Theme/assets/accent-green/overflow_menu--hover.png"
+    },
+    {
+      "class": "sidebar_button_control",
       "settings": ["enki_theme_accent_green"],
       "attributes": ["hover"],
       "layer0.texture": "Enki Theme/assets/accent-green/overflow_menu--hover.png"
